@@ -50,7 +50,7 @@
         "text": "Ponieważ aplikacja powstała od nowa, część funkcji ze starej wersji jeszcze nie wróciła. Będą wracać stopniowo, a niektóre mogą wyglądać lub działać inaczej niż dawniej.",
         "items": [
           "Cloud Redirect jest w trakcie prac i na razie wyłączony.",
-          "Jeśli brakuje Ci czegoś konkretnego ze starej wersji, daj znać. To Ty wyznaczasz kolejność prac."
+          "Brakuje m.in. zakładek Online i Bypass."
         ]
       }
     }
