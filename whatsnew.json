@@ -1,0 +1,58 @@
+{
+  "releases": [
+    {
+      "version": "0.1.0",
+      "date": "2026-10-18",
+      "title": "G4F napisane od nowa",
+      "intro": [
+        "Poprzednia wersja G4F powstała w Pythonie i przez długi czas rozwijana była kolejnymi poprawkami. Ta wersja nie jest kolejną łatką. Cała aplikacja została napisana od zera w Ruście, na bazie Tauri.",
+        "Taka zmiana ma swoją cenę: nowa wersja nie ma jeszcze wszystkiego, co miała poprzednia. W zamian dostajesz solidny fundament, na którym dalszy rozwój idzie szybciej i stabilniej."
+      ],
+      "sections": [
+        {
+          "icon": "code",
+          "title": "Nowy fundament",
+          "text": "Rust i Tauri zamiast Pythona. Aplikacja to jeden niewielki plik .exe, który nie wymaga instalowania Pythona ani dodatkowych bibliotek, a okno korzysta z systemowego WebView2."
+        },
+        {
+          "icon": "download",
+          "title": "Wymagania w jednym miejscu",
+          "text": "Przy pierwszym uruchomieniu G4F sprawdza, czy masz Steama, Steam Tools i WinRAR, i pobiera te elementy, których brakuje. Nie musisz niczego szukać ręcznie."
+        },
+        {
+          "icon": "download",
+          "title": "Instalacja przez Steama",
+          "text": "Gry instalujesz oficjalnym mechanizmem Steama. Dysk wybierasz i instalację zatwierdzasz w jego oknie, a postęp pobierania oraz pauzę zostawiamy Steamowi."
+        },
+        {
+          "icon": "tag",
+          "title": "Wersje gier",
+          "text": "Przy każdej grze widzisz swój build i najnowszy build ze Steama, razem z informacją, czy masz starą wersję."
+        },
+        {
+          "icon": "tool",
+          "title": "Poprawianie paczek manifestów",
+          "text": "Pobrane paczki są automatycznie sprawdzane i poprawiane, między innymi tak, żeby gra nie pokazywała w Steamie rozmiaru 0 B i dało się ją zainstalować."
+        },
+        {
+          "icon": "refresh",
+          "title": "Aktualizacje aplikacji",
+          "text": "G4F sam sprawdza, czy jest nowsza wersja, i aktualizuje się jednym kliknięciem. Po aktualizacji zobaczysz takie podsumowanie zmian."
+        },
+        {
+          "icon": "list",
+          "title": "Logi",
+          "text": "W Ustawieniach znajdziesz ukrytą zakładkę z logami aplikacji. Ułatwia to zgłaszanie błędów, bo od razu widać, co się wydarzyło."
+        }
+      ],
+      "missing": {
+        "title": "Czego jeszcze brakuje",
+        "text": "Ponieważ aplikacja powstała od nowa, część funkcji ze starej wersji jeszcze nie wróciła. Będą wracać stopniowo, a niektóre mogą wyglądać lub działać inaczej niż dawniej.",
+        "items": [
+          "Cloud Redirect jest w trakcie prac i na razie wyłączony.",
+          "Jeśli brakuje Ci czegoś konkretnego ze starej wersji, daj znać. To Ty wyznaczasz kolejność prac."
+        ]
+      }
+    }
+  ]
+}
