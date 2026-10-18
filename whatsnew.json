@@ -43,6 +43,21 @@
           "icon": "list",
           "title": "Logi",
           "text": "W Ustawieniach znajdziesz ukrytą zakładkę z logami aplikacji. Ułatwia to zgłaszanie błędów, bo od razu widać, co się wydarzyło."
+        },
+        {
+          "icon": "info",
+          "title": "Samouczek",
+          "text": "Przy pierwszym uruchomieniu krótki przewodnik poprowadzi Cię przez wybór gry, dodanie jej do biblioteki i pobranie manifestów. W każdej chwili możesz go pominąć."
+        },
+        {
+          "icon": "tool",
+          "title": "Odinstalowanie przez Steama",
+          "text": "Odinstalowanie gry wysyła prośbę do Steama, który sam pokazuje potwierdzenie i usuwa pliki. Cofnięcie manifestów jest zawsze dostępne w menu gry."
+        },
+        {
+          "icon": "info",
+          "title": "Ustawienia",
+          "text": "Włączysz uruchamianie z Windowsem i zdecydujesz, czy przycisk X zamyka aplikację, czy chowa ją do zasobnika systemowego."
         }
       ],
       "missing": {
