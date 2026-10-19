@@ -1,6 +1,35 @@
 {
   "releases": [
     {
+      "version": "0.3.0-beta.2",
+      "date": "2026-10-19",
+      "title": "Mądrzejsza wyszukiwarka (beta)",
+      "intro": [
+        "Druga wersja beta 0.3.0. Zmienia jedną rzecz, ale ważną: wyszukiwarkę w sklepie, która teraz radzi sobie z literówkami i brakiem znaków specjalnych.",
+        "Wszystko z pierwszej bety zostaje bez zmian."
+      ],
+      "sections": [
+        {
+          "icon": "search",
+          "title": "Wyszukiwarka wybacza błędy",
+          "text": "Sklep znajduje gry, nawet gdy wpiszesz je niedokładnie. „spiderman” znajdzie Spider-Man, „dragon ball z kakaro” znajdzie Dragon Ball Z: Kakarot, a „counterstrike” znajdzie Counter-Strike. Nie trzeba pamiętać myślników, dwukropków ani spacji, a pojedyncza literówka nie przekreśla wyniku."
+        },
+        {
+          "icon": "list",
+          "title": "Lepsze sortowanie wyników",
+          "text": "Wyniki są ustawiane według podobieństwa do tego, co wpisałeś. Gry, których nazwa zaczyna się od frazy, są na górze, a te mniej pewne niżej. Polskie i obce znaki, takie jak ó, é czy ü, nie utrudniają już szukania."
+        }
+      ],
+      "missing": {
+        "title": "Czego jeszcze brakuje",
+        "text": "Ponieważ aplikacja powstała od nowa, część funkcji ze starej wersji jeszcze nie wróciła. Będą wracać stopniowo, a niektóre mogą wyglądać lub działać inaczej niż dawniej.",
+        "items": [
+          "Cloud Redirect jest w trakcie prac i na razie wyłączony.",
+          "Brakuje m.in. zakładki Bypass."
+        ]
+      }
+    },
+    {
       "version": "0.3.0-beta.1",
       "date": "2026-10-19",
       "title": "Zakładka Online (beta)",

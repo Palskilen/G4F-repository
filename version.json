@@ -4,6 +4,12 @@
   "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.2.0/G4F-0.2.0.zip",
   "versions": [
     {
+      "version": "0.3.0-beta.2",
+      "date": "2026-10-19",
+      "notes": "Beta: mądrzejsza wyszukiwarka sklepu",
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.3.0-beta.2/G4F-0.3.0-beta.2.zip"
+    },
+    {
       "version": "0.3.0-beta.1",
       "date": "2026-10-19",
       "notes": "Beta: zakładka Online i zmiana wersji",
@@ -23,8 +29,8 @@
     }
   ],
   "beta": {
-    "version": "0.3.0-beta.1",
-    "notes": "Beta: zakładka Online i zmiana wersji",
-    "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.3.0-beta.1/G4F-0.3.0-beta.1.zip"
+    "version": "0.3.0-beta.2",
+    "notes": "Beta: mądrzejsza wyszukiwarka sklepu",
+    "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.3.0-beta.2/G4F-0.3.0-beta.2.zip"
   }
 }
