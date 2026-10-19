@@ -1,5 +1,19 @@
 {
   "version": "0.2.0",
   "notes": "Nowy wygląd, przebudowany sklep i szczegóły gier",
-  "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.2.0/G4F-0.2.0.zip"
+  "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.2.0/G4F-0.2.0.zip",
+  "versions": [
+    {
+      "version": "0.2.0",
+      "date": "2026-10-19",
+      "notes": "Nowy wygląd, przebudowany sklep i szczegóły gier",
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.2.0/G4F-0.2.0.zip"
+    },
+    {
+      "version": "0.1.0",
+      "date": "2026-10-18",
+      "notes": "Pierwsza wersja nowej linii",
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.1.0/G4F-0.1.0.zip"
+    }
+  ]
 }
