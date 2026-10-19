@@ -1,6 +1,70 @@
 {
   "releases": [
     {
+      "version": "0.2.0",
+      "date": "2026-10-19",
+      "title": "Nowy wygląd G4F",
+      "intro": [
+        "Ta wersja przebudowuje cały wygląd aplikacji. Zmienił się układ, czcionki i animacje, a sklep oraz strona gry pokazują teraz znacznie więcej informacji o grach.",
+        "Dodaliśmy też możliwość testowania wersji beta i przycisk, który w każdej chwili otwiera historię zmian."
+      ],
+      "sections": [
+        {
+          "icon": "star",
+          "title": "Nowy wygląd",
+          "text": "Przebudowany interfejs w fioletowo-czarnej kolorystyce, nowe czcionki, szklane panele i płynne animacje. Zakładki przełączają się płynnie, a widoki wjeżdżają z kierunku, w którym przechodzisz."
+        },
+        {
+          "icon": "layout",
+          "title": "Nowy sklep",
+          "text": "Zakładka Odkrywaj pokazuje półki: Bestsellery, Nowości, Promocje i Nadchodzące, a u góry baner z wyróżnionymi grami. Gry możesz filtrować według gatunku. Na kartach widać numer miejsca w bestsellerach i plakietkę „W bibliotece”."
+        },
+        {
+          "icon": "info",
+          "title": "Strona gry",
+          "text": "Pod paskiem gry znajdziesz opis, gatunki, galerię zrzutów ekranu, opinie graczy oraz informacje o premierze, twórcach i platformach."
+        },
+        {
+          "icon": "image",
+          "title": "Szczegóły w bibliotece",
+          "text": "Te same informacje o grze są teraz dostępne w bibliotece, pod paskiem z przyciskiem Graj."
+        },
+        {
+          "icon": "news",
+          "title": "Co nowego w każdej chwili",
+          "text": "Okno ze zmianami nadal pojawia się po aktualizacji. Jeśli je zamkniesz albo zechcesz przeczytać później, w górnym pasku jest przycisk z gazetą, który otwiera je ponownie."
+        },
+        {
+          "icon": "flask",
+          "title": "Wersje beta",
+          "text": "W Ustawieniach możesz włączyć aktualizacje do wersji beta. Domyślnie dostajesz tylko wersje stabilne."
+        },
+        {
+          "icon": "list",
+          "title": "Podpowiedzi przycisków",
+          "text": "Przyciski w górnym pasku pokazują po najechaniu opis tego, co robią."
+        },
+        {
+          "icon": "tool",
+          "title": "Samouczek",
+          "text": "Samouczek ma nowy krok, który pokazuje, jak działa sklep. Teraz składa się z sześciu kroków."
+        },
+        {
+          "icon": "refresh",
+          "title": "Wyższe okno",
+          "text": "Aplikacja uruchamia się w wyższym oknie, bliższym rozmiarowi okna Steama."
+        }
+      ],
+      "missing": {
+        "title": "Czego jeszcze brakuje",
+        "text": "Ponieważ aplikacja powstała od nowa, część funkcji ze starej wersji jeszcze nie wróciła. Będą wracać stopniowo, a niektóre mogą wyglądać lub działać inaczej niż dawniej.",
+        "items": [
+          "Cloud Redirect jest w trakcie prac i na razie wyłączony.",
+          "Brakuje m.in. zakładek Online i Bypass."
+        ]
+      }
+    },
+    {
       "version": "0.1.0",
       "date": "2026-10-18",
       "title": "G4F napisane od nowa",
