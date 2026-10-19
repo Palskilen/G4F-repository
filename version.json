@@ -4,6 +4,12 @@
   "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.2.0/G4F-0.2.0.zip",
   "versions": [
     {
+      "version": "0.3.0-beta.3",
+      "date": "2026-10-19",
+      "notes": "Beta: Cloud Redirect i wymaganie Visual C++",
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.3.0-beta.3/G4F-0.3.0-beta.3.zip"
+    },
+    {
       "version": "0.3.0-beta.2",
       "date": "2026-10-19",
       "notes": "Beta: mądrzejsza wyszukiwarka sklepu",
@@ -29,8 +35,8 @@
     }
   ],
   "beta": {
-    "version": "0.3.0-beta.2",
-    "notes": "Beta: mądrzejsza wyszukiwarka sklepu",
-    "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.3.0-beta.2/G4F-0.3.0-beta.2.zip"
+    "version": "0.3.0-beta.3",
+    "notes": "Beta: Cloud Redirect i wymaganie Visual C++",
+    "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.3.0-beta.3/G4F-0.3.0-beta.3.zip"
   }
 }

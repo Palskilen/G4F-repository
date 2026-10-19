@@ -1,6 +1,35 @@
 {
   "releases": [
     {
+      "version": "0.3.0-beta.3",
+      "date": "2026-10-19",
+      "title": "Cloud Redirect i wymagania (beta)",
+      "intro": [
+        "Trzecia wersja beta 0.3.0. Przywraca naprawę Steam Cloud i dokłada brakujące wymaganie, którego potrzebuje.",
+        "Wszystko z poprzednich bet zostaje bez zmian."
+      ],
+      "sections": [
+        {
+          "icon": "tool",
+          "title": "Cloud Redirect wrócił",
+          "text": "Przycisk „Napraw Cloud” w Naprawie Steama działa znowu, tym razem bez zewnętrznego programu, bez .NET i bez klikania w obce okno. Aplikacja sama pobiera potrzebny plik, sprawdza jego sumę kontrolną, wgrywa go do Steama i restartuje Steama. Jeśli brakuje OpenSteamTool, doinstaluje go obok SteamTools i nie nadpisze Twojego pliku xinput1_4.dll."
+        },
+        {
+          "icon": "refresh",
+          "title": "Nowe wymaganie: Visual C++",
+          "text": "Przy starcie aplikacja sprawdza teraz także Visual C++ Redistributable. Jeśli go brakuje, pokaże ekran instalacji i zainstaluje go sama."
+        }
+      ],
+      "missing": {
+        "title": "Czego jeszcze brakuje",
+        "text": "Ponieważ aplikacja powstała od nowa, część funkcji ze starej wersji jeszcze nie wróciła. Będą wracać stopniowo, a niektóre mogą wyglądać lub działać inaczej niż dawniej.",
+        "items": [
+          "Cloud Redirect jest eksperymentalny: wymaga OpenSteamTool i nie był jeszcze szeroko testowany.",
+          "Brakuje m.in. zakładki Bypass."
+        ]
+      }
+    },
+    {
       "version": "0.3.0-beta.2",
       "date": "2026-10-19",
       "title": "Mądrzejsza wyszukiwarka (beta)",
