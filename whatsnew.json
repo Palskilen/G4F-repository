@@ -1,6 +1,50 @@
 {
   "releases": [
     {
+      "version": "0.3.0-beta.1",
+      "date": "2026-10-19",
+      "title": "Zakładka Online (beta)",
+      "intro": [
+        "To wersja beta. Dodaje zakładkę Online, w której instalujesz moduły online do gier jednym kliknięciem, oraz możliwość wyboru wersji aplikacji z listy.",
+        "Wersja jest testowa, więc mogą zdarzyć się błędy. Jeśli coś nie działa, daj znać."
+      ],
+      "sections": [
+        {
+          "icon": "layout",
+          "title": "Zakładka Online",
+          "text": "Nowa zakładka z listą gier, do których są dostępne moduły online. Po kliknięciu w grę z prawej strony wysuwa się panel z rozmiarem archiwum, folderem gry i stanem modułów. Przełącznik „Tylko zainstalowane” zostawia na liście wyłącznie gry, które masz na dysku."
+        },
+        {
+          "icon": "download",
+          "title": "Instalacja jednym kliknięciem",
+          "text": "Przycisk „Zainstaluj online” pobiera archiwum, rozpakowuje je prosto do folderu gry i pokazuje postęp. Struktura folderów z archiwum zostaje zachowana."
+        },
+        {
+          "icon": "refresh",
+          "title": "Bezpieczne odinstalowanie",
+          "text": "Aplikacja zapamiętuje, które pliki dodała, a które podmieniła. Podmieniane pliki dostają kopię z rozszerzeniem .back. „Odinstaluj moduły” usuwa dodane pliki i przywraca oryginały."
+        },
+        {
+          "icon": "tag",
+          "title": "Zmiana wersji",
+          "text": "W Ustawieniach jest nowy kafelek „Zmień wersję”. Otwiera okno z listą wersji, z której wybierasz tę, którą chcesz zainstalować. Wersje beta są na liście tylko przy włączonym przełączniku „Wersje beta”."
+        },
+        {
+          "icon": "star",
+          "title": "Drobne poprawki wyglądu",
+          "text": "Kafelki w Ustawieniach pojawiają się po kolei, a nagłówek zakładki Online nie przecina już poświaty tła."
+        }
+      ],
+      "missing": {
+        "title": "Czego jeszcze brakuje",
+        "text": "Ponieważ aplikacja powstała od nowa, część funkcji ze starej wersji jeszcze nie wróciła. Będą wracać stopniowo, a niektóre mogą wyglądać lub działać inaczej niż dawniej.",
+        "items": [
+          "Cloud Redirect jest w trakcie prac i na razie wyłączony.",
+          "Brakuje m.in. zakładki Bypass."
+        ]
+      }
+    },
+    {
       "version": "0.2.0",
       "date": "2026-10-19",
       "title": "Nowy wygląd G4F",
