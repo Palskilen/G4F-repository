@@ -10,6 +10,7 @@
     { "appid": "739630",  "name": "Phasmophobia",             "path": "online/739630.part1.rar", "parts": 2, "launch": { "type": "file", "file": "Launcher.exe" } },
     { "appid": "1987080", "name": "Inside the Backrooms",     "path": "online/1987080.rar" },
     { "appid": "1943950", "name": "Escape the Backrooms",     "path": "online/1943950.rar" },
-    { "appid": "3060170", "name": "Chained in the Backrooms", "path": "online/3060170.rar" }
+    { "appid": "3060170", "name": "Chained in the Backrooms", "path": "online/3060170.rar" },
+    { "appid": "3241660", "name": "R.E.P.O.",                 "path": "online/3241660.rar" }
   ]
 }
