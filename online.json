@@ -1,49 +1,15 @@
 {
   "games": [
-    {
-      "appid": "1966720",
-      "name": "Lethal Company",
-      "path": "online/1966720.rar"
-    },
-    {
-      "appid": "4001890",
-      "name": "How to Fish",
-      "path": "online/4001890.rar"
-    },
-    {
-      "appid": "2881650",
-      "name": "Content Warning",
-      "path": "online/2881650.rar"
-    },
-    {
-      "appid": "3949040",
-      "name": "RV There Yet?",
-      "path": "online/3949040.rar"
-    },
-    {
-      "appid": "2929250",
-      "name": "over the hill",
-      "path": "online/2929250.rar"
-    },
-    {
-      "appid": "3164500",
-      "name": "Schedule I",
-      "path": "online/3164500.rar"
-    },
-    {
-      "appid": "3527290",
-      "name": "PEAK",
-      "path": "online/3527290.rar"
-    },
-    {
-      "appid": "739630",
-      "name": "Phasmophobia",
-      "path": "online/739630.part1.rar",
-      "parts": 2,
-      "launch": {
-        "type": "file",
-        "file": "Launcher.exe"
-      }
-    }
+    { "appid": "1966720", "name": "Lethal Company",           "path": "online/1966720.rar" },
+    { "appid": "4001890", "name": "How to Fish",              "path": "online/4001890.rar" },
+    { "appid": "2881650", "name": "Content Warning",          "path": "online/2881650.rar" },
+    { "appid": "3949040", "name": "RV There Yet?",            "path": "online/3949040.rar" },
+    { "appid": "2929250", "name": "over the hill",            "path": "online/2929250.rar" },
+    { "appid": "3164500", "name": "Schedule I",               "path": "online/3164500.rar" },
+    { "appid": "3527290", "name": "PEAK",                     "path": "online/3527290.rar" },
+    { "appid": "739630",  "name": "Phasmophobia",             "path": "online/739630.part1.rar", "parts": 2, "launch": { "type": "file", "file": "Launcher.exe" } },
+    { "appid": "1987080", "name": "Inside the Backrooms",     "path": "online/1987080.rar" },
+    { "appid": "1943950", "name": "Escape the Backrooms",     "path": "online/1943950.rar" },
+    { "appid": "3060170", "name": "Chained in the Backrooms", "path": "online/3060170.rar" }
   ]
 }
