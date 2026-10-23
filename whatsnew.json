@@ -1,6 +1,55 @@
 {
   "releases": [
     {
+      "version": "0.4.0-beta.1",
+      "date": "2026-10-23",
+      "title": "BetterSteamTools, lista gier na żywo i nowe Online (beta)",
+      "intro": [
+        "Pierwsza beta nowej wersji 0.4. Największa zmiana: launcher korzysta teraz z BetterSteamTools, otwartego narzędzia rozwijanego przez autorów, i sam dba o jego aktualizacje.",
+        "Dochodzi też lista gier, która pokazuje dokładny stan każdej gry i odświeża się na żywo, oraz przebudowana zakładka Online."
+      ],
+      "sections": [
+        {
+          "icon": "tool",
+          "title": "BetterSteamTools zamiast SteamTools",
+          "text": "Przy pierwszym uruchomieniu ekran startowy zaproponuje instalację BetterSteamTools: aplikacja pobiera go z wydania autora, sprawdza sumę kontrolną i wgrywa do Steama. Jeśli masz SteamTools, jego plik zostanie zapisany jako kopia .g4f.bak. Po przejściu na BetterSteamTools odinstaluj stary SteamTools, bo jego aplikacja może nadpisywać pliki."
+        },
+        {
+          "icon": "refresh",
+          "title": "Aktualizacje BetterSteamTools w tle",
+          "text": "Przy starcie, a potem co kilka godzin (także po powrocie okna z traya lub z hibernacji) aplikacja sprawdza, czy autor wydał nowszą wersję, i sama ją podmienia bez zamykania Steama. Nowa wersja zaczyna działać po następnym starcie Steama. Przy trybie oszczędzania baterii sprawdzanie jest pomijane."
+        },
+        {
+          "icon": "list",
+          "title": "Lista gier na żywo",
+          "text": "Pod nazwą każdej gry w bibliotece widać jej dokładny stan: Zainstalowana, Dostępna aktualizacja, Pobieranie z paskiem postępu, W kolejce Steama, Wstrzymana, Weryfikacja plików, Brak plików gry, Gotowa do pobrania albo Niepobrana. Stan zmienia się od razu po zmianie w Steamie, razem z głównym przyciskiem gry."
+        },
+        {
+          "icon": "layout",
+          "title": "Nowe Online",
+          "text": "Zakładka Online ma teraz baner, szukajkę, przełącznik Wszystkie / Zainstalowane / Niezainstalowane i panel szczegółów w stylu reszty aplikacji. Karty zawsze równo wypełniają szerokość okna."
+        },
+        {
+          "icon": "news",
+          "title": "Sygnał o nowościach",
+          "text": "Gdy w „Co nowego” pojawi się nowy wpis (np. nowa beta), przycisk z gazetą raz delikatnie zapulsuje, a potem zostanie przy nim mała kropka, dopóki nie otworzysz okna. Nic nie wyskakuje samo."
+        },
+        {
+          "icon": "info",
+          "title": "Mniejsze zmiany",
+          "text": "Gdy instalacja BetterSteamTools się nie uda, ekran startowy pokazuje konkretny powód. Pozycja „Cofnij manifesty” jest aktywna tylko wtedy, gdy jest co cofać. Z nawigacji zniknęła zakładka Naprawa Steam, która nie była już potrzebna."
+        }
+      ],
+      "missing": {
+        "title": "Czego jeszcze brakuje",
+        "text": "Ponieważ aplikacja powstała od nowa, część funkcji ze starej wersji jeszcze nie wróciła. Będą wracać stopniowo, a niektóre mogą wyglądać lub działać inaczej niż dawniej.",
+        "items": [
+          "Cloud Redirect jest wyłączony: czekamy na wersję zgodną z aktualnym Steamem.",
+          "Brakuje m.in. zakładki Bypass."
+        ]
+      }
+    },
+    {
       "version": "0.3.0",
       "date": "2026-10-23",
       "title": "Zakładka Online i mądrzejsza wyszukiwarka",

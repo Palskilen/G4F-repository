@@ -4,6 +4,12 @@
   "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.3.0/G4F-0.3.0.zip",
   "versions": [
     {
+      "version": "0.4.0-beta.1",
+      "date": "2026-10-23",
+      "notes": "Beta: BetterSteamTools, lista gier na żywo i nowe Online",
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.0-beta.1/G4F-0.4.0-beta.1.zip"
+    },
+    {
       "version": "0.3.0",
       "date": "2026-10-23",
       "notes": "Zakładka Online, mądrzejsza wyszukiwarka i wybór wersji",
@@ -33,5 +39,10 @@
       "notes": "Pierwsza wersja nowej linii",
       "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.1.0/G4F-0.1.0.zip"
     }
-  ]
+  ],
+  "beta": {
+    "version": "0.4.0-beta.1",
+    "notes": "Beta: BetterSteamTools, lista gier na żywo i nowe Online",
+    "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.0-beta.1/G4F-0.4.0-beta.1.zip"
+  }
 }
