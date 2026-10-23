@@ -1,13 +1,13 @@
 {
-  "version": "0.2.0",
-  "notes": "Nowy wygląd, przebudowany sklep i szczegóły gier",
-  "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.2.0/G4F-0.2.0.zip",
+  "version": "0.3.0",
+  "notes": "Zakładka Online, mądrzejsza wyszukiwarka i wybór wersji",
+  "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.3.0/G4F-0.3.0.zip",
   "versions": [
     {
-      "version": "0.3.0-beta.3",
-      "date": "2026-10-19",
-      "notes": "Beta: Cloud Redirect i wymaganie Visual C++",
-      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.3.0-beta.3/G4F-0.3.0-beta.3.zip"
+      "version": "0.3.0",
+      "date": "2026-10-23",
+      "notes": "Zakładka Online, mądrzejsza wyszukiwarka i wybór wersji",
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.3.0/G4F-0.3.0.zip"
     },
     {
       "version": "0.3.0-beta.2",
@@ -33,10 +33,5 @@
       "notes": "Pierwsza wersja nowej linii",
       "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.1.0/G4F-0.1.0.zip"
     }
-  ],
-  "beta": {
-    "version": "0.3.0-beta.3",
-    "notes": "Beta: Cloud Redirect i wymaganie Visual C++",
-    "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.3.0-beta.3/G4F-0.3.0-beta.3.zip"
-  }
+  ]
 }

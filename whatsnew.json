@@ -1,30 +1,39 @@
 {
   "releases": [
     {
-      "version": "0.3.0-beta.3",
-      "date": "2026-10-19",
-      "title": "Cloud Redirect i wymagania (beta)",
+      "version": "0.3.0",
+      "date": "2026-10-23",
+      "title": "Zakładka Online i mądrzejsza wyszukiwarka",
       "intro": [
-        "Trzecia wersja beta 0.3.0. Przywraca naprawę Steam Cloud i dokłada brakujące wymaganie, którego potrzebuje.",
-        "Wszystko z poprzednich bet zostaje bez zmian."
+        "Pierwsza stabilna wersja z nowej linii 0.3. Zbiera to, co przez ostatnie dni testowaliśmy w wersjach beta: zakładkę Online, nową wyszukiwarkę i wybór wersji aplikacji."
       ],
       "sections": [
         {
+          "icon": "star",
+          "title": "Zakładka Online",
+          "text": "Nowa zakładka między Biblioteką a Naprawą Steam pokazuje gry z modułami online. Po kliknięciu w grę wysuwa się panel z rozmiarem archiwum, folderem gry i stanem modułów, a przełącznik „Tylko zainstalowane” zostawia na liście gry, które masz na dysku."
+        },
+        {
           "icon": "tool",
-          "title": "Cloud Redirect wrócił",
-          "text": "Przycisk „Napraw Cloud” w Naprawie Steama działa znowu, tym razem bez zewnętrznego programu, bez .NET i bez klikania w obce okno. Aplikacja sama pobiera potrzebny plik, sprawdza jego sumę kontrolną, wgrywa go do Steama i restartuje Steama. Jeśli brakuje OpenSteamTool, doinstaluje go obok SteamTools i nie nadpisze Twojego pliku xinput1_4.dll."
+          "title": "Instalacja i bezpieczne odinstalowanie",
+          "text": "Moduły online instalują się jednym kliknięciem prosto do folderu gry, z paskiem postępu. Launcher pamięta, co dodał i co podmienił (podmieniane pliki dostają kopię .back), więc odinstalowanie przywraca grę do stanu sprzed instalacji."
+        },
+        {
+          "icon": "search",
+          "title": "Wyszukiwarka wybacza błędy",
+          "text": "Sklep znajduje gry, nawet gdy wpiszesz je niedokładnie. „spiderman” znajdzie Spider-Man, „dragon ball z kakaro” znajdzie Dragon Ball Z: Kakarot, a pojedyncza literówka nie przekreśla wyniku. Wyniki są ustawione według podobieństwa."
         },
         {
           "icon": "refresh",
-          "title": "Nowe wymaganie: Visual C++",
-          "text": "Przy starcie aplikacja sprawdza teraz także Visual C++ Redistributable. Jeśli go brakuje, pokaże ekran instalacji i zainstaluje go sama."
+          "title": "Zmiana wersji aplikacji",
+          "text": "W Ustawieniach jest kafelek „Zmień wersję”, który otwiera listę wszystkich wersji. Przydaje się, gdy nowa wersja coś psuje. Aktualizacja nie zostawia już na ekranie błędu o brakującym pliku skryptu."
         }
       ],
       "missing": {
         "title": "Czego jeszcze brakuje",
         "text": "Ponieważ aplikacja powstała od nowa, część funkcji ze starej wersji jeszcze nie wróciła. Będą wracać stopniowo, a niektóre mogą wyglądać lub działać inaczej niż dawniej.",
         "items": [
-          "Cloud Redirect jest eksperymentalny: wymaga OpenSteamTool i nie był jeszcze szeroko testowany.",
+          "Cloud Redirect jest w trakcie prac i na razie wyłączony.",
           "Brakuje m.in. zakładki Bypass."
         ]
       }
