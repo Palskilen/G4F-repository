@@ -1,6 +1,55 @@
 {
   "releases": [
     {
+      "version": "0.4.0-beta.2",
+      "date": "2026-10-23",
+      "title": "Uruchamianie z modułami online (beta)",
+      "intro": [
+        "Druga beta 0.4.0. Największa zmiana to zakładka Online, która teraz nie tylko instaluje moduły, ale też uruchamia grę razem z nimi.",
+        "Wszystko z pierwszej bety zostaje bez zmian."
+      ],
+      "sections": [
+        {
+          "icon": "layout",
+          "title": "Graj online",
+          "text": "W zakładce Online przy zainstalowanych modułach pojawia się przycisk „Graj online”, który uruchamia grę razem z modułami. Gdy ich jeszcze nie ma, widać tylko „Zainstaluj online”."
+        },
+        {
+          "icon": "list",
+          "title": "Wybór przy uruchamianiu w bibliotece",
+          "text": "Gry z modułami online mają w bibliotece plakietkę ONLINE (zielona: moduły są w grze, szara: wyłączone). Po kliknięciu „Graj” wybierasz: „Graj normalnie” (moduły są wyłączane na czas gry) albo „Graj online”. Aplikacja pamięta, że moduły były zainstalowane, i przy „Graj online” szybko je przywraca."
+        },
+        {
+          "icon": "tool",
+          "title": "Różne sposoby uruchamiania",
+          "text": "Gra z modułami online może startować zwykłym poleceniem Steama, osobnym plikiem (np. Launcher.exe obok gry) albo własnymi krokami zależnymi od gry. Konfiguruje to autor listy, a Ty widzisz tylko przycisk."
+        },
+        {
+          "icon": "download",
+          "title": "Duże moduły w częściach",
+          "text": "Moduły większe niż 25 MB mogą być podzielone na kilka plików. Aplikacja sama pobiera wszystkie części, składa je i rozpakowuje do folderu gry, z jednym wspólnym paskiem postępu."
+        },
+        {
+          "icon": "refresh",
+          "title": "Okno chowa się po starcie gry",
+          "text": "Gdy uruchamiasz grę z G4F, okno aplikacji minimalizuje się do paska zadań, tak jak robi to Steam."
+        },
+        {
+          "icon": "info",
+          "title": "Drobne poprawki",
+          "text": "Panel szczegółów w Online jedzie teraz razem z przewijaniem strony i nie powoduje już skoku na górę po kliknięciu gry."
+        }
+      ],
+      "missing": {
+        "title": "Czego jeszcze brakuje",
+        "text": "Ponieważ aplikacja powstała od nowa, część funkcji ze starej wersji jeszcze nie wróciła. Będą wracać stopniowo, a niektóre mogą wyglądać lub działać inaczej niż dawniej.",
+        "items": [
+          "Cloud Redirect jest wyłączony: czekamy na wersję zgodną z aktualnym Steamem.",
+          "Brakuje m.in. zakładki Bypass."
+        ]
+      }
+    },
+    {
       "version": "0.4.0-beta.1",
       "date": "2026-10-23",
       "title": "BetterSteamTools, lista gier na żywo i nowe Online (beta)",
