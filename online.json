@@ -34,6 +34,7 @@
     { "appid": "2772990", "name": "Ghost Janitors",           "path": "online/2772990.rar" },
     { "appid": "4082750", "name": "Log Riders",               "path": "online/4082750.rar" },
     { "appid": "2794590", "name": "Scam Line",                "path": "online/2794590.rar" },
-    { "appid": "648800",  "name": "Raft",                     "path": "online/648800.rar"  }
+    { "appid": "648800",  "name": "Raft",                     "path": "online/648800.rar"  },
+    { "appid": "2708450", "name": "Oh Deer",                  "path": "online/2708450.rar"  }
   ]
 }
