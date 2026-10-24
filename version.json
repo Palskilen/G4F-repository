@@ -1,8 +1,20 @@
 {
-  "version": "0.3.0",
-  "notes": "Zakładka Online, mądrzejsza wyszukiwarka i wybór wersji",
-  "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.3.0/G4F-0.3.0.zip",
+  "version": "0.4.1",
+  "notes": "Kopiowanie logu razem z informacjami o systemie",
+  "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.1/G4F-0.4.1.zip",
   "versions": [
+    {
+      "version": "0.4.1",
+      "date": "2026-10-24",
+      "notes": "Kopiowanie logu razem z informacjami o systemie",
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.1/G4F-0.4.1.zip"
+    },
+    {
+      "version": "0.4.0",
+      "date": "2026-10-24",
+      "notes": "BetterSteamTools, lista gier na żywo, nowe Online i uruchamianie z modułami",
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.0/G4F-0.4.0.zip"
+    },
     {
       "version": "0.4.0-beta.2",
       "date": "2026-10-23",
@@ -45,10 +57,5 @@
       "notes": "Pierwsza wersja nowej linii",
       "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.1.0/G4F-0.1.0.zip"
     }
-  ],
-  "beta": {
-    "version": "0.4.0-beta.2",
-    "notes": "Beta: uruchamianie gier z modułami online i duże moduły w częściach",
-    "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.0-beta.2/G4F-0.4.0-beta.2.zip"
-  }
+  ]
 }

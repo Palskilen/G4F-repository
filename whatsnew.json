@@ -1,6 +1,78 @@
 {
   "releases": [
     {
+      "version": "0.4.1",
+      "date": "2026-10-24",
+      "title": "Kopiowanie logu z danymi o systemie",
+      "intro": [
+        "Mała wersja z jedną zmianą, która ułatwia zgłaszanie problemów."
+      ],
+      "sections": [
+        {
+          "icon": "list",
+          "title": "Lepszy przycisk Kopiuj",
+          "text": "W Ustawieniach → Logi przycisk „Kopiuj” kopiuje teraz więcej niż sam log. Do schowka trafia jedna wiadomość: informacje o systemie (wersja G4F, Windows, klienta Steama i stan BetterSteamTools), separator i ostatnie linie logu. Wystarczy ją wkleić na Discordzie. Nazwa użytkownika Windowsa jest w ścieżkach zastępowana przez <user>."
+        }
+      ],
+      "missing": {
+        "title": "Czego jeszcze brakuje",
+        "text": "Ponieważ aplikacja powstała od nowa, część funkcji ze starej wersji jeszcze nie wróciła. Będą wracać stopniowo, a niektóre mogą wyglądać lub działać inaczej niż dawniej.",
+        "items": [
+          "Cloud Redirect jest wyłączony: czekamy na wersję zgodną z aktualnym Steamem.",
+          "Brakuje m.in. zakładki Bypass."
+        ]
+      }
+    },
+    {
+      "version": "0.4.0",
+      "date": "2026-10-24",
+      "title": "BetterSteamTools, Online z uruchamianiem i lista gier na żywo",
+      "intro": [
+        "Pierwsza stabilna wersja z linii 0.4. Zbiera wszystko, co testowaliśmy w betach: nowe narzędzie odblokowujące, dokładne stany gier w bibliotece i zakładkę Online, która potrafi też uruchamiać gry z modułami.",
+        "Jeśli masz SteamTools, po przejściu na BetterSteamTools odinstaluj stary SteamTools."
+      ],
+      "sections": [
+        {
+          "icon": "tool",
+          "title": "BetterSteamTools zamiast SteamTools",
+          "text": "Ekran startowy instaluje BetterSteamTools z wydania autora (z kontrolą sumy kontrolnej). Plik SteamTools zostaje zapisany jako kopia .g4f.bak. Gdy instalacja się nie uda, ekran pokazuje konkretny powód. Aplikacja sama pilnuje aktualizacji BetterSteamTools w tle i nie zamyka przy tym Steama."
+        },
+        {
+          "icon": "list",
+          "title": "Lista gier na żywo",
+          "text": "Pod nazwą każdej gry widać dokładny stan: Zainstalowana, Dostępna aktualizacja, Pobieranie z paskiem postępu, W kolejce Steama, Wstrzymana, Weryfikacja plików, Brak plików gry, Gotowa do pobrania albo Niepobrana. Stan i główny przycisk gry zmieniają się od razu po zmianie w Steamie."
+        },
+        {
+          "icon": "layout",
+          "title": "Online z uruchamianiem",
+          "text": "Zakładka Online ma nowy wygląd (baner, szukajka, filtry, panel szczegółów) i przycisk „Graj online”, który uruchamia grę razem z modułami. W bibliotece gry z modułami mają plakietkę ONLINE, a po kliknięciu „Graj” wybierasz: „Graj normalnie” albo „Graj online”. Aplikacja pamięta, że moduły były zainstalowane, i szybko je przywraca."
+        },
+        {
+          "icon": "download",
+          "title": "Duże moduły w częściach",
+          "text": "Moduły większe niż 25 MB mogą być podzielone na kilka plików. Aplikacja sama pobiera wszystkie części, składa je i rozpakowuje do folderu gry, z jednym paskiem postępu. Gra może startować zwykłym poleceniem Steama, osobnym plikiem (np. Launcher.exe) albo własnymi krokami."
+        },
+        {
+          "icon": "news",
+          "title": "Sygnał o nowościach",
+          "text": "Gdy w „Co nowego” pojawi się nowy wpis, przycisk z gazetą raz delikatnie zapulsuje i zostanie przy nim mała kropka, dopóki nie otworzysz okna. Okno G4F chowa się też do paska zadań po uruchomieniu gry, jak w Steamie."
+        },
+        {
+          "icon": "info",
+          "title": "Mniejsze zmiany",
+          "text": "Przy aktualizacjach BetterSteamTools w tle aplikacja oszczędza zasoby (sprawdza rzadko i pomija tryb oszczędzania baterii). „Cofnij manifesty” jest aktywne tylko wtedy, gdy jest co cofać, a panel szczegółów w Online jedzie razem z przewijaniem. W Ustawieniach jest karta „O aplikacji”, a zakładka Naprawa Steam zniknęła."
+        }
+      ],
+      "missing": {
+        "title": "Czego jeszcze brakuje",
+        "text": "Ponieważ aplikacja powstała od nowa, część funkcji ze starej wersji jeszcze nie wróciła. Będą wracać stopniowo, a niektóre mogą wyglądać lub działać inaczej niż dawniej.",
+        "items": [
+          "Cloud Redirect jest wyłączony: czekamy na wersję zgodną z aktualnym Steamem.",
+          "Brakuje m.in. zakładki Bypass."
+        ]
+      }
+    },
+    {
       "version": "0.4.0-beta.2",
       "date": "2026-10-23",
       "title": "Uruchamianie z modułami online (beta)",
