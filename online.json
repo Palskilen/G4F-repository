@@ -15,6 +15,8 @@
     { "appid": "2835570", "name": "Buckshot Roulette",        "path": "online/2835570.rar" },
     { "appid": "1445790", "name": "Make Way",                 "path": "online/1445790.rar" },
     { "appid": "4954910", "name": "Scam With Your Friends",   "path": "online/4954910.rar" },
-    { "appid": "3892270", "name": "Gamble With Your Friends", "path": "online/3892270.rar" }
+    { "appid": "3892270", "name": "Gamble With Your Friends", "path": "online/3892270.rar" },
+    { "appid": "284160",  "name": "BeamNG.drive",             "path": "online/284160.rar", "launch": { "type": "file", "file": "BeamMP-Launcher.exe"} },
+    { "appid": "526870",  "name": "Satisfactory",             "path": "online/526870.rar" }
   ]
 }
