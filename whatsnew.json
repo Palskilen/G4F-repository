@@ -1,6 +1,44 @@
 {
   "releases": [
     {
+      "version": "0.4.1",
+      "date": "2026-10-24",
+      "title": "Zwijana biblioteka, plakietki i drobne poprawki",
+      "intro": [
+        "Mała wersja z kilkoma wygodami w bibliotece i zakładce Online oraz poprawką stanu gier po cofnięciu manifestów. Kod poza tym jest taki sam jak w 0.4.0."
+      ],
+      "sections": [
+        {
+          "icon": "layout",
+          "title": "Biblioteka: szerokość i zwijanie",
+          "text": "Pasek z listą gier możesz rozciągać, łapiąc jego prawą krawędź (dwuklik wraca do domyślnej szerokości). Przycisk przy tytule zwija go do samych ikon: kolor ramki pokazuje stan gry, a po najechaniu pojawia się dymek z informacjami. Zwijanie i rozwijanie jest animowane, a ustawienia są pamiętane."
+        },
+        {
+          "icon": "tag",
+          "title": "Plakietki przy grach",
+          "text": "Gry z manifestami i gry z modułami online mają małe kółka z ikonami. Najechanie pokazuje, co znaczą, a gdy pasek rozciągniesz szerzej, kółka rozwijają się do napisów „Manifesty” i „Online”. Te same oznaczenia widać przy nazwie gry w nagłówku. W zakładce Online kafelki mają dwie plakietki: „Gra zainstalowana” i „Moduły online”."
+        },
+        {
+          "icon": "list",
+          "title": "Kopiuj dla zgłoszeń",
+          "text": "Przycisk „Kopiuj” w Ustawieniach → Logi kopiuje teraz jedną wiadomość: informacje o systemie (wersja G4F, Windows, klient Steama, stan BetterSteamTools), separator i ostatnie linie logu. Nazwa użytkownika Windowsa w ścieżkach jest zastępowana przez <user>. Wklej to do zgłoszenia na Discordzie."
+        },
+        {
+          "icon": "info",
+          "title": "Mniejsze zmiany",
+          "text": "„Cofnij instalację manifestów” poprawnie resetuje stan gry, więc po odinstalowaniu pojawia się „Pobierz manifesty”, a nie „Pobierz”. Panel szczegółów w Online od pierwszej klatki ma gotowy układ z napisem „Ładowanie…”. Znikły systemowe dymki podpowiedzi, które były brzydkie i wkurzające."
+        }
+      ],
+      "missing": {
+        "title": "Czego jeszcze brakuje",
+        "text": "Ponieważ aplikacja powstała od nowa, część funkcji ze starej wersji jeszcze nie wróciła. Będą wracać stopniowo, a niektóre mogą wyglądać lub działać inaczej niż dawniej.",
+        "items": [
+          "Cloud Redirect jest wyłączony: czekamy na wersję zgodną z aktualnym Steamem.",
+          "Brakuje m.in. zakładki Bypass."
+        ]
+      }
+    },
+    {
       "version": "0.4.0",
       "date": "2026-10-24",
       "title": "BetterSteamTools, Online z uruchamianiem i lista gier na żywo",
