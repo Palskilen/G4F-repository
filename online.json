@@ -21,6 +21,7 @@
     { "appid": "1326470", "name": "Sons Of The Forest",       "path": "online/1326470.rar" },5053820
     { "appid": "242760",  "name": "The Forest",               "path": "online/242760.part1.rar", "parts": 2 },
     { "appid": "2827200", "name": "MIMESIS",                  "path": "online/2827200.rar" },
-    { "appid": "5053820", "name": "Mimic Party",              "path": "online/5053820.rar" }
+    { "appid": "5053820", "name": "Mimic Party",              "path": "online/5053820.rar" },
+    { "appid": "1478500", "name": "Big Walk",                 "path": "online/1478500.rar" }
   ]
 }
