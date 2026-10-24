@@ -1,6 +1,49 @@
 {
   "releases": [
     {
+      "version": "0.4.2",
+      "date": "2026-10-24",
+      "title": "Gry spoza Steama i statystyki gracza",
+      "intro": [
+        "Do biblioteki możesz teraz dodać gry spoza Steama (np. Fortnite), a przy każdej grze zobaczysz własne statystyki: czas gry, ostatnie uruchomienie i osiągnięcia."
+      ],
+      "sections": [
+        {
+          "icon": "download",
+          "title": "Gry spoza Steama",
+          "text": "Przycisk „Dodaj grę” w lewym dolnym rogu biblioteki skanuje komputer w poszukiwaniu zainstalowanych gier (Epic Games, GOG, Ubisoft, EA, Riot i typowe foldery z grami). Skan możesz pominąć. Gry wybierasz z listy albo dodajesz własną ścieżką do pliku. Potem ustawiasz nazwę, ikonę, baner i logo gry razem z jego położeniem (9 gotowych miejsc albo własne, przeciągane po podglądzie). Takie gry mają plakietkę „Spoza Steama” i uruchamiają się tak jak ze skrótu na pulpicie."
+        },
+        {
+          "icon": "star",
+          "title": "Statystyki gracza",
+          "text": "Pod buildem w bibliotece są zakładki „O grze” i „Statystyki”. Statystyki pokazują czas gry, datę ostatniego uruchomienia i osiągnięcia (z ikonami i datami zdobycia). Dane pochodzą z plików, które Steam zapisuje na dysku. Jeśli na komputerze grało kilka kont, wybierasz konto, którego statystyki chcesz zobaczyć. Dla gier, których Steam nie śledzi (np. spoza Steama), czas gry liczy sam G4F."
+        },
+        {
+          "icon": "tool",
+          "title": "Uruchamianie gier",
+          "text": "Kółko przy napisie „URUCHAMIANIE” w końcu się kręci. Jeśli gra nie wystartuje w 20 sekund, przycisk zmienia się na „ANULUJ” i po kliknięciu zamyka procesy, które zdążyły się uruchomić."
+        },
+        {
+          "icon": "list",
+          "title": "Sortowanie w Online",
+          "text": "Lista gier w zakładce Online ma sortowanie: nazwa A–Z (domyślnie) i Z–A, najnowsze albo najstarsze dodane oraz zainstalowane najpierw. Wybór jest zapamiętywany."
+        },
+        {
+          "icon": "info",
+          "title": "Mniejsze zmiany",
+          "text": "Postęp aktualizacji gry w bibliotece jest dokładniejszy i nie zostaje na 0%, gdy Steam rzadko zapisuje swój licznik. Ikona konta w prawym górnym rogu pokazuje właściwe konto Steam po przełączeniu."
+        }
+      ],
+      "missing": {
+        "title": "Czego jeszcze brakuje",
+        "text": "Ponieważ aplikacja powstała od nowa, część funkcji ze starej wersji jeszcze nie wróciła. Będą wracać stopniowo, a niektóre mogą wyglądać lub działać inaczej niż dawniej.",
+        "items": [
+          "Cloud Redirect jest wyłączony: czekamy na wersję zgodną z aktualnym Steamem.",
+          "Brakuje m.in. zakładki Bypass."
+        ]
+      }
+    },
+    {
       "version": "0.4.1",
       "date": "2026-10-24",
       "title": "Zwijana biblioteka, plakietki i drobne poprawki",
