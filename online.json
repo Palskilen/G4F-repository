@@ -18,8 +18,9 @@
     { "appid": "3892270", "name": "Gamble With Your Friends", "path": "online/3892270.rar" },
     { "appid": "284160",  "name": "BeamNG.drive",             "path": "online/284160.rar", "launch": { "type": "file", "file": "BeamMP-Launcher.exe"} },
     { "appid": "526870",  "name": "Satisfactory",             "path": "online/526870.rar"  },
-    { "appid": "1326470", "name": "Sons Of The Forest",       "path": "online/1326470.rar" },
+    { "appid": "1326470", "name": "Sons Of The Forest",       "path": "online/1326470.rar" },5053820
     { "appid": "242760",  "name": "The Forest",               "path": "online/242760.part1.rar", "parts": 2 },
-    { "appid": "2827200", "name": "MIMESIS",                  "path": "online/2827200.rar" }
+    { "appid": "2827200", "name": "MIMESIS",                  "path": "online/2827200.rar" },
+    { "appid": "5053820", "name": "Mimic Party",              "path": "online/5053820.rar" }
   ]
 }
