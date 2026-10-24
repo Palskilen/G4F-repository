@@ -1,29 +1,6 @@
 {
   "releases": [
     {
-      "version": "0.4.1",
-      "date": "2026-10-24",
-      "title": "Kopiowanie logu z danymi o systemie",
-      "intro": [
-        "Mała wersja z jedną zmianą, która ułatwia zgłaszanie problemów."
-      ],
-      "sections": [
-        {
-          "icon": "list",
-          "title": "Lepszy przycisk Kopiuj",
-          "text": "W Ustawieniach → Logi przycisk „Kopiuj” kopiuje teraz więcej niż sam log. Do schowka trafia jedna wiadomość: informacje o systemie (wersja G4F, Windows, klienta Steama i stan BetterSteamTools), separator i ostatnie linie logu. Wystarczy ją wkleić na Discordzie. Nazwa użytkownika Windowsa jest w ścieżkach zastępowana przez <user>."
-        }
-      ],
-      "missing": {
-        "title": "Czego jeszcze brakuje",
-        "text": "Ponieważ aplikacja powstała od nowa, część funkcji ze starej wersji jeszcze nie wróciła. Będą wracać stopniowo, a niektóre mogą wyglądać lub działać inaczej niż dawniej.",
-        "items": [
-          "Cloud Redirect jest wyłączony: czekamy na wersję zgodną z aktualnym Steamem.",
-          "Brakuje m.in. zakładki Bypass."
-        ]
-      }
-    },
-    {
       "version": "0.4.0",
       "date": "2026-10-24",
       "title": "BetterSteamTools, Online z uruchamianiem i lista gier na żywo",
