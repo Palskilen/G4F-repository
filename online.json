@@ -26,6 +26,8 @@
     { "appid": "268910",  "name": "Cuphead",                  "path": "online/268910.rar"  },
     { "appid": "4108000", "name": "Machine Party",            "path": "online/4108000.rar" },
     { "appid": "2567870", "name": "Chained Together",         "path": "online/2567870.rar" },
-    { "appid": "105600",  "name": "Terraria",                 "path": "online/105600.rar"  }
+    { "appid": "105600",  "name": "Terraria",                 "path": "online/105600.rar"  },
+    { "appid": "3722330", "name": "Shift At Midnight",        "path": "online/3722330.rar" },
+    { "appid": "4656000", "name": "BOMBANANA!",               "path": "online/4656000.rar" }
   ]
 }
