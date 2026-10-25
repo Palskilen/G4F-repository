@@ -1,6 +1,48 @@
 {
   "releases": [
     {
+      "version": "0.4.3",
+      "date": "2026-10-25",
+      "title": "Zakładka Naprawa, Cloud Redirect i powiadomienia",
+      "intro": [
+        "Nowa zakładka NAPRAWA pilnuje narzędzi, dzięki którym gry działają, a dzwonek w górnym pasku ostrzega, gdy coś pójdzie nie tak."
+      ],
+      "sections": [
+        {
+          "icon": "tool",
+          "title": "Zakładka NAPRAWA",
+          "text": "Ma trzy strony: Steam Tools, Programy (Steam, WinRAR) i Biblioteki (Visual C++). Przy każdej pozycji widzisz, czy jest zainstalowana, i możesz ją pobrać, naprawić albo odinstalować. Karty mają naklejki (np. „Zalecany”, „Wspiera Cloud Redirect”, „Aktualizuje się sam”), a przełączanie stron jest animowane."
+        },
+        {
+          "icon": "layout",
+          "title": "Jedno narzędzie naraz",
+          "text": "Możesz wybrać BetterSteamTools (zalecany), OpenSteamTool albo SteamTools. Przed każdą instalacją G4F zamyka Steama i usuwa z jego folderu wszystko po innych narzędziach, więc zostaje tylko to jedno, które wybrałeś. Konfigurację i kopie zapasowe odkłada do folderu ustawień G4F. OpenSteamTool aktualizuje się teraz sam w tle, tak jak BetterSteamTools."
+        },
+        {
+          "icon": "refresh",
+          "title": "Cloud Redirect",
+          "text": "Włączasz go jednym przyciskiem, a G4F sam sprawdza, czy działa z Twoim Steamem: instaluje, restartuje Steama i pilnuje, czy się nie wywala. Jeśli coś jest nie tak, cofa zmianę i zapamiętuje, że ta wersja Steama nie pasuje. Po aktualizacji Steama pilnuje go w tle i w razie powtarzających się zawieszeń sam go wyłącza (możesz to wyłączyć przełącznikiem). Działa tylko z BetterSteamTools i OpenSteamTool. Brakujące Visual C++ G4F doinstaluje sam."
+        },
+        {
+          "icon": "news",
+          "title": "Dzwonek",
+          "text": "Powiadomienia mają kolory: niebieski to informacja, zielony potwierdzenie, czerwony błąd. Gdy jest coś nieprzeczytanego, dzwonek wyraźnie świeci. Dostaniesz tam m.in. info o aktualizacji narzędzia albo o grach, którym nie udało się pobrać manifestów."
+        },
+        {
+          "icon": "info",
+          "title": "Manifesty",
+          "text": "Jeśli pobranie manifestów się nie uda, G4F cofa stan gry (przycisk znowu pokazuje „POBIERZ MANIFESTY”) i pisze w dzwonku, co poszło nie tak."
+        }
+      ],
+      "missing": {
+        "title": "Czego jeszcze brakuje",
+        "text": "Ponieważ aplikacja powstała od nowa, część funkcji ze starej wersji jeszcze nie wróciła. Będą wracać stopniowo, a niektóre mogą wyglądać lub działać inaczej niż dawniej.",
+        "items": [
+          "Brakuje m.in. zakładki Bypass."
+        ]
+      }
+    },
+    {
       "version": "0.4.2",
       "date": "2026-10-24",
       "title": "Gry spoza Steama i statystyki gracza",

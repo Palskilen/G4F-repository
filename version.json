@@ -1,8 +1,14 @@
 {
-  "version": "0.4.2",
-  "notes": "Gry spoza Steama i statystyki gracza",
-  "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.2/G4F-0.4.2.zip",
+  "version": "0.4.3",
+  "notes": "Zakładka Naprawa, Cloud Redirect i powiadomienia",
+  "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.3/G4F-0.4.3.zip",
   "versions": [
+    {
+      "version": "0.4.3",
+      "date": "2026-10-25",
+      "notes": "Zakładka Naprawa, Cloud Redirect i powiadomienia",
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.3/G4F-0.4.3.zip"
+    },
     {
       "version": "0.4.2",
       "date": "2026-10-24",
