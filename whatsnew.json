@@ -1,6 +1,44 @@
 {
   "releases": [
     {
+      "version": "0.4.4",
+      "date": "2026-10-25",
+      "title": "Własny generator plików gry i kolejka na żywo",
+      "intro": [
+        "G4F sam składa teraz pliki potrzebne do przygotowania gry, zamiast brać gotowe paczki z cudzych repozytoriów. Jest szybciej, a kolejka pokazuje, co dokładnie się dzieje."
+      ],
+      "sections": [
+        {
+          "icon": "code",
+          "title": "Własny generator plików gry",
+          "text": "Po kliknięciu „POBIERZ MANIFESTY” G4F pobiera z publicznego serwera Steama listę depotów gry (pliki gry, języki, DLC i pliki wspólne), dobiera klucze z bazy G4F i składa czytelny plik .lua z opisanymi sekcjami. Manifesty nie są już potrzebne: do Steama trafia tylko ten jeden plik (folder config\\stplug-in), a narzędzie samo bierze najnowszą wersję gry. Całość trwa kilka sekund."
+        },
+        {
+          "icon": "list",
+          "title": "Reguły generatora",
+          "text": "Brak klucza do języka albo DLC nie przeszkadza: taki element jest pomijany (zapisujemy to w komentarzu w pliku). Brak klucza do plików gry albo do plików wspólnych (np. Visual C++) oznacza, że gry nie da się przygotować. Wtedy G4F pisze wprost, czego brakuje."
+        },
+        {
+          "icon": "refresh",
+          "title": "Kolejka na żywo",
+          "text": "W kolejce widać kolejne kroki (lista depotów, klucze, nazwy DLC, składanie pliku, zapis), a licznik procentów rośnie płynnie. Gdy coś się nie uda, czerwony krok pokazuje powód. Poprawiliśmy też krótkie mignięcie przycisku „POBIERZ MANIFESTY” tuż po zakończeniu oraz spadek licznika ze 100% do 0% przy kolejnej grze."
+        },
+        {
+          "icon": "image",
+          "title": "Ikony gier",
+          "text": "Nowe gry (np. EA SPORTS FC 27) znowu mają ikonę w bibliotece. Steam zmienił adres części ikon, więc G4F bierze je teraz z nowego serwera."
+        }
+      ],
+      "missing": {
+        "title": "Czego jeszcze brakuje",
+        "text": "Ponieważ aplikacja powstała od nowa, część funkcji ze starej wersji jeszcze nie wróciła. Będą wracać stopniowo, a niektóre mogą wyglądać lub działać inaczej niż dawniej.",
+        "items": [
+          "Brakuje m.in. zakładki Bypass.",
+          "Baza kluczy jest uzupełniana ręcznie, więc do niektórych nowych gier może jeszcze nie być kluczy."
+        ]
+      }
+    },
+    {
       "version": "0.4.3",
       "date": "2026-10-25",
       "title": "Zakładka Naprawa, Cloud Redirect i powiadomienia",
