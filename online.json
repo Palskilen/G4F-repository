@@ -37,6 +37,7 @@
     { "appid": "648800",  "name": "Raft",                     "path": "online/648800.rar"  },
     { "appid": "2708450", "name": "Oh Deer",                  "path": "online/2708450.rar" },
     { "appid": "477160",  "name": "Human Fall Flat",          "path": "online/477160.rar"  },
-    { "appid": "285900",  "name": "Gang Beasts",              "path": "online/285900.rar"  }
+    { "appid": "285900",  "name": "Gang Beasts",              "path": "online/285900.rar"  },
+    { "appid": "1708850", "name": "Drug Dealer Simulator 2",  "path": "online/1708850.rar" }
   ]
 }
