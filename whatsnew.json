@@ -1,6 +1,49 @@
 {
   "releases": [
     {
+      "version": "0.4.5",
+      "date": "2026-10-31",
+      "title": "Sklep: prawdziwe nowości i trafne gatunki",
+      "intro": [
+        "Sklep przestał pokazywać stare gry jako nowości, a kategorie gatunków są dużo trafniejsze. Naprawiliśmy też generowanie plików dla gier z DLC i z drobnymi brakami w bazie kluczy."
+      ],
+      "sections": [
+        {
+          "icon": "star",
+          "title": "Nowości są naprawdę nowe",
+          "text": "Półka Nowości pokazuje teraz tylko gry, które wyszły w ostatnich 60 dniach. Stare gry po dużych aktualizacjach (np. Counter-Strike 2, Dota 2, Cyberpunk 2077) już się tam nie pojawiają. Gdy świeżych premier jest za mało, okno poszerza się do 120 dni."
+        },
+        {
+          "icon": "search",
+          "title": "Trafne gatunki",
+          "text": "Gra trafia do gatunku (np. Horror) tylko wtedy, gdy ten tag jest w czołówce jej tagów, a nie gdy ktoś kiedyś go dodał. W gatunkach pokazujemy same gry, więc aplikacje takie jak Wallpaper Engine nie psują już list. Horror ma najostrzejszy filtr, a szerokie gatunki (Akcja, Przygodowe, Indie) łagodniejszy."
+        },
+        {
+          "icon": "refresh",
+          "title": "Stabilniej",
+          "text": "Wyniki półek i gatunków są zapamiętywane na kilka minut, co ogranicza zapytania do Steama (jego limity potrafiły zwracać puste listy). Dłuższe listy ładują się teraz większymi porcjami."
+        },
+        {
+          "icon": "tool",
+          "title": "DLC z własnymi plikami",
+          "text": "Część DLC ma własne pliki i własny klucz (np. dodatek do Drug Dealer Simulator 2). Wcześniej generator pomijał ten klucz i Steam zatrzymywał się na komunikacie CONTENT STILL ENCRYPTED. Teraz każde DLC jest sprawdzane osobno, a jego klucz trafia do pliku gry. DLC bez klucza w bazie jest pomijane, żeby nie blokowało instalacji. Grę dodaną wcześniej dodaj w G4F jeszcze raz i zrestartuj Steama."
+        },
+        {
+          "icon": "tool",
+          "title": "Gry z drobnym brakiem w kluczach",
+          "text": "Gdy w bazie brakuje klucza do malutkiego depotu gry (np. 1,4 MB przy grze mającej 65 GB, jak w Dying Light: The Beast), generator pomija go i tworzy plik, zamiast odmawiać całej gry. Duże braki nadal przerywają generowanie, bo bez nich gra by nie działała."
+        }
+      ],
+      "missing": {
+        "title": "Czego jeszcze brakuje",
+        "text": "Ponieważ aplikacja powstała od nowa, część funkcji ze starej wersji jeszcze nie wróciła. Będą wracać stopniowo, a niektóre mogą wyglądać lub działać inaczej niż dawniej.",
+        "items": [
+          "Brakuje m.in. zakładki Bypass.",
+          "Baza kluczy jest uzupełniana ręcznie, więc do niektórych nowych gier może jeszcze nie być kluczy."
+        ]
+      }
+    },
+    {
       "version": "0.4.4",
       "date": "2026-10-25",
       "title": "Własny generator plików gry i kolejka na żywo",
