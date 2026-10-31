@@ -1,6 +1,29 @@
 {
   "releases": [
     {
+      "version": "0.4.7",
+      "date": "2026-11-01",
+      "title": "Aktualizacje widoczne bez restartu aplikacji",
+      "intro": [
+        "Nowa wersja G4F pojawia się teraz w aplikacji sama, bez konieczności zamykania jej całkowicie."
+      ],
+      "sections": [
+        {
+          "icon": "refresh",
+          "title": "Przycisk „Aktualizuj” pojawia się szybciej",
+          "text": "G4F potrafi działać schowany w trayu, więc wcześniej nie widział nowej wersji, dopóki aplikacji nie zamknęło się całkiem i nie uruchomiło od nowa. Teraz aktualizacje sprawdzane są co 5 minut (wcześniej co 30) oraz od razu, gdy okno wraca na wierzch, np. po wyjęciu z traya albo kliknięciu skrótu. Przycisk „Aktualizuj” pojawi się więc po chwili, bez restartu."
+        }
+      ],
+      "missing": {
+        "title": "Czego jeszcze brakuje",
+        "text": "Ponieważ aplikacja powstała od nowa, część funkcji ze starej wersji jeszcze nie wróciła. Będą wracać stopniowo, a niektóre mogą wyglądać lub działać inaczej niż dawniej.",
+        "items": [
+          "Brakuje m.in. zakładki Bypass.",
+          "Baza kluczy jest uzupełniana ręcznie, więc do niektórych nowych gier może jeszcze nie być kluczy."
+        ]
+      }
+    },
+    {
       "version": "0.4.6",
       "date": "2026-10-31",
       "title": "Szybkie dodawanie gier, filtry biblioteki i wycofane gry w wyszukiwarce",
