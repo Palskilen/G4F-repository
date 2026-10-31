@@ -1,8 +1,14 @@
 {
-  "version": "0.4.5",
-  "notes": "Sklep: prawdziwe nowości i trafne gatunki",
-  "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.5/G4F-0.4.5.zip",
+  "version": "0.4.6",
+  "notes": "Szybkie dodawanie gier, filtry biblioteki i wycofane gry w wyszukiwarce",
+  "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.6/G4F-0.4.6.zip",
   "versions": [
+    {
+      "version": "0.4.6",
+      "date": "2026-10-31",
+      "notes": "Szybkie dodawanie gier, filtry biblioteki i wycofane gry w wyszukiwarce",
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.6/G4F-0.4.6.zip"
+    },
     {
       "version": "0.4.5",
       "date": "2026-10-31",

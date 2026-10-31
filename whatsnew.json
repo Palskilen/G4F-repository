@@ -1,6 +1,59 @@
 {
   "releases": [
     {
+      "version": "0.4.6",
+      "date": "2026-10-31",
+      "title": "Szybkie dodawanie gier, filtry biblioteki i wycofane gry w wyszukiwarce",
+      "intro": [
+        "Gry dodasz do biblioteki i do kolejki jednym kliknięciem, biblioteka dostała filtry, a wyszukiwarka sklepu znajduje teraz także gry wycofane ze sprzedaży."
+      ],
+      "sections": [
+        {
+          "icon": "download",
+          "title": "Dodaj i pobierz manifesty jednym kliknięciem",
+          "text": "Na stronie gry przycisk „Dodaj i pobierz manifesty” dodaje grę do biblioteki i od razu wrzuca ją do kolejki. Strzałka obok ma opcję „Tylko dodaj do biblioteki”. Na kartach gier w sklepie po najechaniu pojawiają się dwa małe przyciski: plus (tylko biblioteka) i strzałka w dół (biblioteka i kolejka), więc wiele gier dodasz bez wchodzenia w każdą z nich."
+        },
+        {
+          "icon": "search",
+          "title": "Wyszukiwarka znajduje wycofane gry",
+          "text": "Steam nie pokazuje w wyszukiwarce gier wycofanych ze sprzedaży (np. Forza Horizon 4, The Amazing Spider-Man). G4F ma teraz własną listę ponad 200 tysięcy gier i szuka też w niej, razem z literówkami. Możesz też wpisać numer gry albo wkleić link ze sklepu lub SteamDB. Szukanie jest szybsze, bo lista odświeża się w tle."
+        },
+        {
+          "icon": "info",
+          "title": "Gry przed premierą",
+          "text": "Gry, które jeszcze nie wyszły, mają na karcie plakietkę „Jeszcze nie wyszła”. Dla takiej gry da się tylko dodać ją do biblioteki, bo nie ma jeszcze plików do pobrania. W bibliotece przycisk pokazuje „Jeszcze nie wyszła”, a przy próbie pobrania dostaniesz zrozumiały komunikat zamiast błędu."
+        },
+        {
+          "icon": "list",
+          "title": "Filtry w bibliotece",
+          "text": "Pod sortowaniem jest nowy filtr z licznikami: Wszystko, Zainstalowane, Tylko online, Manifesty, Gotowe do pobrania, Puste, W trakcie, Do aktualizacji, Problemy i Spoza Steama. Działa razem z wyszukiwaniem i sortowaniem."
+        },
+        {
+          "icon": "refresh",
+          "title": "Kolejka bez opóźnień",
+          "text": "Dodawanie gier do kolejki jest natychmiastowe, nawet gdy klikasz kilka gier pod rząd. Biblioteka nie przeładowuje się przy każdym kliknięciu, a okładki ładują się w tle. Kolejka z wieloma grami przechodzi szybciej."
+        },
+        {
+          "icon": "tool",
+          "title": "Więcej gier da się dodać",
+          "text": "Generator poprawnie obsługuje gry z jedną paczką plików oznaczoną językiem (np. Five Nights at Freddy’s) oraz gry, w których brakuje klucza do mniej ważnej części plików (np. Hades, Hades II, Dying Light: The Beast). Baza kluczy jest pobierana przez API GitHuba, więc świeżo dodane klucze widać prawie od razu."
+        },
+        {
+          "icon": "tool",
+          "title": "Mniej ingerencji w Steama",
+          "text": "G4F nie steruje już oknami ani konsolą Steama i nie wstrzymuje jego pobierania podczas kolejki. Zostały zwykłe polecenia: uruchom, zainstaluj, odinstaluj i weryfikuj grę. Z pola szukania w bibliotece zniknęła też podpowiedź autouzupełniania przeglądarki."
+        }
+      ],
+      "missing": {
+        "title": "Czego jeszcze brakuje",
+        "text": "Ponieważ aplikacja powstała od nowa, część funkcji ze starej wersji jeszcze nie wróciła. Będą wracać stopniowo, a niektóre mogą wyglądać lub działać inaczej niż dawniej.",
+        "items": [
+          "Brakuje m.in. zakładki Bypass.",
+          "Baza kluczy jest uzupełniana ręcznie, więc do niektórych nowych gier może jeszcze nie być kluczy."
+        ]
+      }
+    },
+    {
       "version": "0.4.5",
       "date": "2026-10-31",
       "title": "Sklep: prawdziwe nowości i trafne gatunki",
