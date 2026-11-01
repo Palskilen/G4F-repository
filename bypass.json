@@ -1,6 +1,7 @@
 {
   "games": [ 
-    { "appid": "2668510", "name": "Red Dead Redemption",   "path": "bypass/2668510.part1.rar", "parts": 3, "launch": { "type": "file", "file": "PlayRDR.exe"  } },
-    { "appid": "1174180", "name": "Red Dead Redemption 2", "path": "bypass/1174180.part1.rar", "parts": 4, "launch": { "type": "file", "file": "Launcher.exe" } }
+    { "appid": "2668510", "name": "Red Dead Redemption",                                    "path": "bypass/2668510.part1.rar", "parts": 3, "launch": { "type": "file", "file": "PlayRDR.exe"           } },
+    { "appid": "1174180", "name": "Red Dead Redemption 2",                                  "path": "bypass/1174180.part1.rar", "parts": 4, "launch": { "type": "file", "file": "Launcher.exe"          } },
+    { "appid": "1547000", "name": "Grand Theft Auto: San Andreas - The Definitive Edition", "path": "bypass/1547000.part1.rar", "parts": 2, "launch": { "type": "file", "file": "PlayGTASanAndreas.exe" } }
   ]
 }
