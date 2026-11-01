@@ -5,6 +5,6 @@
     { "appid": "1547000", "name": "Grand Theft Auto: San Andreas - The Definitive Edition", "path": "bypass/1547000.part1.rar", "parts": 2, "launch": { "type": "file", "file": "PlayGTASanAndreas.exe" } },
     { "appid": "1546990", "name": "Grand Theft Auto: Vice City - The Definitive Edition",   "path": "bypass/1546990.rar",                   "launch": { "type": "file", "file": "PlayGTAViceCity.exe"   } },
     { "appid": "1546970", "name": "Grand Theft Auto III - The Definitive Edition",          "path": "bypass/1546970.part1.rar", "parts": 2, "launch": { "type": "file", "file": "PlayGTA3.exe"          } },
-    { "appid": "12210",   "name": "Grand Theft Auto IV: The Complete Edition",              "path": "bypass/12210.rar",                     "launch": { "type": "file", "file": "PlayGTAIV.exe"         } }
+    { "appid": "12210",   "name": "Grand Theft Auto IV: The Complete Edition",              "path": "bypass/12210.rar",                     "launch": { "type": "file", "file": "GTAIV\\PlayGTAIV.exe"  } }
   ]
 }
