@@ -1,6 +1,26 @@
 {
   "releases": [
     {
+      "version": "0.5.1",
+      "date": "2026-11-01",
+      "title": "Logo jak w Steamie i aktualna plakietka wersji gry",
+      "intro": [
+        "Drobne poprawki biblioteki: logo gry ustawia się tak jak w Steamie, a plakietka z wersją gry odświeża się sama."
+      ],
+      "sections": [
+        {
+          "icon": "image",
+          "title": "Logo gry we właściwym miejscu",
+          "text": "Niektóre gry mają grafikę z jednej strony, a logo przypięte w rogu (np. Grand Theft Auto IV, gdzie logo ma być w lewym dolnym rogu). G4F ustawiał wcześniej każde logo na środku, przez co zasłaniało grafikę, a reszta banera wyglądała na pustą. Teraz pobiera pozycję logo ze Steama i ustawia je tak jak on. Gry z logo na środku wyglądają jak dotąd."
+        },
+        {
+          "icon": "refresh",
+          "title": "Plakietka wersji gry odświeża się sama",
+          "text": "Po aktualizacji, zainstalowaniu albo odinstalowaniu gry plakietka „Masz najnowszą wersję” lub „Masz starą wersję gry” zostawała stara, dopóki nie zrestartowałeś aplikacji. Teraz „Twój build” jest czytany na bieżąco z dysku i odświeża się razem z biblioteką."
+        }
+      ]
+    },
+    {
       "version": "0.5.0",
       "date": "2026-11-01",
       "title": "Zakładka Bypass i czytelniejsze kolory",
