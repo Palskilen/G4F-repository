@@ -51,6 +51,7 @@
     { "appid": "1190970", "name": "House Flipper 2",                 "path": "online/1190970.rar" },
     { "appid": "239140",  "name": "Dying Light",                     "path": "online/239140.rar"  },
     { "appid": "534380",  "name": "Dying Light 2: Reloaded Edition", "path": "online/534380.rar"  },
-    { "appid": "3008130", "name": "Dying Light: The Beast",          "path": "online/3008130.rar" }
+    { "appid": "3008130", "name": "Dying Light: The Beast",          "path": "online/3008130.rar" },
+    { "appid": "413150",  "name": "Stardew Valley",                  "path": "online/413150.rar"  }
   ]
 }
