@@ -1,6 +1,36 @@
 {
   "releases": [
     {
+      "version": "0.5.0",
+      "date": "2026-11-01",
+      "title": "Zakładka Bypass i czytelniejsze kolory",
+      "intro": [
+        "Wraca zakładka Bypass, a oznaczenia modułów mają teraz osobne, łatwe do odróżnienia kolory."
+      ],
+      "sections": [
+        {
+          "icon": "tool",
+          "title": "Zakładka Bypass",
+          "text": "Działa tak samo jak Online: wybierasz grę z listy, instalujesz moduł jednym kliknięciem i możesz go w każdej chwili odinstalować, a podmienione pliki wracają do oryginału. Moduły rozpakowują się do folderu gry z kopią zapasową zmienianych plików."
+        },
+        {
+          "icon": "list",
+          "title": "Biblioteka: filtr i plakietka Bypass",
+          "text": "Gry z zainstalowanym Bypass mają w bibliotece własną plakietkę, a w filtrze „Pokaż” pojawiła się opcja „Tylko bypass”. W nagłówku biblioteki widać też znacznik Bypass."
+        },
+        {
+          "icon": "refresh",
+          "title": "Wybór przy uruchamianiu",
+          "text": "Dla gry z Bypass przycisk „Graj” pyta, czy uruchomić ją normalnie, czy z Bypass, tak samo jak przy Online. Uruchamiany jest dokładnie ten plik, który wskazuje konfiguracja gry, także gdy leży w głównym folderze, a nie obok wykrytego pliku gry."
+        },
+        {
+          "icon": "image",
+          "title": "Nowe kolory oznaczeń",
+          "text": "Manifesty są fioletowe, Online niebieskie, Bypass czerwone, a zielony oznacza grę zainstalowaną. Kolory są teraz spójne w bibliotece, w zakładkach i na kartach gier, więc łatwiej je od siebie odróżnić."
+        }
+      ]
+    },
+    {
       "version": "0.4.7",
       "date": "2026-11-01",
       "title": "Aktualizacje widoczne bez restartu aplikacji",

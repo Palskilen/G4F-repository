@@ -1,8 +1,14 @@
 {
-  "version": "0.4.7",
-  "notes": "Aktualizacje widoczne bez restartu aplikacji",
-  "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.7/G4F-0.4.7.zip",
+  "version": "0.5.0",
+  "notes": "Zakładka Bypass i czytelniejsze kolory",
+  "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.5.0/G4F-0.5.0.zip",
   "versions": [
+    {
+      "version": "0.5.0",
+      "date": "2026-11-01",
+      "notes": "Zakładka Bypass i czytelniejsze kolory",
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.5.0/G4F-0.5.0.zip"
+    },
     {
       "version": "0.4.7",
       "date": "2026-11-01",
