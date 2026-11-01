@@ -1,5 +1,6 @@
 {
   "games": [ 
-    { "appid": "2668510", "name": "Red Dead Redemption", "path": "bypass/2668510.part1.rar", "parts": 3, "launch": { "type": "file", "file": "PlayRDR.exe" } }
+    { "appid": "2668510", "name": "Red Dead Redemption",   "path": "bypass/2668510.part1.rar", "parts": 3, "launch": { "type": "file", "file": "PlayRDR.exe" } },
+    { "appid": "1174180", "name": "Red Dead Redemption 2", "path": "bypass/1174180.part1.rar", "parts": 4, "launch": { "type": "file", "file": "" } }
   ]
 }
