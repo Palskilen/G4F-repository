@@ -1,3 +1,5 @@
 {
-  "games": []
+  "games": [ 
+    { "appid": "2668510", "name": "Red Dead Redemption", "path": "bypass/2668510.part1.rar", "parts": 3, "launch": { "type": "file", "file": "PlayRDR.exe" } }
+  ]
 }
