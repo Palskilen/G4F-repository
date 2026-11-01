@@ -1,10 +1,15 @@
 {
-  "games": [ 
-    { "appid": "2668510", "name": "Red Dead Redemption",                                    "path": "bypass/2668510.part1.rar", "parts": 3, "launch": { "type": "file", "file": "PlayRDR.exe"           } },
-    { "appid": "1174180", "name": "Red Dead Redemption 2",                                  "path": "bypass/1174180.part1.rar", "parts": 4, "launch": { "type": "file", "file": "Launcher.exe"          } },
+  "games": [
+    { "appid": "2668510", "name": "Red Dead Redemption", "path": "bypass/2668510.part1.rar", "parts": 3, "launch": { "type": "file", "file": "PlayRDR.exe" } },
+    { "appid": "1174180", "name": "Red Dead Redemption 2", "path": "bypass/1174180.part1.rar", "parts": 4, "launch": { "type": "file", "file": "Launcher.exe" } },
     { "appid": "1547000", "name": "Grand Theft Auto: San Andreas - The Definitive Edition", "path": "bypass/1547000.part1.rar", "parts": 2, "launch": { "type": "file", "file": "PlayGTASanAndreas.exe" } },
-    { "appid": "1546990", "name": "Grand Theft Auto: Vice City - The Definitive Edition",   "path": "bypass/1546990.rar",                   "launch": { "type": "file", "file": "PlayGTAViceCity.exe"   } },
-    { "appid": "1546970", "name": "Grand Theft Auto III - The Definitive Edition",          "path": "bypass/1546970.part1.rar", "parts": 2, "launch": { "type": "file", "file": "PlayGTA3.exe"          } },
-    { "appid": "12210",   "name": "Grand Theft Auto IV: The Complete Edition",              "path": "bypass/12210.rar",                     "launch": { "type": "file", "file": "GTAIV\\PlayGTAIV.exe"  } }
+    { "appid": "1546990", "name": "Grand Theft Auto: Vice City - The Definitive Edition", "path": "bypass/1546990.rar", "launch": { "type": "file", "file": "PlayGTAViceCity.exe" } },
+    { "appid": "1546970", "name": "Grand Theft Auto III - The Definitive Edition", "path": "bypass/1546970.part1.rar", "parts": 2, "launch": { "type": "file", "file": "PlayGTA3.exe" } },
+    { "appid": "12210", "name": "Grand Theft Auto IV: The Complete Edition", "path": "bypass/12210.rar", "launch": { "type": "file", "file": "GTAIV\\PlayGTAIV.exe" } },
+    { "appid": "271590", "name": "Grand Theft Auto V Legacy", "path": "bypass/271590.rar", "launch": { "type": "file", "file": "PlayGTAV.exe" } },
+    { "appid": "3240220", "name": "Grand Theft Auto V Enhanced", "path": "bypass/3240220.rar", "launch": { "type": "file", "file": "PlayGTAV.exe" } },
+    { "appid": "110800", "name": "L.A. Noire", "path": "bypass/110800.rar", "launch": { "type": "file", "file": "LANoire.exe" } },
+    { "appid": "12200", "name": "Bully: Scholarship Edition", "path": "bypass/12200.rar", "launch": { "type": "file", "file": "Bully.exe" } },
+    { "appid": "204100", "name": "Max Payne 3", "path": "bypass/204100.rar", "launch": { "type": "file", "file": "Max Payne 3/MaxPayne3.exe" } }
   ]
 }
