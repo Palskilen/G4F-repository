@@ -1,8 +1,14 @@
 {
-  "version": "0.5.1",
-  "notes": "Logo jak w Steamie i aktualna plakietka wersji gry",
-  "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.5.1/G4F-0.5.1.zip",
+  "version": "0.5.2",
+  "notes": "Kategorie gier, filmy w galerii i dokładny pasek pobierania",
+  "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.5.2/G4F-0.5.2.zip",
   "versions": [
+    {
+      "version": "0.5.2",
+      "date": "2026-11-02",
+      "notes": "Kategorie gier, filmy w galerii i dokładny pasek pobierania",
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.5.2/G4F-0.5.2.zip"
+    },
     {
       "version": "0.5.1",
       "date": "2026-11-01",

@@ -1,6 +1,51 @@
 {
   "releases": [
     {
+      "version": "0.5.2",
+      "date": "2026-11-02",
+      "title": "Kategorie gier, filmy w galerii i dokładny pasek pobierania",
+      "intro": [
+        "Duża aktualizacja wyglądu: kategorie w Bypass i Online, filmy w galerii gry, szybsze przełączanie między grami i pasek pobierania zgodny ze Steamem."
+      ],
+      "sections": [
+        {
+          "icon": "layout",
+          "title": "Kategorie w Bypass i Online",
+          "text": "Po lewej stronie jest panel kategorii (np. Rockstar Games, EA, Ubisoft, Denuvo) z licznikami i logo. Kliknięcie filtruje listę, a baner na górze pokazuje wybraną kategorię. W widoku „Wszystkie” gry są pogrupowane pod nagłówkami kategorii. Logo kategorii aplikacja pobiera sama przy starcie, więc nic nie zajmuje miejsca w paczce."
+        },
+        {
+          "icon": "image",
+          "title": "Baner z pokazem slajdów",
+          "text": "Tło baneru w Bypass i Online zmienia się samo co kilka sekund po grafikach gier z bieżącej kategorii, zawsze z płynnym przenikaniem (także przy przełączaniu kategorii). Online ma niebieski akcent, a Bypass czerwony."
+        },
+        {
+          "icon": "star",
+          "title": "Filmy w galerii gry",
+          "text": "Na stronie gry, w sklepie i w bibliotece, przed zdjęciami pojawia się zwiastun lub gameplay z własnym odtwarzaczem: pauza, przewijanie, głośność i pełny ekran. Slajdy galerii mają animację przejścia, a pasek miniatur nowy wygląd."
+        },
+        {
+          "icon": "refresh",
+          "title": "Szybsze przełączanie między grami",
+          "text": "Szczegóły gry, banery, loga i okładki są zapisywane na dysku po pierwszym pobraniu, więc kolejne wejścia w grę ładują się od razu. Poprzedni baner znika natychmiast po kliknięciu innej gry. Statystyk gracza nie zapisujemy w pamięci podręcznej, bo zmieniają się w trakcie gry."
+        },
+        {
+          "icon": "download",
+          "title": "Pasek pobierania zgadza się ze Steamem",
+          "text": "Wcześniej pasek w bibliotece stał na 99% od początku pobierania, a prawdziwą wartość pokazywał dopiero po pauzie. Teraz postęp jest liczony na żywo i zgadza się ze Steamem, z drobnym opóźnieniem rzędu kilku sekund."
+        },
+        {
+          "icon": "info",
+          "title": "Jasny komunikat, gdy gry nie ma na serwerze",
+          "text": "Zamiast listy numerów depotów dostajesz informację, że gry nie ma jeszcze na serwerze, i odsyłacz do ticketu „Brak gry” na kanale #pomoc na Discordzie."
+        },
+        {
+          "icon": "tag",
+          "title": "Logo gry w banerze biblioteki",
+          "text": "Logo ustawione w rogu baneru ma teraz odstęp od krawędzi, więc nie jest już przyklejone do brzegu (np. w Spider-Man Remastered)."
+        }
+      ]
+    },
+    {
       "version": "0.5.1",
       "date": "2026-11-01",
       "title": "Logo jak w Steamie i aktualna plakietka wersji gry",
