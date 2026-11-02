@@ -11,6 +11,6 @@
     { "appid": "110800", "name": "L.A. Noire", "path": "bypass/110800.rar", "launch": { "type": "file", "file": "LANoire.exe" } },
     { "appid": "12200", "name": "Bully: Scholarship Edition", "path": "bypass/12200.rar", "launch": { "type": "file", "file": "Bully.exe" } },
     { "appid": "204100", "name": "Max Payne 3", "path": "bypass/204100.rar", "launch": { "type": "file", "file": "Max Payne 3/MaxPayne3.exe" } },
-    { "appid": "2215200", "name": "LEGO® Batman™: Legacy of the Dark Knight", "path": "bypass/2215200.part1.rarz", "parts": 7, "launch": { "type": "file", "file": "LEGOBatmanLotDK/Binaries/Win64/LEGOBatmanLotDK-Win64-Shipping.exe" } }
+    { "appid": "2215200", "name": "LEGO® Batman™: Legacy of the Dark Knight", "path": "bypass/2215200.part1.rar", "parts": 7, "launch": { "type": "file", "file": "LEGOBatmanLotDK/Binaries/Win64/LEGOBatmanLotDK-Win64-Shipping.exe" } }
   ]
 }
