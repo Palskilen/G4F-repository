@@ -12,6 +12,6 @@
     { "appid": "12200", "name": "Bully: Scholarship Edition", "category": "Rockstar Games", "path": "bypass/12200.rar", "launch": { "type": "file", "file": "Bully.exe" } },
     { "appid": "204100", "name": "Max Payne 3", "category": "Rockstar Games", "path": "bypass/204100.rar", "launch": { "type": "file", "file": "Max Payne 3/MaxPayne3.exe" } },
     { "appid": "3768760", "name": "007 First Light", "category": "Denuvo", "path": "bypass/3768760.rar" },
-    { "appid": "3357650", "name": "PRAGMATA", "category": "Denuvo", "path": "3357650.part1.rar", "parts": 7 }
+    { "appid": "3357650", "name": "PRAGMATA", "category": "Denuvo", "path": "bypass/3357650.part1.rar", "parts": 7 }
   ]
 }
