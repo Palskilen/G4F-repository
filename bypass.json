@@ -13,7 +13,6 @@
     { "appid": "204100", "name": "Max Payne 3", "category": "Rockstar Games", "path": "bypass/204100.rar", "launch": { "type": "file", "file": "Max Payne 3/MaxPayne3.exe" } },
     { "appid": "3768760", "name": "007 First Light", "category": "Denuvo", "path": "bypass/3768760.rar" },
     { "appid": "3357650", "name": "PRAGMATA", "category": "Denuvo", "path": "bypass/3357650.part1.rar", "parts": 7, "launch": { "type": "file", "file": "PRAGMATA.exe" } },
-    { "appid": "990080", "name": "Hogwarts Legacy", "category": "Denuvo", "path": "bypass/990080.part1.rar", "parts": 9, "launch": { "type": "file", "file": "Phoenix\\Binaries\\Win64\\HogwartsLegacy.exe" } },
-    { "appid": "2215200", "name": "LEGO® Batman™: Legacy of the Dark Knight", "category": "Denuvo", "path": "bypass/2215200.part1.rar", "parts": 7, "launch": { "type": "file", "file": "LEGOBatmanLotDK/Binaries/Win64/LEGOBatmanLotDK-Win64-Shipping.exe" } }
+    { "appid": "990080", "name": "Hogwarts Legacy", "category": "Denuvo", "path": "bypass/990080.part1.rar", "parts": 9, "launch": { "type": "file", "file": "Phoenix\\Binaries\\Win64\\HogwartsLegacy.exe" } }
   ]
 }
