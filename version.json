@@ -1,8 +1,14 @@
 {
-  "version": "0.5.2",
-  "notes": "Kategorie gier, filmy w galerii i dokładny pasek pobierania",
-  "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.5.2/G4F-0.5.2.zip",
+  "version": "0.5.3",
+  "notes": "Automatyczne odświeżanie Online i Bypass, gry bez plików i dokładny pasek pobierania",
+  "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.5.3/G4F-0.5.3.zip",
   "versions": [
+    {
+      "version": "0.5.3",
+      "date": "2026-11-03",
+      "notes": "Automatyczne odświeżanie Online i Bypass, gry bez plików i dokładny pasek pobierania",
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.5.3/G4F-0.5.3.zip"
+    },
     {
       "version": "0.5.2",
       "date": "2026-11-02",

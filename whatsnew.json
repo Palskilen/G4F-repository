@@ -1,6 +1,36 @@
 {
   "releases": [
     {
+      "version": "0.5.3",
+      "date": "2026-11-03",
+      "title": "Automatyczne odświeżanie Online i Bypass, gry bez plików i dokładny pasek pobierania",
+      "intro": [
+        "Zakładki Online i Bypass odświeżają się same, a gry, których paczki nie ma na serwerze, są wyraźnie oznaczone."
+      ],
+      "sections": [
+        {
+          "icon": "refresh",
+          "title": "Online i Bypass odświeżają się same",
+          "text": "Gdy zakładka jest otwarta, G4F co kilkadziesiąt sekund sprawdza w tle, czy na serwerze coś się zmieniło. Nowa gra pojawia się jako nowy kafelek, bez przeładowywania całej strony, a zmieniony kafelek delikatnie mruga. Jeśli masz otwarty panel gry po prawej, jego zawartość (rozmiar, status, przycisk instalacji) aktualizuje się na bieżąco. Nie trzeba już przełączać zakładek, żeby zobaczyć nowe pliki."
+        },
+        {
+          "icon": "info",
+          "title": "Gry bez plików na serwerze",
+          "text": "Jeśli paczki danej gry nie ma jeszcze na serwerze, jej kafelek jest przyciemniony i ma plakietkę „Brak plików”. W panelu szczegółów przycisk instalacji jest nieaktywny z napisem „Pobieranie niedostępne”, a zamiast rozmiaru archiwum widać „brak plików”. Po dodaniu plików na serwer kafelek sam wraca do normalnego wyglądu."
+        },
+        {
+          "icon": "download",
+          "title": "Dokładny pasek pobierania",
+          "text": "Pasek postępu pobierania gry w bibliotece czasem stał w miejscu i pokazywał mniej niż Steam. Teraz odczytuje aktualny postęp bezpośrednio, więc zgadza się ze Steamem, z drobnym opóźnieniem rzędu kilku sekund."
+        },
+        {
+          "icon": "tool",
+          "title": "Archiwa z wieloma częściami",
+          "text": "Gry w Online i Bypass mogą mieć teraz do 99 części archiwum, także z numeracją z zerami (part01, part02…), którą domyślnie tworzy WinRAR przy 10 i więcej częściach. Dotychczasowe gry z częściami part1, part2… działają bez zmian."
+        }
+      ]
+    },
+    {
       "version": "0.5.2",
       "date": "2026-11-02",
       "title": "Kategorie gier, filmy w galerii i dokładny pasek pobierania",
