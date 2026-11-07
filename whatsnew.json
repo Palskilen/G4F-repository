@@ -1,6 +1,31 @@
 {
   "releases": [
     {
+      "version": "0.5.4",
+      "date": "2026-11-07",
+      "title": "Świeże klucze gier, poprawka plakietki Manifesty i zamykanie powiadomień",
+      "intro": [
+        "Szybka poprawka: nowo dodane gry pobierają się od razu, lista Puste nie ma już błędnej plakietki, a powiadomienia da się zamknąć krzyżykiem."
+      ],
+      "sections": [
+        {
+          "icon": "refresh",
+          "title": "Nowo dodana gra pobiera się od razu",
+          "text": "Gdy gra została dodana do bazy przed chwilą, G4F czasem twierdził, że jej nie ma, aż do pełnego restartu aplikacji. Teraz w takiej sytuacji sam pobiera świeżą bazę kluczy i próbuje jeszcze raz, więc restart nie jest już potrzebny."
+        },
+        {
+          "icon": "tool",
+          "title": "Plakietka Manifesty tylko tam, gdzie trzeba",
+          "text": "Gra, której manifesty nie pobrały się poprawnie, trafia do listy Puste i nie dostaje już plakietki Manifesty ani nie pojawia się w filtrze Manifesty."
+        },
+        {
+          "icon": "info",
+          "title": "Powiadomienia z krzyżykiem",
+          "text": "W panelu powiadomień (dzwonek) pojawił się przycisk X w prawym górnym rogu, a Wyczyść przeniosło się na lewą stronę."
+        }
+      ]
+    },
+    {
       "version": "0.5.3",
       "date": "2026-11-03",
       "title": "Automatyczne odświeżanie Online i Bypass, gry bez plików i dokładny pasek pobierania",
