@@ -1,127 +1,155 @@
 {
-  "version": "0.5.4",
-  "notes": "Świeże klucze gier, poprawka plakietki Manifesty i zamykanie powiadomień",
-  "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.5.4/G4F-0.5.4.zip",
+  "version": "0.5.5",
+  "notes": "Język angielski, 10 motywów kolorystycznych i naprawa plakietki Manifesty",
+  "notes_en": "English language, 10 color themes and a fix for the Manifests badge",
+  "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.5.5/G4F-0.5.5.zip",
   "versions": [
+    {
+      "version": "0.5.5",
+      "date": "2026-11-09",
+      "notes": "Język angielski, 10 motywów kolorystycznych i naprawa plakietki Manifesty",
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.5.5/G4F-0.5.5.zip",
+      "notes_en": "English language, 10 color themes and a fix for the Manifests badge"
+    },
     {
       "version": "0.5.4",
       "date": "2026-11-07",
       "notes": "Świeże klucze gier, poprawka plakietki Manifesty i zamykanie powiadomień",
-      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.5.4/G4F-0.5.4.zip"
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.5.4/G4F-0.5.4.zip",
+      "notes_en": "Fresh game keys, Manifests badge fix and closable notifications"
     },
     {
       "version": "0.5.3",
       "date": "2026-11-03",
       "notes": "Automatyczne odświeżanie Online i Bypass, gry bez plików i dokładny pasek pobierania",
-      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.5.3/G4F-0.5.3.zip"
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.5.3/G4F-0.5.3.zip",
+      "notes_en": "Automatic Online and Bypass refresh, games without files and an accurate download bar"
     },
     {
       "version": "0.5.2",
       "date": "2026-11-02",
       "notes": "Kategorie gier, filmy w galerii i dokładny pasek pobierania",
-      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.5.2/G4F-0.5.2.zip"
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.5.2/G4F-0.5.2.zip",
+      "notes_en": "Game categories, gallery videos and an accurate download bar"
     },
     {
       "version": "0.5.1",
       "date": "2026-11-01",
       "notes": "Logo jak w Steamie i aktualna plakietka wersji gry",
-      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.5.1/G4F-0.5.1.zip"
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.5.1/G4F-0.5.1.zip",
+      "notes_en": "Steam-style logo and an up-to-date game version badge"
     },
     {
       "version": "0.5.0",
       "date": "2026-11-01",
       "notes": "Zakładka Bypass i czytelniejsze kolory",
-      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.5.0/G4F-0.5.0.zip"
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.5.0/G4F-0.5.0.zip",
+      "notes_en": "Bypass tab and clearer colors"
     },
     {
       "version": "0.4.7",
       "date": "2026-11-01",
       "notes": "Aktualizacje widoczne bez restartu aplikacji",
-      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.7/G4F-0.4.7.zip"
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.7/G4F-0.4.7.zip",
+      "notes_en": "Updates visible without restarting the app"
     },
     {
       "version": "0.4.6",
       "date": "2026-10-31",
       "notes": "Szybkie dodawanie gier, filtry biblioteki i wycofane gry w wyszukiwarce",
-      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.6/G4F-0.4.6.zip"
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.6/G4F-0.4.6.zip",
+      "notes_en": "Quick game adding, library filters and delisted games in search"
     },
     {
       "version": "0.4.5",
       "date": "2026-10-31",
       "notes": "Sklep: prawdziwe nowości i trafne gatunki",
-      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.5/G4F-0.4.5.zip"
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.5/G4F-0.4.5.zip",
+      "notes_en": "Store: truly new releases and accurate genres"
     },
     {
       "version": "0.4.4",
       "date": "2026-10-25",
       "notes": "Własny generator plików gry i kolejka na żywo",
-      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.4/G4F-0.4.4.zip"
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.4/G4F-0.4.4.zip",
+      "notes_en": "Own game file generator and live queue"
     },
     {
       "version": "0.4.3",
       "date": "2026-10-25",
       "notes": "Zakładka Naprawa, Cloud Redirect i powiadomienia",
-      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.3/G4F-0.4.3.zip"
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.3/G4F-0.4.3.zip",
+      "notes_en": "Repair tab, Cloud Redirect and notifications"
     },
     {
       "version": "0.4.2",
       "date": "2026-10-24",
       "notes": "Gry spoza Steama i statystyki gracza",
-      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.2/G4F-0.4.2.zip"
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.2/G4F-0.4.2.zip",
+      "notes_en": "Non-Steam games and player stats"
     },
     {
       "version": "0.4.1",
       "date": "2026-10-24",
       "notes": "Zwijana biblioteka, plakietki i drobne poprawki",
-      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.1/G4F-0.4.1.zip"
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.1/G4F-0.4.1.zip",
+      "notes_en": "Collapsible library, badges and small fixes"
     },
     {
       "version": "0.4.0",
       "date": "2026-10-24",
       "notes": "BetterSteamTools, lista gier na żywo, nowe Online i uruchamianie z modułami",
-      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.0/G4F-0.4.0.zip"
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.0/G4F-0.4.0.zip",
+      "notes_en": "BetterSteamTools, live game list, new Online and launching with modules"
     },
     {
       "version": "0.4.0-beta.2",
       "date": "2026-10-23",
       "notes": "Beta: uruchamianie gier z modułami online i duże moduły w częściach",
-      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.0-beta.2/G4F-0.4.0-beta.2.zip"
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.0-beta.2/G4F-0.4.0-beta.2.zip",
+      "notes_en": "Beta: launching games with online modules and large modules in parts"
     },
     {
       "version": "0.4.0-beta.1",
       "date": "2026-10-23",
       "notes": "Beta: BetterSteamTools, lista gier na żywo i nowe Online",
-      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.0-beta.1/G4F-0.4.0-beta.1.zip"
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.4.0-beta.1/G4F-0.4.0-beta.1.zip",
+      "notes_en": "Beta: BetterSteamTools, live game list and new Online"
     },
     {
       "version": "0.3.0",
       "date": "2026-10-23",
       "notes": "Zakładka Online, mądrzejsza wyszukiwarka i wybór wersji",
-      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.3.0/G4F-0.3.0.zip"
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.3.0/G4F-0.3.0.zip",
+      "notes_en": "Online tab, smarter search and version picker"
     },
     {
       "version": "0.3.0-beta.2",
       "date": "2026-10-19",
       "notes": "Beta: mądrzejsza wyszukiwarka sklepu",
-      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.3.0-beta.2/G4F-0.3.0-beta.2.zip"
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.3.0-beta.2/G4F-0.3.0-beta.2.zip",
+      "notes_en": "Beta: smarter store search"
     },
     {
       "version": "0.3.0-beta.1",
       "date": "2026-10-19",
       "notes": "Beta: zakładka Online i zmiana wersji",
-      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.3.0-beta.1/G4F-0.3.0-beta.1.zip"
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.3.0-beta.1/G4F-0.3.0-beta.1.zip",
+      "notes_en": "Beta: Online tab and version change"
     },
     {
       "version": "0.2.0",
       "date": "2026-10-19",
       "notes": "Nowy wygląd, przebudowany sklep i szczegóły gier",
-      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.2.0/G4F-0.2.0.zip"
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.2.0/G4F-0.2.0.zip",
+      "notes_en": "New look, rebuilt store and game details"
     },
     {
       "version": "0.1.0",
       "date": "2026-10-18",
       "notes": "Pierwsza wersja nowej linii",
-      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.1.0/G4F-0.1.0.zip"
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.1.0/G4F-0.1.0.zip",
+      "notes_en": "First release of the new line"
     }
   ]
 }

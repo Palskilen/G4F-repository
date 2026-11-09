@@ -1,6 +1,48 @@
 {
   "releases": [
     {
+      "version": "0.5.5",
+      "date": "2026-11-09",
+      "title": "Język angielski, 10 motywów kolorystycznych i naprawa plakietki Manifesty",
+      "intro": [
+        "G4F mówi teraz po angielsku i po polsku, wygląd zmienisz jednym kliknięciem, a plakietka Manifesty przestała kłamać."
+      ],
+      "sections": [
+        {
+          "icon": "star",
+          "title": "Polski i English",
+          "text": "Język wybierasz w Ustawieniach → Wygląd i język. Obejmuje menu, sklep, bibliotekę, kolejkę, powiadomienia, ekran startowy i ekran wymagań, a opisy gier, gatunki i oceny ze Steama pobierają się w wybranym języku. Zmiana działa od razu, bez restartu. Historia zmian („Co nowego”) jest dostępna w obu językach.",
+          "title_en": "Polish and English",
+          "text_en": "Pick the language in Settings → Appearance & language. It covers the menus, store, library, queue, notifications, the startup and requirements screens, and game descriptions, genres and reviews from Steam are fetched in the language you choose. The change applies instantly, with no restart. The changelog (“What's new”) is available in both languages."
+        },
+        {
+          "icon": "image",
+          "title": "10 motywów kolorystycznych",
+          "text": "Fioletowy Neon (domyślny), Cyber Błękit, Zielona Matryca, Krwista Czerwień, Zachód Słońca, Różowy Synthwave, Złoto-czerń, Lodowy, Oceaniczny i AMOLED. Motyw zmienia tła, ramki, akcenty i gradienty w całej aplikacji. Plakietki Manifesty, Online i Bypass zachowują swoje kolory, żeby zawsze się wyróżniały.",
+          "title_en": "10 color themes",
+          "text_en": "Violet Neon (default), Cyber Blue, Matrix Green, Crimson, Sunset, Synthwave, Black & Gold, Frost, Ocean and AMOLED. A theme changes backgrounds, borders, accents and gradients across the whole app. The Manifests, Online and Bypass badges keep their own colors so they always stand out."
+        },
+        {
+          "icon": "layout",
+          "title": "Nowy układ Ustawień",
+          "text": "Ustawienia są podzielone na dwie zakładki: Główne (autostart, tray, aktualizacje, logi, zmiana wersji) oraz Wygląd i język.",
+          "title_en": "New Settings layout",
+          "text_en": "Settings are split into two tabs: General (startup, tray, updates, logs, version change) and Appearance & language."
+        },
+        {
+          "icon": "tag",
+          "title": "Plakietka Manifesty zgodna z plikiem .lua",
+          "text": "Jeśli usuniesz plik .lua gry z folderu stplug-in, gra traci plakietkę Manifesty i wypada z kategorii Manifesty (wraca jako „bez manifestów”, z przyciskiem POBIERZ MANIFESTY). Wcześniej plakietka zostawała, bo aplikacja ufała zapisanemu stanowi zamiast sprawdzić plik.",
+          "title_en": "Manifests badge matches the .lua file",
+          "text_en": "If you delete a game's .lua file from the stplug-in folder, the game now loses the Manifests badge and drops out of the Manifests category (it goes back to “no manifests” with the DOWNLOAD MANIFESTS button). Before, the badge stayed because the app trusted a saved state instead of checking the file."
+        }
+      ],
+      "title_en": "English language, 10 color themes and a fix for the Manifests badge",
+      "intro_en": [
+        "G4F now speaks English and Polish, you can change its look with one click, and the Manifests badge no longer lies."
+      ]
+    },
+    {
       "version": "0.5.4",
       "date": "2026-11-07",
       "title": "Świeże klucze gier, poprawka plakietki Manifesty i zamykanie powiadomień",
@@ -11,18 +53,28 @@
         {
           "icon": "refresh",
           "title": "Nowo dodana gra pobiera się od razu",
-          "text": "Gdy gra została dodana do bazy przed chwilą, G4F czasem twierdził, że jej nie ma, aż do pełnego restartu aplikacji. Teraz w takiej sytuacji sam pobiera świeżą bazę kluczy i próbuje jeszcze raz, więc restart nie jest już potrzebny."
+          "text": "Gdy gra została dodana do bazy przed chwilą, G4F czasem twierdził, że jej nie ma, aż do pełnego restartu aplikacji. Teraz w takiej sytuacji sam pobiera świeżą bazę kluczy i próbuje jeszcze raz, więc restart nie jest już potrzebny.",
+          "title_en": "A newly added game downloads right away",
+          "text_en": "When a game was added to the database a moment earlier, G4F sometimes claimed it wasn't there until you fully restarted the app. Now it fetches a fresh key database on its own and tries again, so no restart is needed."
         },
         {
           "icon": "tool",
           "title": "Plakietka Manifesty tylko tam, gdzie trzeba",
-          "text": "Gra, której manifesty nie pobrały się poprawnie, trafia do listy Puste i nie dostaje już plakietki Manifesty ani nie pojawia się w filtrze Manifesty."
+          "text": "Gra, której manifesty nie pobrały się poprawnie, trafia do listy Puste i nie dostaje już plakietki Manifesty ani nie pojawia się w filtrze Manifesty.",
+          "title_en": "Manifests badge only where it belongs",
+          "text_en": "A game whose manifests failed to download goes to the Empty list and no longer gets the Manifests badge or shows up in the Manifests filter."
         },
         {
           "icon": "info",
           "title": "Powiadomienia z krzyżykiem",
-          "text": "W panelu powiadomień (dzwonek) pojawił się przycisk X w prawym górnym rogu, a Wyczyść przeniosło się na lewą stronę."
+          "text": "W panelu powiadomień (dzwonek) pojawił się przycisk X w prawym górnym rogu, a Wyczyść przeniosło się na lewą stronę.",
+          "title_en": "Notifications with a close button",
+          "text_en": "The notifications panel (the bell) now has an X button in the top right corner, and Clear moved to the left side."
         }
+      ],
+      "title_en": "Fresh game keys, Manifests badge fix and closable notifications",
+      "intro_en": [
+        "A quick fix: newly added games download right away, the Empty list no longer shows a wrong badge, and notifications can be closed with an X."
       ]
     },
     {
@@ -36,23 +88,35 @@
         {
           "icon": "refresh",
           "title": "Online i Bypass odświeżają się same",
-          "text": "Gdy zakładka jest otwarta, G4F co kilkadziesiąt sekund sprawdza w tle, czy na serwerze coś się zmieniło. Nowa gra pojawia się jako nowy kafelek, bez przeładowywania całej strony, a zmieniony kafelek delikatnie mruga. Jeśli masz otwarty panel gry po prawej, jego zawartość (rozmiar, status, przycisk instalacji) aktualizuje się na bieżąco. Nie trzeba już przełączać zakładek, żeby zobaczyć nowe pliki."
+          "text": "Gdy zakładka jest otwarta, G4F co kilkadziesiąt sekund sprawdza w tle, czy na serwerze coś się zmieniło. Nowa gra pojawia się jako nowy kafelek, bez przeładowywania całej strony, a zmieniony kafelek delikatnie mruga. Jeśli masz otwarty panel gry po prawej, jego zawartość (rozmiar, status, przycisk instalacji) aktualizuje się na bieżąco. Nie trzeba już przełączać zakładek, żeby zobaczyć nowe pliki.",
+          "title_en": "Online and Bypass refresh by themselves",
+          "text_en": "While a tab is open, G4F checks in the background every few dozen seconds whether anything changed on the server. A new game appears as a new tile without reloading the whole page, and a changed tile gently blinks. If you have the game panel open on the right, its contents (size, status, install button) update live. You no longer have to switch tabs to see new files."
         },
         {
           "icon": "info",
           "title": "Gry bez plików na serwerze",
-          "text": "Jeśli paczki danej gry nie ma jeszcze na serwerze, jej kafelek jest przyciemniony i ma plakietkę „Brak plików”. W panelu szczegółów przycisk instalacji jest nieaktywny z napisem „Pobieranie niedostępne”, a zamiast rozmiaru archiwum widać „brak plików”. Po dodaniu plików na serwer kafelek sam wraca do normalnego wyglądu."
+          "text": "Jeśli paczki danej gry nie ma jeszcze na serwerze, jej kafelek jest przyciemniony i ma plakietkę „Brak plików”. W panelu szczegółów przycisk instalacji jest nieaktywny z napisem „Pobieranie niedostępne”, a zamiast rozmiaru archiwum widać „brak plików”. Po dodaniu plików na serwer kafelek sam wraca do normalnego wyglądu.",
+          "title_en": "Games without files on the server",
+          "text_en": "If a game's package isn't on the server yet, its tile is dimmed and has a “No files” badge. In the details panel the install button is disabled and says “Download unavailable”, and “no files” is shown instead of the archive size. Once the files are added to the server, the tile returns to normal by itself."
         },
         {
           "icon": "download",
           "title": "Dokładny pasek pobierania",
-          "text": "Pasek postępu pobierania gry w bibliotece czasem stał w miejscu i pokazywał mniej niż Steam. Teraz odczytuje aktualny postęp bezpośrednio, więc zgadza się ze Steamem, z drobnym opóźnieniem rzędu kilku sekund."
+          "text": "Pasek postępu pobierania gry w bibliotece czasem stał w miejscu i pokazywał mniej niż Steam. Teraz odczytuje aktualny postęp bezpośrednio, więc zgadza się ze Steamem, z drobnym opóźnieniem rzędu kilku sekund.",
+          "title_en": "Accurate download bar",
+          "text_en": "The game download progress bar in the library sometimes stood still and showed less than Steam. It now reads the current progress directly, so it matches Steam, with a small delay of a few seconds."
         },
         {
           "icon": "tool",
           "title": "Archiwa z wieloma częściami",
-          "text": "Gry w Online i Bypass mogą mieć teraz do 99 części archiwum, także z numeracją z zerami (part01, part02…), którą domyślnie tworzy WinRAR przy 10 i więcej częściach. Dotychczasowe gry z częściami part1, part2… działają bez zmian."
+          "text": "Gry w Online i Bypass mogą mieć teraz do 99 części archiwum, także z numeracją z zerami (part01, part02…), którą domyślnie tworzy WinRAR przy 10 i więcej częściach. Dotychczasowe gry z częściami part1, part2… działają bez zmian.",
+          "title_en": "Multi-part archives",
+          "text_en": "Games in Online and Bypass can now have up to 99 archive parts, including zero-padded numbering (part01, part02…), which WinRAR creates by default for 10 or more parts. Existing games with part1, part2… parts work as before."
         }
+      ],
+      "title_en": "Automatic Online and Bypass refresh, games without files and an accurate download bar",
+      "intro_en": [
+        "The Online and Bypass tabs now refresh by themselves, and games whose package isn't on the server are clearly marked."
       ]
     },
     {
@@ -66,38 +130,56 @@
         {
           "icon": "layout",
           "title": "Kategorie w Bypass i Online",
-          "text": "Po lewej stronie jest panel kategorii (np. Rockstar Games, EA, Ubisoft, Denuvo) z licznikami i logo. Kliknięcie filtruje listę, a baner na górze pokazuje wybraną kategorię. W widoku „Wszystkie” gry są pogrupowane pod nagłówkami kategorii. Logo kategorii aplikacja pobiera sama przy starcie, więc nic nie zajmuje miejsca w paczce."
+          "text": "Po lewej stronie jest panel kategorii (np. Rockstar Games, EA, Ubisoft, Denuvo) z licznikami i logo. Kliknięcie filtruje listę, a baner na górze pokazuje wybraną kategorię. W widoku „Wszystkie” gry są pogrupowane pod nagłówkami kategorii. Logo kategorii aplikacja pobiera sama przy starcie, więc nic nie zajmuje miejsca w paczce.",
+          "title_en": "Categories in Bypass and Online",
+          "text_en": "On the left there is a category panel (e.g. Rockstar Games, EA, Ubisoft, Denuvo) with counters and logos. Clicking one filters the list, and the banner on top shows the selected category. In the “All” view, games are grouped under category headings. The app downloads category logos by itself on startup, so nothing takes up space in the package."
         },
         {
           "icon": "image",
           "title": "Baner z pokazem slajdów",
-          "text": "Tło baneru w Bypass i Online zmienia się samo co kilka sekund po grafikach gier z bieżącej kategorii, zawsze z płynnym przenikaniem (także przy przełączaniu kategorii). Online ma niebieski akcent, a Bypass czerwony."
+          "text": "Tło baneru w Bypass i Online zmienia się samo co kilka sekund po grafikach gier z bieżącej kategorii, zawsze z płynnym przenikaniem (także przy przełączaniu kategorii). Online ma niebieski akcent, a Bypass czerwony.",
+          "title_en": "Banner slideshow",
+          "text_en": "The banner background in Bypass and Online changes by itself every few seconds through the artwork of games in the current category, always with a smooth crossfade (also when switching categories). Online has a blue accent and Bypass a red one."
         },
         {
           "icon": "star",
           "title": "Filmy w galerii gry",
-          "text": "Na stronie gry, w sklepie i w bibliotece, przed zdjęciami pojawia się zwiastun lub gameplay z własnym odtwarzaczem: pauza, przewijanie, głośność i pełny ekran. Slajdy galerii mają animację przejścia, a pasek miniatur nowy wygląd."
+          "text": "Na stronie gry, w sklepie i w bibliotece, przed zdjęciami pojawia się zwiastun lub gameplay z własnym odtwarzaczem: pauza, przewijanie, głośność i pełny ekran. Slajdy galerii mają animację przejścia, a pasek miniatur nowy wygląd.",
+          "title_en": "Videos in the game gallery",
+          "text_en": "On the game page, in the store and in the library, a trailer or gameplay video with its own player (pause, seeking, volume and fullscreen) now appears before the screenshots. Gallery slides have a transition animation, and the thumbnail strip has a new look."
         },
         {
           "icon": "refresh",
           "title": "Szybsze przełączanie między grami",
-          "text": "Szczegóły gry, banery, loga i okładki są zapisywane na dysku po pierwszym pobraniu, więc kolejne wejścia w grę ładują się od razu. Poprzedni baner znika natychmiast po kliknięciu innej gry. Statystyk gracza nie zapisujemy w pamięci podręcznej, bo zmieniają się w trakcie gry."
+          "text": "Szczegóły gry, banery, loga i okładki są zapisywane na dysku po pierwszym pobraniu, więc kolejne wejścia w grę ładują się od razu. Poprzedni baner znika natychmiast po kliknięciu innej gry. Statystyk gracza nie zapisujemy w pamięci podręcznej, bo zmieniają się w trakcie gry.",
+          "title_en": "Faster switching between games",
+          "text_en": "Game details, banners, logos and covers are saved to disk after the first download, so later visits load instantly. The previous banner disappears right after you click another game. Player stats are not cached because they change while you play."
         },
         {
           "icon": "download",
           "title": "Pasek pobierania zgadza się ze Steamem",
-          "text": "Wcześniej pasek w bibliotece stał na 99% od początku pobierania, a prawdziwą wartość pokazywał dopiero po pauzie. Teraz postęp jest liczony na żywo i zgadza się ze Steamem, z drobnym opóźnieniem rzędu kilku sekund."
+          "text": "Wcześniej pasek w bibliotece stał na 99% od początku pobierania, a prawdziwą wartość pokazywał dopiero po pauzie. Teraz postęp jest liczony na żywo i zgadza się ze Steamem, z drobnym opóźnieniem rzędu kilku sekund.",
+          "title_en": "The download bar matches Steam",
+          "text_en": "Before, the library bar sat at 99% from the start of a download and showed the real value only after a pause. Now progress is calculated live and matches Steam, with a small delay of a few seconds."
         },
         {
           "icon": "info",
           "title": "Jasny komunikat, gdy gry nie ma na serwerze",
-          "text": "Zamiast listy numerów depotów dostajesz informację, że gry nie ma jeszcze na serwerze, i odsyłacz do ticketu „Brak gry” na kanale #pomoc na Discordzie."
+          "text": "Zamiast listy numerów depotów dostajesz informację, że gry nie ma jeszcze na serwerze, i odsyłacz do ticketu „Brak gry” na kanale #pomoc na Discordzie.",
+          "title_en": "A clear message when a game isn't on the server",
+          "text_en": "Instead of a list of depot numbers you get a note that the game isn't on the server yet, plus a link to the “Missing game” ticket on the #pomoc channel on Discord."
         },
         {
           "icon": "tag",
           "title": "Logo gry w banerze biblioteki",
-          "text": "Logo ustawione w rogu baneru ma teraz odstęp od krawędzi, więc nie jest już przyklejone do brzegu (np. w Spider-Man Remastered)."
+          "text": "Logo ustawione w rogu baneru ma teraz odstęp od krawędzi, więc nie jest już przyklejone do brzegu (np. w Spider-Man Remastered).",
+          "title_en": "Game logo in the library banner",
+          "text_en": "A logo placed in the corner of the banner now has some margin from the edge, so it's no longer stuck to the border (e.g. in Spider-Man Remastered)."
         }
+      ],
+      "title_en": "Game categories, gallery videos and an accurate download bar",
+      "intro_en": [
+        "A big visual update: categories in Bypass and Online, videos in the game gallery, faster switching between games and a download bar that matches Steam."
       ]
     },
     {
@@ -111,13 +193,21 @@
         {
           "icon": "image",
           "title": "Logo gry we właściwym miejscu",
-          "text": "Niektóre gry mają grafikę z jednej strony, a logo przypięte w rogu (np. Grand Theft Auto IV, gdzie logo ma być w lewym dolnym rogu). G4F ustawiał wcześniej każde logo na środku, przez co zasłaniało grafikę, a reszta banera wyglądała na pustą. Teraz pobiera pozycję logo ze Steama i ustawia je tak jak on. Gry z logo na środku wyglądają jak dotąd."
+          "text": "Niektóre gry mają grafikę z jednej strony, a logo przypięte w rogu (np. Grand Theft Auto IV, gdzie logo ma być w lewym dolnym rogu). G4F ustawiał wcześniej każde logo na środku, przez co zasłaniało grafikę, a reszta banera wyglądała na pustą. Teraz pobiera pozycję logo ze Steama i ustawia je tak jak on. Gry z logo na środku wyglądają jak dotąd.",
+          "title_en": "Game logo in the right place",
+          "text_en": "Some games have artwork on one side and the logo pinned to a corner (e.g. Grand Theft Auto IV, where the logo belongs in the bottom left). G4F used to center every logo, which covered the artwork and left the rest of the banner looking empty. It now fetches the logo position from Steam and places it the same way. Games with a centered logo look as before."
         },
         {
           "icon": "refresh",
           "title": "Plakietka wersji gry odświeża się sama",
-          "text": "Po aktualizacji, zainstalowaniu albo odinstalowaniu gry plakietka „Masz najnowszą wersję” lub „Masz starą wersję gry” zostawała stara, dopóki nie zrestartowałeś aplikacji. Teraz „Twój build” jest czytany na bieżąco z dysku i odświeża się razem z biblioteką."
+          "text": "Po aktualizacji, zainstalowaniu albo odinstalowaniu gry plakietka „Masz najnowszą wersję” lub „Masz starą wersję gry” zostawała stara, dopóki nie zrestartowałeś aplikacji. Teraz „Twój build” jest czytany na bieżąco z dysku i odświeża się razem z biblioteką.",
+          "title_en": "The game version badge refreshes by itself",
+          "text_en": "After updating, installing or uninstalling a game, the “You have the latest version” or “You have an old game version” badge stayed stale until you restarted the app. Now “Your build” is read live from disk and refreshes together with the library."
         }
+      ],
+      "title_en": "Steam-style logo and an up-to-date game version badge",
+      "intro_en": [
+        "Small library fixes: the game logo is positioned like in Steam, and the game version badge refreshes by itself."
       ]
     },
     {
@@ -131,23 +221,35 @@
         {
           "icon": "tool",
           "title": "Zakładka Bypass",
-          "text": "Działa tak samo jak Online: wybierasz grę z listy, instalujesz moduł jednym kliknięciem i możesz go w każdej chwili odinstalować, a podmienione pliki wracają do oryginału. Moduły rozpakowują się do folderu gry z kopią zapasową zmienianych plików."
+          "text": "Działa tak samo jak Online: wybierasz grę z listy, instalujesz moduł jednym kliknięciem i możesz go w każdej chwili odinstalować, a podmienione pliki wracają do oryginału. Moduły rozpakowują się do folderu gry z kopią zapasową zmienianych plików.",
+          "title_en": "Bypass tab",
+          "text_en": "It works like Online: you pick a game from the list, install a module with one click and can uninstall it at any time, and replaced files return to the original. Modules are extracted into the game folder with a backup of the changed files."
         },
         {
           "icon": "list",
           "title": "Biblioteka: filtr i plakietka Bypass",
-          "text": "Gry z zainstalowanym Bypass mają w bibliotece własną plakietkę, a w filtrze „Pokaż” pojawiła się opcja „Tylko bypass”. W nagłówku biblioteki widać też znacznik Bypass."
+          "text": "Gry z zainstalowanym Bypass mają w bibliotece własną plakietkę, a w filtrze „Pokaż” pojawiła się opcja „Tylko bypass”. W nagłówku biblioteki widać też znacznik Bypass.",
+          "title_en": "Library: Bypass filter and badge",
+          "text_en": "Games with Bypass installed have their own badge in the library, and the “Show” filter gained a “Bypass only” option. The library header also shows a Bypass marker."
         },
         {
           "icon": "refresh",
           "title": "Wybór przy uruchamianiu",
-          "text": "Dla gry z Bypass przycisk „Graj” pyta, czy uruchomić ją normalnie, czy z Bypass, tak samo jak przy Online. Uruchamiany jest dokładnie ten plik, który wskazuje konfiguracja gry, także gdy leży w głównym folderze, a nie obok wykrytego pliku gry."
+          "text": "Dla gry z Bypass przycisk „Graj” pyta, czy uruchomić ją normalnie, czy z Bypass, tak samo jak przy Online. Uruchamiany jest dokładnie ten plik, który wskazuje konfiguracja gry, także gdy leży w głównym folderze, a nie obok wykrytego pliku gry.",
+          "title_en": "Choice when launching",
+          "text_en": "For a game with Bypass, the “Play” button asks whether to launch it normally or with Bypass, just like with Online. Exactly the file that the game's configuration points to is launched, even if it sits in the main folder instead of next to the detected game file."
         },
         {
           "icon": "image",
           "title": "Nowe kolory oznaczeń",
-          "text": "Manifesty są fioletowe, Online niebieskie, Bypass czerwone, a zielony oznacza grę zainstalowaną. Kolory są teraz spójne w bibliotece, w zakładkach i na kartach gier, więc łatwiej je od siebie odróżnić."
+          "text": "Manifesty są fioletowe, Online niebieskie, Bypass czerwone, a zielony oznacza grę zainstalowaną. Kolory są teraz spójne w bibliotece, w zakładkach i na kartach gier, więc łatwiej je od siebie odróżnić.",
+          "title_en": "New badge colors",
+          "text_en": "Manifests are purple, Online is blue, Bypass is red, and green means an installed game. The colors are now consistent across the library, tabs and game cards, so they're easier to tell apart."
         }
+      ],
+      "title_en": "Bypass tab and clearer colors",
+      "intro_en": [
+        "The Bypass tab is back, and module badges now have separate colors that are easy to tell apart."
       ]
     },
     {
@@ -161,7 +263,9 @@
         {
           "icon": "refresh",
           "title": "Przycisk „Aktualizuj” pojawia się szybciej",
-          "text": "G4F potrafi działać schowany w trayu, więc wcześniej nie widział nowej wersji, dopóki aplikacji nie zamknęło się całkiem i nie uruchomiło od nowa. Teraz aktualizacje sprawdzane są co 5 minut (wcześniej co 30) oraz od razu, gdy okno wraca na wierzch, np. po wyjęciu z traya albo kliknięciu skrótu. Przycisk „Aktualizuj” pojawi się więc po chwili, bez restartu."
+          "text": "G4F potrafi działać schowany w trayu, więc wcześniej nie widział nowej wersji, dopóki aplikacji nie zamknęło się całkiem i nie uruchomiło od nowa. Teraz aktualizacje sprawdzane są co 5 minut (wcześniej co 30) oraz od razu, gdy okno wraca na wierzch, np. po wyjęciu z traya albo kliknięciu skrótu. Przycisk „Aktualizuj” pojawi się więc po chwili, bez restartu.",
+          "title_en": "The “Update” button appears sooner",
+          "text_en": "G4F can run hidden in the tray, so before it didn't see a new version until you closed the app completely and started it again. Now updates are checked every 5 minutes (it used to be 30) and immediately when the window comes back to the front, e.g. after taking it out of the tray or clicking the shortcut. The “Update” button therefore appears after a moment, without a restart."
         }
       ],
       "missing": {
@@ -170,8 +274,18 @@
         "items": [
           "Brakuje m.in. zakładki Bypass.",
           "Baza kluczy jest uzupełniana ręcznie, więc do niektórych nowych gier może jeszcze nie być kluczy."
+        ],
+        "title_en": "What's still missing",
+        "text_en": "Because the app was rebuilt from scratch, some features from the old version haven't come back yet. They will return gradually, and some may look or work differently than before.",
+        "items_en": [
+          "The Bypass tab is still missing, among other things.",
+          "The key database is filled in manually, so some new games may not have keys yet."
         ]
-      }
+      },
+      "title_en": "Updates visible without restarting the app",
+      "intro_en": [
+        "A new G4F version now shows up in the app by itself, without having to close it completely."
+      ]
     },
     {
       "version": "0.4.6",
@@ -184,37 +298,51 @@
         {
           "icon": "download",
           "title": "Dodaj i pobierz manifesty jednym kliknięciem",
-          "text": "Na stronie gry przycisk „Dodaj i pobierz manifesty” dodaje grę do biblioteki i od razu wrzuca ją do kolejki. Strzałka obok ma opcję „Tylko dodaj do biblioteki”. Na kartach gier w sklepie po najechaniu pojawiają się dwa małe przyciski: plus (tylko biblioteka) i strzałka w dół (biblioteka i kolejka), więc wiele gier dodasz bez wchodzenia w każdą z nich."
+          "text": "Na stronie gry przycisk „Dodaj i pobierz manifesty” dodaje grę do biblioteki i od razu wrzuca ją do kolejki. Strzałka obok ma opcję „Tylko dodaj do biblioteki”. Na kartach gier w sklepie po najechaniu pojawiają się dwa małe przyciski: plus (tylko biblioteka) i strzałka w dół (biblioteka i kolejka), więc wiele gier dodasz bez wchodzenia w każdą z nich.",
+          "title_en": "Add and download manifests in one click",
+          "text_en": "On the game page the “Add and download manifests” button adds the game to the library and puts it in the queue right away. The arrow next to it has a “Just add to library” option. On game cards in the store, two small buttons appear on hover: a plus (library only) and a down arrow (library and queue), so you can add many games without opening each one."
         },
         {
           "icon": "search",
           "title": "Wyszukiwarka znajduje wycofane gry",
-          "text": "Steam nie pokazuje w wyszukiwarce gier wycofanych ze sprzedaży (np. Forza Horizon 4, The Amazing Spider-Man). G4F ma teraz własną listę ponad 200 tysięcy gier i szuka też w niej, razem z literówkami. Możesz też wpisać numer gry albo wkleić link ze sklepu lub SteamDB. Szukanie jest szybsze, bo lista odświeża się w tle."
+          "text": "Steam nie pokazuje w wyszukiwarce gier wycofanych ze sprzedaży (np. Forza Horizon 4, The Amazing Spider-Man). G4F ma teraz własną listę ponad 200 tysięcy gier i szuka też w niej, razem z literówkami. Możesz też wpisać numer gry albo wkleić link ze sklepu lub SteamDB. Szukanie jest szybsze, bo lista odświeża się w tle.",
+          "title_en": "Search finds delisted games",
+          "text_en": "Steam doesn't show games delisted from sale in its search (e.g. Forza Horizon 4, The Amazing Spider-Man). G4F now has its own list of over 200 thousand games and searches it too, including typos. You can also type a game ID or paste a link from the store or SteamDB. Search is faster because the list refreshes in the background."
         },
         {
           "icon": "info",
           "title": "Gry przed premierą",
-          "text": "Gry, które jeszcze nie wyszły, mają na karcie plakietkę „Jeszcze nie wyszła”. Dla takiej gry da się tylko dodać ją do biblioteki, bo nie ma jeszcze plików do pobrania. W bibliotece przycisk pokazuje „Jeszcze nie wyszła”, a przy próbie pobrania dostaniesz zrozumiały komunikat zamiast błędu."
+          "text": "Gry, które jeszcze nie wyszły, mają na karcie plakietkę „Jeszcze nie wyszła”. Dla takiej gry da się tylko dodać ją do biblioteki, bo nie ma jeszcze plików do pobrania. W bibliotece przycisk pokazuje „Jeszcze nie wyszła”, a przy próbie pobrania dostaniesz zrozumiały komunikat zamiast błędu.",
+          "title_en": "Pre-release games",
+          "text_en": "Games that aren't out yet have a “Not released yet” badge on their card. For such a game you can only add it to the library, because there are no files to download yet. In the library the button shows “Not released yet”, and when you try to download you get a clear message instead of an error."
         },
         {
           "icon": "list",
           "title": "Filtry w bibliotece",
-          "text": "Pod sortowaniem jest nowy filtr z licznikami: Wszystko, Zainstalowane, Tylko online, Manifesty, Gotowe do pobrania, Puste, W trakcie, Do aktualizacji, Problemy i Spoza Steama. Działa razem z wyszukiwaniem i sortowaniem."
+          "text": "Pod sortowaniem jest nowy filtr z licznikami: Wszystko, Zainstalowane, Tylko online, Manifesty, Gotowe do pobrania, Puste, W trakcie, Do aktualizacji, Problemy i Spoza Steama. Działa razem z wyszukiwaniem i sortowaniem.",
+          "title_en": "Library filters",
+          "text_en": "Under the sorting there is a new filter with counters: Everything, Installed, Online only, Manifests, Ready to download, Empty, In progress, Needs update, Problems and Non-Steam. It works together with search and sorting."
         },
         {
           "icon": "refresh",
           "title": "Kolejka bez opóźnień",
-          "text": "Dodawanie gier do kolejki jest natychmiastowe, nawet gdy klikasz kilka gier pod rząd. Biblioteka nie przeładowuje się przy każdym kliknięciu, a okładki ładują się w tle. Kolejka z wieloma grami przechodzi szybciej."
+          "text": "Dodawanie gier do kolejki jest natychmiastowe, nawet gdy klikasz kilka gier pod rząd. Biblioteka nie przeładowuje się przy każdym kliknięciu, a okładki ładują się w tle. Kolejka z wieloma grami przechodzi szybciej.",
+          "title_en": "A queue without delays",
+          "text_en": "Adding games to the queue is instant, even when you click several games in a row. The library doesn't reload on every click, and covers load in the background. A queue with many games moves faster."
         },
         {
           "icon": "tool",
           "title": "Więcej gier da się dodać",
-          "text": "Generator poprawnie obsługuje gry z jedną paczką plików oznaczoną językiem (np. Five Nights at Freddy’s) oraz gry, w których brakuje klucza do mniej ważnej części plików (np. Hades, Hades II, Dying Light: The Beast). Baza kluczy jest pobierana przez API GitHuba, więc świeżo dodane klucze widać prawie od razu."
+          "text": "Generator poprawnie obsługuje gry z jedną paczką plików oznaczoną językiem (np. Five Nights at Freddy’s) oraz gry, w których brakuje klucza do mniej ważnej części plików (np. Hades, Hades II, Dying Light: The Beast). Baza kluczy jest pobierana przez API GitHuba, więc świeżo dodane klucze widać prawie od razu.",
+          "title_en": "More games can be added",
+          "text_en": "The generator correctly handles games with a single file package marked with a language (e.g. Five Nights at Freddy's) and games that lack a key for a less important part of the files (e.g. Hades, Hades II, Dying Light: The Beast). The key database is fetched through the GitHub API, so freshly added keys show up almost immediately."
         },
         {
           "icon": "tool",
           "title": "Mniej ingerencji w Steama",
-          "text": "G4F nie steruje już oknami ani konsolą Steama i nie wstrzymuje jego pobierania podczas kolejki. Zostały zwykłe polecenia: uruchom, zainstaluj, odinstaluj i weryfikuj grę. Z pola szukania w bibliotece zniknęła też podpowiedź autouzupełniania przeglądarki."
+          "text": "G4F nie steruje już oknami ani konsolą Steama i nie wstrzymuje jego pobierania podczas kolejki. Zostały zwykłe polecenia: uruchom, zainstaluj, odinstaluj i weryfikuj grę. Z pola szukania w bibliotece zniknęła też podpowiedź autouzupełniania przeglądarki.",
+          "title_en": "Less interference with Steam",
+          "text_en": "G4F no longer controls Steam's windows or console and doesn't pause its downloads during the queue. Only plain commands remain: launch, install, uninstall and verify a game. The browser's autocomplete suggestion was also removed from the library search box."
         }
       ],
       "missing": {
@@ -223,8 +351,18 @@
         "items": [
           "Brakuje m.in. zakładki Bypass.",
           "Baza kluczy jest uzupełniana ręcznie, więc do niektórych nowych gier może jeszcze nie być kluczy."
+        ],
+        "title_en": "What's still missing",
+        "text_en": "Because the app was rebuilt from scratch, some features from the old version haven't come back yet. They will return gradually, and some may look or work differently than before.",
+        "items_en": [
+          "The Bypass tab is still missing, among other things.",
+          "The key database is filled in manually, so some new games may not have keys yet."
         ]
-      }
+      },
+      "title_en": "Quick game adding, library filters and delisted games in search",
+      "intro_en": [
+        "You can add games to the library and the queue with one click, the library got filters, and store search now also finds games delisted from sale."
+      ]
     },
     {
       "version": "0.4.5",
@@ -237,27 +375,37 @@
         {
           "icon": "star",
           "title": "Nowości są naprawdę nowe",
-          "text": "Półka Nowości pokazuje teraz tylko gry, które wyszły w ostatnich 60 dniach. Stare gry po dużych aktualizacjach (np. Counter-Strike 2, Dota 2, Cyberpunk 2077) już się tam nie pojawiają. Gdy świeżych premier jest za mało, okno poszerza się do 120 dni."
+          "text": "Półka Nowości pokazuje teraz tylko gry, które wyszły w ostatnich 60 dniach. Stare gry po dużych aktualizacjach (np. Counter-Strike 2, Dota 2, Cyberpunk 2077) już się tam nie pojawiają. Gdy świeżych premier jest za mało, okno poszerza się do 120 dni.",
+          "title_en": "New releases are really new",
+          "text_en": "The New releases shelf now shows only games released in the last 60 days. Old games after big updates (e.g. Counter-Strike 2, Dota 2, Cyberpunk 2077) no longer appear there. When there are too few fresh releases, the window widens to 120 days."
         },
         {
           "icon": "search",
           "title": "Trafne gatunki",
-          "text": "Gra trafia do gatunku (np. Horror) tylko wtedy, gdy ten tag jest w czołówce jej tagów, a nie gdy ktoś kiedyś go dodał. W gatunkach pokazujemy same gry, więc aplikacje takie jak Wallpaper Engine nie psują już list. Horror ma najostrzejszy filtr, a szerokie gatunki (Akcja, Przygodowe, Indie) łagodniejszy."
+          "text": "Gra trafia do gatunku (np. Horror) tylko wtedy, gdy ten tag jest w czołówce jej tagów, a nie gdy ktoś kiedyś go dodał. W gatunkach pokazujemy same gry, więc aplikacje takie jak Wallpaper Engine nie psują już list. Horror ma najostrzejszy filtr, a szerokie gatunki (Akcja, Przygodowe, Indie) łagodniejszy.",
+          "title_en": "Accurate genres",
+          "text_en": "A game lands in a genre (e.g. Horror) only if that tag is among its top tags, not just because someone once added it. In genres we show games only, so apps like Wallpaper Engine no longer spoil the lists. Horror has the strictest filter, and broad genres (Action, Adventure, Indie) a milder one."
         },
         {
           "icon": "refresh",
           "title": "Stabilniej",
-          "text": "Wyniki półek i gatunków są zapamiętywane na kilka minut, co ogranicza zapytania do Steama (jego limity potrafiły zwracać puste listy). Dłuższe listy ładują się teraz większymi porcjami."
+          "text": "Wyniki półek i gatunków są zapamiętywane na kilka minut, co ogranicza zapytania do Steama (jego limity potrafiły zwracać puste listy). Dłuższe listy ładują się teraz większymi porcjami.",
+          "title_en": "More stable",
+          "text_en": "Shelf and genre results are remembered for a few minutes, which reduces requests to Steam (its limits could return empty lists). Longer lists now load in bigger batches."
         },
         {
           "icon": "tool",
           "title": "DLC z własnymi plikami",
-          "text": "Część DLC ma własne pliki i własny klucz (np. dodatek do Drug Dealer Simulator 2). Wcześniej generator pomijał ten klucz i Steam zatrzymywał się na komunikacie CONTENT STILL ENCRYPTED. Teraz każde DLC jest sprawdzane osobno, a jego klucz trafia do pliku gry. DLC bez klucza w bazie jest pomijane, żeby nie blokowało instalacji. Grę dodaną wcześniej dodaj w G4F jeszcze raz i zrestartuj Steama."
+          "text": "Część DLC ma własne pliki i własny klucz (np. dodatek do Drug Dealer Simulator 2). Wcześniej generator pomijał ten klucz i Steam zatrzymywał się na komunikacie CONTENT STILL ENCRYPTED. Teraz każde DLC jest sprawdzane osobno, a jego klucz trafia do pliku gry. DLC bez klucza w bazie jest pomijane, żeby nie blokowało instalacji. Grę dodaną wcześniej dodaj w G4F jeszcze raz i zrestartuj Steama.",
+          "title_en": "DLC with their own files",
+          "text_en": "Some DLC have their own files and their own key (e.g. an add-on for Drug Dealer Simulator 2). Before, the generator skipped that key and Steam stopped at a CONTENT STILL ENCRYPTED message. Now each DLC is checked separately and its key goes into the game's file. A DLC without a key in the database is skipped so it doesn't block installation. For a game added earlier, add it in G4F again and restart Steam."
         },
         {
           "icon": "tool",
           "title": "Gry z drobnym brakiem w kluczach",
-          "text": "Gdy w bazie brakuje klucza do malutkiego depotu gry (np. 1,4 MB przy grze mającej 65 GB, jak w Dying Light: The Beast), generator pomija go i tworzy plik, zamiast odmawiać całej gry. Duże braki nadal przerywają generowanie, bo bez nich gra by nie działała."
+          "text": "Gdy w bazie brakuje klucza do malutkiego depotu gry (np. 1,4 MB przy grze mającej 65 GB, jak w Dying Light: The Beast), generator pomija go i tworzy plik, zamiast odmawiać całej gry. Duże braki nadal przerywają generowanie, bo bez nich gra by nie działała.",
+          "title_en": "Games with a small key gap",
+          "text_en": "When the database lacks a key for a tiny depot of a game (e.g. 1.4 MB in a 65 GB game, like in Dying Light: The Beast), the generator skips it and creates the file instead of rejecting the whole game. Large gaps still stop generation, because the game wouldn't work without them."
         }
       ],
       "missing": {
@@ -266,8 +414,18 @@
         "items": [
           "Brakuje m.in. zakładki Bypass.",
           "Baza kluczy jest uzupełniana ręcznie, więc do niektórych nowych gier może jeszcze nie być kluczy."
+        ],
+        "title_en": "What's still missing",
+        "text_en": "Because the app was rebuilt from scratch, some features from the old version haven't come back yet. They will return gradually, and some may look or work differently than before.",
+        "items_en": [
+          "The Bypass tab is still missing, among other things.",
+          "The key database is filled in manually, so some new games may not have keys yet."
         ]
-      }
+      },
+      "title_en": "Store: truly new releases and accurate genres",
+      "intro_en": [
+        "The store stopped showing old games as new releases, and genre categories are far more accurate. We also fixed file generation for games with DLC and small gaps in the key database."
+      ]
     },
     {
       "version": "0.4.4",
@@ -280,22 +438,30 @@
         {
           "icon": "code",
           "title": "Własny generator plików gry",
-          "text": "Po kliknięciu „POBIERZ MANIFESTY” G4F pobiera z publicznego serwera Steama listę depotów gry (pliki gry, języki, DLC i pliki wspólne), dobiera klucze z bazy G4F i składa czytelny plik .lua z opisanymi sekcjami. Manifesty nie są już potrzebne: do Steama trafia tylko ten jeden plik (folder config\\stplug-in), a narzędzie samo bierze najnowszą wersję gry. Całość trwa kilka sekund."
+          "text": "Po kliknięciu „POBIERZ MANIFESTY” G4F pobiera z publicznego serwera Steama listę depotów gry (pliki gry, języki, DLC i pliki wspólne), dobiera klucze z bazy G4F i składa czytelny plik .lua z opisanymi sekcjami. Manifesty nie są już potrzebne: do Steama trafia tylko ten jeden plik (folder config\\stplug-in), a narzędzie samo bierze najnowszą wersję gry. Całość trwa kilka sekund.",
+          "title_en": "Own game file generator",
+          "text_en": "After you click “DOWNLOAD MANIFESTS”, G4F fetches the game's depot list from Steam's public server (game files, languages, DLC and shared files), picks keys from the G4F database and builds a readable .lua file with labeled sections. Manifests are no longer needed: only that one file (the config\\stplug-in folder) goes to Steam, and the tool takes the latest game version on its own. It all takes a few seconds."
         },
         {
           "icon": "list",
           "title": "Reguły generatora",
-          "text": "Brak klucza do języka albo DLC nie przeszkadza: taki element jest pomijany (zapisujemy to w komentarzu w pliku). Brak klucza do plików gry albo do plików wspólnych (np. Visual C++) oznacza, że gry nie da się przygotować. Wtedy G4F pisze wprost, czego brakuje."
+          "text": "Brak klucza do języka albo DLC nie przeszkadza: taki element jest pomijany (zapisujemy to w komentarzu w pliku). Brak klucza do plików gry albo do plików wspólnych (np. Visual C++) oznacza, że gry nie da się przygotować. Wtedy G4F pisze wprost, czego brakuje.",
+          "title_en": "Generator rules",
+          "text_en": "A missing key for a language or DLC doesn't get in the way: that item is skipped (we note it in a comment in the file). A missing key for the game files or shared files (e.g. Visual C++) means the game can't be prepared. Then G4F says exactly what is missing."
         },
         {
           "icon": "refresh",
           "title": "Kolejka na żywo",
-          "text": "W kolejce widać kolejne kroki (lista depotów, klucze, nazwy DLC, składanie pliku, zapis), a licznik procentów rośnie płynnie. Gdy coś się nie uda, czerwony krok pokazuje powód. Poprawiliśmy też krótkie mignięcie przycisku „POBIERZ MANIFESTY” tuż po zakończeniu oraz spadek licznika ze 100% do 0% przy kolejnej grze."
+          "text": "W kolejce widać kolejne kroki (lista depotów, klucze, nazwy DLC, składanie pliku, zapis), a licznik procentów rośnie płynnie. Gdy coś się nie uda, czerwony krok pokazuje powód. Poprawiliśmy też krótkie mignięcie przycisku „POBIERZ MANIFESTY” tuż po zakończeniu oraz spadek licznika ze 100% do 0% przy kolejnej grze.",
+          "title_en": "Live queue",
+          "text_en": "The queue shows the successive steps (depot list, keys, DLC names, building the file, saving), and the percent counter grows smoothly. When something fails, a red step shows the reason. We also fixed the brief flash of the “DOWNLOAD MANIFESTS” button right after finishing and the counter dropping from 100% to 0% on the next game."
         },
         {
           "icon": "image",
           "title": "Ikony gier",
-          "text": "Nowe gry (np. EA SPORTS FC 27) znowu mają ikonę w bibliotece. Steam zmienił adres części ikon, więc G4F bierze je teraz z nowego serwera."
+          "text": "Nowe gry (np. EA SPORTS FC 27) znowu mają ikonę w bibliotece. Steam zmienił adres części ikon, więc G4F bierze je teraz z nowego serwera.",
+          "title_en": "Game icons",
+          "text_en": "New games (e.g. EA SPORTS FC 27) have an icon in the library again. Steam changed the address of some icons, so G4F now takes them from the new server."
         }
       ],
       "missing": {
@@ -304,8 +470,18 @@
         "items": [
           "Brakuje m.in. zakładki Bypass.",
           "Baza kluczy jest uzupełniana ręcznie, więc do niektórych nowych gier może jeszcze nie być kluczy."
+        ],
+        "title_en": "What's still missing",
+        "text_en": "Because the app was rebuilt from scratch, some features from the old version haven't come back yet. They will return gradually, and some may look or work differently than before.",
+        "items_en": [
+          "The Bypass tab is still missing, among other things.",
+          "The key database is filled in manually, so some new games may not have keys yet."
         ]
-      }
+      },
+      "title_en": "Own game file generator and live queue",
+      "intro_en": [
+        "G4F now builds the files needed to prepare a game itself, instead of taking ready-made packages from other people's repositories. It's faster, and the queue shows exactly what's happening."
+      ]
     },
     {
       "version": "0.4.3",
@@ -318,27 +494,37 @@
         {
           "icon": "tool",
           "title": "Zakładka NAPRAWA",
-          "text": "Ma trzy strony: Steam Tools, Programy (Steam, WinRAR) i Biblioteki (Visual C++). Przy każdej pozycji widzisz, czy jest zainstalowana, i możesz ją pobrać, naprawić albo odinstalować. Karty mają naklejki (np. „Zalecany”, „Wspiera Cloud Redirect”, „Aktualizuje się sam”), a przełączanie stron jest animowane."
+          "text": "Ma trzy strony: Steam Tools, Programy (Steam, WinRAR) i Biblioteki (Visual C++). Przy każdej pozycji widzisz, czy jest zainstalowana, i możesz ją pobrać, naprawić albo odinstalować. Karty mają naklejki (np. „Zalecany”, „Wspiera Cloud Redirect”, „Aktualizuje się sam”), a przełączanie stron jest animowane.",
+          "title_en": "REPAIR tab",
+          "text_en": "It has three pages: Steam Tools, Programs (Steam, WinRAR) and Libraries (Visual C++). For each item you can see whether it's installed, and download, repair or uninstall it. Cards have labels (e.g. “Recommended”, “Supports Cloud Redirect”, “Updates itself”), and switching pages is animated."
         },
         {
           "icon": "layout",
           "title": "Jedno narzędzie naraz",
-          "text": "Możesz wybrać BetterSteamTools (zalecany), OpenSteamTool albo SteamTools. Przed każdą instalacją G4F zamyka Steama i usuwa z jego folderu wszystko po innych narzędziach, więc zostaje tylko to jedno, które wybrałeś. Konfigurację i kopie zapasowe odkłada do folderu ustawień G4F. OpenSteamTool aktualizuje się teraz sam w tle, tak jak BetterSteamTools."
+          "text": "Możesz wybrać BetterSteamTools (zalecany), OpenSteamTool albo SteamTools. Przed każdą instalacją G4F zamyka Steama i usuwa z jego folderu wszystko po innych narzędziach, więc zostaje tylko to jedno, które wybrałeś. Konfigurację i kopie zapasowe odkłada do folderu ustawień G4F. OpenSteamTool aktualizuje się teraz sam w tle, tak jak BetterSteamTools.",
+          "title_en": "One tool at a time",
+          "text_en": "You can pick BetterSteamTools (recommended), OpenSteamTool or SteamTools. Before every installation G4F closes Steam and removes everything left by other tools from its folder, so only the one you chose remains. Configuration and backups go to G4F's settings folder. OpenSteamTool now updates itself in the background, just like BetterSteamTools."
         },
         {
           "icon": "refresh",
           "title": "Cloud Redirect",
-          "text": "Włączasz go jednym przyciskiem, a G4F sam sprawdza, czy działa z Twoim Steamem: instaluje, restartuje Steama i pilnuje, czy się nie wywala. Jeśli coś jest nie tak, cofa zmianę i zapamiętuje, że ta wersja Steama nie pasuje. Po aktualizacji Steama pilnuje go w tle i w razie powtarzających się zawieszeń sam go wyłącza (możesz to wyłączyć przełącznikiem). Działa tylko z BetterSteamTools i OpenSteamTool. Brakujące Visual C++ G4F doinstaluje sam."
+          "text": "Włączasz go jednym przyciskiem, a G4F sam sprawdza, czy działa z Twoim Steamem: instaluje, restartuje Steama i pilnuje, czy się nie wywala. Jeśli coś jest nie tak, cofa zmianę i zapamiętuje, że ta wersja Steama nie pasuje. Po aktualizacji Steama pilnuje go w tle i w razie powtarzających się zawieszeń sam go wyłącza (możesz to wyłączyć przełącznikiem). Działa tylko z BetterSteamTools i OpenSteamTool. Brakujące Visual C++ G4F doinstaluje sam.",
+          "title_en": "Cloud Redirect",
+          "text_en": "You enable it with one button, and G4F checks by itself whether it works with your Steam: it installs, restarts Steam and watches that it doesn't crash. If something is wrong, it reverts the change and remembers that this Steam version doesn't fit. After a Steam update it keeps watching in the background and turns itself off if it keeps hanging (you can turn that off with a switch). It only works with BetterSteamTools and OpenSteamTool. G4F installs a missing Visual C++ by itself."
         },
         {
           "icon": "news",
           "title": "Dzwonek",
-          "text": "Powiadomienia mają kolory: niebieski to informacja, zielony potwierdzenie, czerwony błąd. Gdy jest coś nieprzeczytanego, dzwonek wyraźnie świeci. Dostaniesz tam m.in. info o aktualizacji narzędzia albo o grach, którym nie udało się pobrać manifestów."
+          "text": "Powiadomienia mają kolory: niebieski to informacja, zielony potwierdzenie, czerwony błąd. Gdy jest coś nieprzeczytanego, dzwonek wyraźnie świeci. Dostaniesz tam m.in. info o aktualizacji narzędzia albo o grach, którym nie udało się pobrać manifestów.",
+          "title_en": "The bell",
+          "text_en": "Notifications have colors: blue is information, green is confirmation, red is an error. When something is unread, the bell clearly glows. You'll get, among other things, info about a tool update or about games whose manifests failed to download."
         },
         {
           "icon": "info",
           "title": "Manifesty",
-          "text": "Jeśli pobranie manifestów się nie uda, G4F cofa stan gry (przycisk znowu pokazuje „POBIERZ MANIFESTY”) i pisze w dzwonku, co poszło nie tak."
+          "text": "Jeśli pobranie manifestów się nie uda, G4F cofa stan gry (przycisk znowu pokazuje „POBIERZ MANIFESTY”) i pisze w dzwonku, co poszło nie tak.",
+          "title_en": "Manifests",
+          "text_en": "If downloading manifests fails, G4F reverts the game's state (the button shows “DOWNLOAD MANIFESTS” again) and says in the bell what went wrong."
         }
       ],
       "missing": {
@@ -346,8 +532,17 @@
         "text": "Ponieważ aplikacja powstała od nowa, część funkcji ze starej wersji jeszcze nie wróciła. Będą wracać stopniowo, a niektóre mogą wyglądać lub działać inaczej niż dawniej.",
         "items": [
           "Brakuje m.in. zakładki Bypass."
+        ],
+        "title_en": "What's still missing",
+        "text_en": "Because the app was rebuilt from scratch, some features from the old version haven't come back yet. They will return gradually, and some may look or work differently than before.",
+        "items_en": [
+          "The Bypass tab is still missing, among other things."
         ]
-      }
+      },
+      "title_en": "Repair tab, Cloud Redirect and notifications",
+      "intro_en": [
+        "The new REPAIR tab looks after the tools that make games work, and the bell in the top bar warns you when something goes wrong."
+      ]
     },
     {
       "version": "0.4.2",
@@ -360,27 +555,37 @@
         {
           "icon": "download",
           "title": "Gry spoza Steama",
-          "text": "Przycisk „Dodaj grę” w lewym dolnym rogu biblioteki skanuje komputer w poszukiwaniu zainstalowanych gier (Epic Games, GOG, Ubisoft, EA, Riot i typowe foldery z grami). Skan możesz pominąć. Gry wybierasz z listy albo dodajesz własną ścieżką do pliku. Potem ustawiasz nazwę, ikonę, baner i logo gry razem z jego położeniem (9 gotowych miejsc albo własne, przeciągane po podglądzie). Takie gry mają plakietkę „Spoza Steama” i uruchamiają się tak jak ze skrótu na pulpicie."
+          "text": "Przycisk „Dodaj grę” w lewym dolnym rogu biblioteki skanuje komputer w poszukiwaniu zainstalowanych gier (Epic Games, GOG, Ubisoft, EA, Riot i typowe foldery z grami). Skan możesz pominąć. Gry wybierasz z listy albo dodajesz własną ścieżką do pliku. Potem ustawiasz nazwę, ikonę, baner i logo gry razem z jego położeniem (9 gotowych miejsc albo własne, przeciągane po podglądzie). Takie gry mają plakietkę „Spoza Steama” i uruchamiają się tak jak ze skrótu na pulpicie.",
+          "title_en": "Non-Steam games",
+          "text_en": "The “Add game” button in the bottom left of the library scans your computer for installed games (Epic Games, GOG, Ubisoft, EA, Riot and typical game folders). You can skip the scan. You pick games from the list or add a custom path to a file. Then you set the game's name, icon, banner and logo along with its position (9 ready-made spots or your own, dragged on the preview). Such games have a “Non-Steam” badge and launch like from a desktop shortcut."
         },
         {
           "icon": "star",
           "title": "Statystyki gracza",
-          "text": "Pod buildem w bibliotece są zakładki „O grze” i „Statystyki”. Statystyki pokazują czas gry, datę ostatniego uruchomienia i osiągnięcia (z ikonami i datami zdobycia). Dane pochodzą z plików, które Steam zapisuje na dysku. Jeśli na komputerze grało kilka kont, wybierasz konto, którego statystyki chcesz zobaczyć. Dla gier, których Steam nie śledzi (np. spoza Steama), czas gry liczy sam G4F."
+          "text": "Pod buildem w bibliotece są zakładki „O grze” i „Statystyki”. Statystyki pokazują czas gry, datę ostatniego uruchomienia i osiągnięcia (z ikonami i datami zdobycia). Dane pochodzą z plików, które Steam zapisuje na dysku. Jeśli na komputerze grało kilka kont, wybierasz konto, którego statystyki chcesz zobaczyć. Dla gier, których Steam nie śledzi (np. spoza Steama), czas gry liczy sam G4F.",
+          "title_en": "Player stats",
+          "text_en": "Under the build in the library there are “About” and “Stats” tabs. Stats show play time, the date of the last launch and achievements (with icons and unlock dates). The data comes from files that Steam saves on disk. If several accounts played on the computer, you choose the account whose stats you want to see. For games Steam doesn't track (e.g. non-Steam ones), G4F counts play time itself."
         },
         {
           "icon": "tool",
           "title": "Uruchamianie gier",
-          "text": "Kółko przy napisie „URUCHAMIANIE” w końcu się kręci. Jeśli gra nie wystartuje w 20 sekund, przycisk zmienia się na „ANULUJ” i po kliknięciu zamyka procesy, które zdążyły się uruchomić."
+          "text": "Kółko przy napisie „URUCHAMIANIE” w końcu się kręci. Jeśli gra nie wystartuje w 20 sekund, przycisk zmienia się na „ANULUJ” i po kliknięciu zamyka procesy, które zdążyły się uruchomić.",
+          "title_en": "Launching games",
+          "text_en": "The spinner next to “LAUNCHING” finally spins. If the game doesn't start within 20 seconds, the button changes to “CANCEL” and, when clicked, closes the processes that managed to start."
         },
         {
           "icon": "list",
           "title": "Sortowanie w Online",
-          "text": "Lista gier w zakładce Online ma sortowanie: nazwa A–Z (domyślnie) i Z–A, najnowsze albo najstarsze dodane oraz zainstalowane najpierw. Wybór jest zapamiętywany."
+          "text": "Lista gier w zakładce Online ma sortowanie: nazwa A–Z (domyślnie) i Z–A, najnowsze albo najstarsze dodane oraz zainstalowane najpierw. Wybór jest zapamiętywany.",
+          "title_en": "Sorting in Online",
+          "text_en": "The game list in the Online tab can be sorted: name A–Z (default) and Z–A, newest or oldest added, and installed first. Your choice is remembered."
         },
         {
           "icon": "info",
           "title": "Mniejsze zmiany",
-          "text": "Postęp aktualizacji gry w bibliotece jest dokładniejszy i nie zostaje na 0%, gdy Steam rzadko zapisuje swój licznik. Ikona konta w prawym górnym rogu pokazuje właściwe konto Steam po przełączeniu."
+          "text": "Postęp aktualizacji gry w bibliotece jest dokładniejszy i nie zostaje na 0%, gdy Steam rzadko zapisuje swój licznik. Ikona konta w prawym górnym rogu pokazuje właściwe konto Steam po przełączeniu.",
+          "title_en": "Smaller changes",
+          "text_en": "Game update progress in the library is more accurate and doesn't stay at 0% when Steam rarely saves its counter. The account icon in the top right shows the correct Steam account after switching."
         }
       ],
       "missing": {
@@ -389,8 +594,18 @@
         "items": [
           "Cloud Redirect jest wyłączony: czekamy na wersję zgodną z aktualnym Steamem.",
           "Brakuje m.in. zakładki Bypass."
+        ],
+        "title_en": "What's still missing",
+        "text_en": "Because the app was rebuilt from scratch, some features from the old version haven't come back yet. They will return gradually, and some may look or work differently than before.",
+        "items_en": [
+          "Cloud Redirect is disabled: we're waiting for a version compatible with the current Steam.",
+          "The Bypass tab is still missing, among other things."
         ]
-      }
+      },
+      "title_en": "Non-Steam games and player stats",
+      "intro_en": [
+        "You can now add non-Steam games (e.g. Fortnite) to the library, and for each game you'll see your own stats: play time, last launch and achievements."
+      ]
     },
     {
       "version": "0.4.1",
@@ -403,22 +618,30 @@
         {
           "icon": "layout",
           "title": "Biblioteka: szerokość i zwijanie",
-          "text": "Pasek z listą gier możesz rozciągać, łapiąc jego prawą krawędź (dwuklik wraca do domyślnej szerokości). Przycisk przy tytule zwija go do samych ikon: kolor ramki pokazuje stan gry, a po najechaniu pojawia się dymek z informacjami. Zwijanie i rozwijanie jest animowane, a ustawienia są pamiętane."
+          "text": "Pasek z listą gier możesz rozciągać, łapiąc jego prawą krawędź (dwuklik wraca do domyślnej szerokości). Przycisk przy tytule zwija go do samych ikon: kolor ramki pokazuje stan gry, a po najechaniu pojawia się dymek z informacjami. Zwijanie i rozwijanie jest animowane, a ustawienia są pamiętane.",
+          "title_en": "Library: width and collapsing",
+          "text_en": "You can stretch the game list bar by grabbing its right edge (double-click returns to the default width). The button next to the title collapses it to icons only: the border color shows the game's state, and a tooltip with details appears on hover. Collapsing and expanding is animated, and the settings are remembered."
         },
         {
           "icon": "tag",
           "title": "Plakietki przy grach",
-          "text": "Gry z manifestami i gry z modułami online mają małe kółka z ikonami. Najechanie pokazuje, co znaczą, a gdy pasek rozciągniesz szerzej, kółka rozwijają się do napisów „Manifesty” i „Online”. Te same oznaczenia widać przy nazwie gry w nagłówku. W zakładce Online kafelki mają dwie plakietki: „Gra zainstalowana” i „Moduły online”."
+          "text": "Gry z manifestami i gry z modułami online mają małe kółka z ikonami. Najechanie pokazuje, co znaczą, a gdy pasek rozciągniesz szerzej, kółka rozwijają się do napisów „Manifesty” i „Online”. Te same oznaczenia widać przy nazwie gry w nagłówku. W zakładce Online kafelki mają dwie plakietki: „Gra zainstalowana” i „Moduły online”.",
+          "title_en": "Badges next to games",
+          "text_en": "Games with manifests and games with online modules have small circles with icons. Hovering shows what they mean, and when you stretch the bar wider, the circles expand into the labels “Manifests” and “Online”. The same markers appear next to the game name in the header. In the Online tab, tiles have two badges: “Game installed” and “Online modules”."
         },
         {
           "icon": "list",
           "title": "Kopiuj dla zgłoszeń",
-          "text": "Przycisk „Kopiuj” w Ustawieniach → Logi kopiuje teraz jedną wiadomość: informacje o systemie (wersja G4F, Windows, klient Steama, stan BetterSteamTools), separator i ostatnie linie logu. Nazwa użytkownika Windowsa w ścieżkach jest zastępowana przez <user>. Wklej to do zgłoszenia na Discordzie."
+          "text": "Przycisk „Kopiuj” w Ustawieniach → Logi kopiuje teraz jedną wiadomość: informacje o systemie (wersja G4F, Windows, klient Steama, stan BetterSteamTools), separator i ostatnie linie logu. Nazwa użytkownika Windowsa w ścieżkach jest zastępowana przez <user>. Wklej to do zgłoszenia na Discordzie.",
+          "title_en": "Copy for reports",
+          "text_en": "The “Copy” button in Settings → Logs now copies one message: system info (G4F version, Windows, Steam client, BetterSteamTools state), a separator and the last lines of the log. The Windows user name in paths is replaced with <user>. Paste it into a report on Discord."
         },
         {
           "icon": "info",
           "title": "Mniejsze zmiany",
-          "text": "„Cofnij instalację manifestów” poprawnie resetuje stan gry, więc po odinstalowaniu pojawia się „Pobierz manifesty”, a nie „Pobierz”. Panel szczegółów w Online od pierwszej klatki ma gotowy układ z napisem „Ładowanie…”. Znikły systemowe dymki podpowiedzi, które były brzydkie i wkurzające."
+          "text": "„Cofnij instalację manifestów” poprawnie resetuje stan gry, więc po odinstalowaniu pojawia się „Pobierz manifesty”, a nie „Pobierz”. Panel szczegółów w Online od pierwszej klatki ma gotowy układ z napisem „Ładowanie…”. Znikły systemowe dymki podpowiedzi, które były brzydkie i wkurzające.",
+          "title_en": "Smaller changes",
+          "text_en": "“Undo manifest install” properly resets the game's state, so after uninstalling you see “Download manifests” instead of “Download”. The details panel in Online has its layout ready from the first frame, with a “Loading…” label. The ugly, annoying system tooltips are gone."
         }
       ],
       "missing": {
@@ -427,8 +650,18 @@
         "items": [
           "Cloud Redirect jest wyłączony: czekamy na wersję zgodną z aktualnym Steamem.",
           "Brakuje m.in. zakładki Bypass."
+        ],
+        "title_en": "What's still missing",
+        "text_en": "Because the app was rebuilt from scratch, some features from the old version haven't come back yet. They will return gradually, and some may look or work differently than before.",
+        "items_en": [
+          "Cloud Redirect is disabled: we're waiting for a version compatible with the current Steam.",
+          "The Bypass tab is still missing, among other things."
         ]
-      }
+      },
+      "title_en": "Collapsible library, badges and small fixes",
+      "intro_en": [
+        "A small release with a few conveniences in the library and the Online tab, and a fix for game state after undoing manifests. The code is otherwise the same as in 0.4.0."
+      ]
     },
     {
       "version": "0.4.0",
@@ -442,32 +675,44 @@
         {
           "icon": "tool",
           "title": "BetterSteamTools zamiast SteamTools",
-          "text": "Ekran startowy instaluje BetterSteamTools z wydania autora (z kontrolą sumy kontrolnej). Plik SteamTools zostaje zapisany jako kopia .g4f.bak. Gdy instalacja się nie uda, ekran pokazuje konkretny powód. Aplikacja sama pilnuje aktualizacji BetterSteamTools w tle i nie zamyka przy tym Steama."
+          "text": "Ekran startowy instaluje BetterSteamTools z wydania autora (z kontrolą sumy kontrolnej). Plik SteamTools zostaje zapisany jako kopia .g4f.bak. Gdy instalacja się nie uda, ekran pokazuje konkretny powód. Aplikacja sama pilnuje aktualizacji BetterSteamTools w tle i nie zamyka przy tym Steama.",
+          "title_en": "BetterSteamTools instead of SteamTools",
+          "text_en": "The startup screen installs BetterSteamTools from the author's release (with a checksum check). The SteamTools file is saved as a .g4f.bak copy. When installation fails, the screen shows a specific reason. The app itself keeps BetterSteamTools up to date in the background and doesn't close Steam while doing so."
         },
         {
           "icon": "list",
           "title": "Lista gier na żywo",
-          "text": "Pod nazwą każdej gry widać dokładny stan: Zainstalowana, Dostępna aktualizacja, Pobieranie z paskiem postępu, W kolejce Steama, Wstrzymana, Weryfikacja plików, Brak plików gry, Gotowa do pobrania albo Niepobrana. Stan i główny przycisk gry zmieniają się od razu po zmianie w Steamie."
+          "text": "Pod nazwą każdej gry widać dokładny stan: Zainstalowana, Dostępna aktualizacja, Pobieranie z paskiem postępu, W kolejce Steama, Wstrzymana, Weryfikacja plików, Brak plików gry, Gotowa do pobrania albo Niepobrana. Stan i główny przycisk gry zmieniają się od razu po zmianie w Steamie.",
+          "title_en": "Live game list",
+          "text_en": "Under each game's name you see its exact state: Installed, Update available, Downloading with a progress bar, In Steam queue, Paused, Verifying files, Game files missing, Ready to download or Not downloaded. The state and the game's main button change right after a change in Steam."
         },
         {
           "icon": "layout",
           "title": "Online z uruchamianiem",
-          "text": "Zakładka Online ma nowy wygląd (baner, szukajka, filtry, panel szczegółów) i przycisk „Graj online”, który uruchamia grę razem z modułami. W bibliotece gry z modułami mają plakietkę ONLINE, a po kliknięciu „Graj” wybierasz: „Graj normalnie” albo „Graj online”. Aplikacja pamięta, że moduły były zainstalowane, i szybko je przywraca."
+          "text": "Zakładka Online ma nowy wygląd (baner, szukajka, filtry, panel szczegółów) i przycisk „Graj online”, który uruchamia grę razem z modułami. W bibliotece gry z modułami mają plakietkę ONLINE, a po kliknięciu „Graj” wybierasz: „Graj normalnie” albo „Graj online”. Aplikacja pamięta, że moduły były zainstalowane, i szybko je przywraca.",
+          "title_en": "Online with launching",
+          "text_en": "The Online tab has a new look (banner, search, filters, details panel) and a “Play online” button that launches the game together with the modules. In the library, games with modules have an ONLINE badge, and after clicking “Play” you choose: “Play normally” or “Play online”. The app remembers that the modules were installed and quickly restores them."
         },
         {
           "icon": "download",
           "title": "Duże moduły w częściach",
-          "text": "Moduły większe niż 25 MB mogą być podzielone na kilka plików. Aplikacja sama pobiera wszystkie części, składa je i rozpakowuje do folderu gry, z jednym paskiem postępu. Gra może startować zwykłym poleceniem Steama, osobnym plikiem (np. Launcher.exe) albo własnymi krokami."
+          "text": "Moduły większe niż 25 MB mogą być podzielone na kilka plików. Aplikacja sama pobiera wszystkie części, składa je i rozpakowuje do folderu gry, z jednym paskiem postępu. Gra może startować zwykłym poleceniem Steama, osobnym plikiem (np. Launcher.exe) albo własnymi krokami.",
+          "title_en": "Large modules in parts",
+          "text_en": "Modules larger than 25 MB can be split into several files. The app downloads all the parts itself, assembles them and extracts them to the game folder, with one progress bar. A game can start with a plain Steam command, a separate file (e.g. Launcher.exe) or its own steps."
         },
         {
           "icon": "news",
           "title": "Sygnał o nowościach",
-          "text": "Gdy w „Co nowego” pojawi się nowy wpis, przycisk z gazetą raz delikatnie zapulsuje i zostanie przy nim mała kropka, dopóki nie otworzysz okna. Okno G4F chowa się też do paska zadań po uruchomieniu gry, jak w Steamie."
+          "text": "Gdy w „Co nowego” pojawi się nowy wpis, przycisk z gazetą raz delikatnie zapulsuje i zostanie przy nim mała kropka, dopóki nie otworzysz okna. Okno G4F chowa się też do paska zadań po uruchomieniu gry, jak w Steamie.",
+          "title_en": "A signal about news",
+          "text_en": "When a new entry appears in “What's new”, the newspaper button gently pulses once and a small dot stays on it until you open the window. The G4F window also hides to the taskbar after launching a game, like in Steam."
         },
         {
           "icon": "info",
           "title": "Mniejsze zmiany",
-          "text": "Przy aktualizacjach BetterSteamTools w tle aplikacja oszczędza zasoby (sprawdza rzadko i pomija tryb oszczędzania baterii). „Cofnij manifesty” jest aktywne tylko wtedy, gdy jest co cofać, a panel szczegółów w Online jedzie razem z przewijaniem. W Ustawieniach jest karta „O aplikacji”, a zakładka Naprawa Steam zniknęła."
+          "text": "Przy aktualizacjach BetterSteamTools w tle aplikacja oszczędza zasoby (sprawdza rzadko i pomija tryb oszczędzania baterii). „Cofnij manifesty” jest aktywne tylko wtedy, gdy jest co cofać, a panel szczegółów w Online jedzie razem z przewijaniem. W Ustawieniach jest karta „O aplikacji”, a zakładka Naprawa Steam zniknęła.",
+          "title_en": "Smaller changes",
+          "text_en": "During BetterSteamTools background updates the app saves resources (it checks rarely and skips battery saver mode). “Undo manifests” is active only when there is something to undo, and the details panel in Online scrolls along with the page. Settings have an “About” card, and the Steam Repair tab is gone."
         }
       ],
       "missing": {
@@ -476,8 +721,19 @@
         "items": [
           "Cloud Redirect jest wyłączony: czekamy na wersję zgodną z aktualnym Steamem.",
           "Brakuje m.in. zakładki Bypass."
+        ],
+        "title_en": "What's still missing",
+        "text_en": "Because the app was rebuilt from scratch, some features from the old version haven't come back yet. They will return gradually, and some may look or work differently than before.",
+        "items_en": [
+          "Cloud Redirect is disabled: we're waiting for a version compatible with the current Steam.",
+          "The Bypass tab is still missing, among other things."
         ]
-      }
+      },
+      "title_en": "BetterSteamTools, Online with launching and a live game list",
+      "intro_en": [
+        "The first stable release of the 0.4 line. It gathers everything we tested in the betas: a new unlocking tool, accurate game states in the library and an Online tab that can also launch games with modules.",
+        "If you have SteamTools, uninstall the old SteamTools after switching to BetterSteamTools."
+      ]
     },
     {
       "version": "0.4.0-beta.2",
@@ -491,32 +747,44 @@
         {
           "icon": "layout",
           "title": "Graj online",
-          "text": "W zakładce Online przy zainstalowanych modułach pojawia się przycisk „Graj online”, który uruchamia grę razem z modułami. Gdy ich jeszcze nie ma, widać tylko „Zainstaluj online”."
+          "text": "W zakładce Online przy zainstalowanych modułach pojawia się przycisk „Graj online”, który uruchamia grę razem z modułami. Gdy ich jeszcze nie ma, widać tylko „Zainstaluj online”.",
+          "title_en": "Play online",
+          "text_en": "In the Online tab, a “Play online” button appears next to installed modules and launches the game together with them. When they aren't there yet, you only see “Install online”."
         },
         {
           "icon": "list",
           "title": "Wybór przy uruchamianiu w bibliotece",
-          "text": "Gry z modułami online mają w bibliotece plakietkę ONLINE (zielona: moduły są w grze, szara: wyłączone). Po kliknięciu „Graj” wybierasz: „Graj normalnie” (moduły są wyłączane na czas gry) albo „Graj online”. Aplikacja pamięta, że moduły były zainstalowane, i przy „Graj online” szybko je przywraca."
+          "text": "Gry z modułami online mają w bibliotece plakietkę ONLINE (zielona: moduły są w grze, szara: wyłączone). Po kliknięciu „Graj” wybierasz: „Graj normalnie” (moduły są wyłączane na czas gry) albo „Graj online”. Aplikacja pamięta, że moduły były zainstalowane, i przy „Graj online” szybko je przywraca.",
+          "title_en": "Choice when launching from the library",
+          "text_en": "Games with online modules have an ONLINE badge in the library (green: modules are in the game, gray: disabled). After clicking “Play” you choose: “Play normally” (modules are disabled while you play) or “Play online”. The app remembers that the modules were installed and quickly restores them on “Play online”."
         },
         {
           "icon": "tool",
           "title": "Różne sposoby uruchamiania",
-          "text": "Gra z modułami online może startować zwykłym poleceniem Steama, osobnym plikiem (np. Launcher.exe obok gry) albo własnymi krokami zależnymi od gry. Konfiguruje to autor listy, a Ty widzisz tylko przycisk."
+          "text": "Gra z modułami online może startować zwykłym poleceniem Steama, osobnym plikiem (np. Launcher.exe obok gry) albo własnymi krokami zależnymi od gry. Konfiguruje to autor listy, a Ty widzisz tylko przycisk.",
+          "title_en": "Different ways to launch",
+          "text_en": "A game with online modules can start with a plain Steam command, a separate file (e.g. Launcher.exe next to the game) or its own game-specific steps. The list author configures this, and you only see the button."
         },
         {
           "icon": "download",
           "title": "Duże moduły w częściach",
-          "text": "Moduły większe niż 25 MB mogą być podzielone na kilka plików. Aplikacja sama pobiera wszystkie części, składa je i rozpakowuje do folderu gry, z jednym wspólnym paskiem postępu."
+          "text": "Moduły większe niż 25 MB mogą być podzielone na kilka plików. Aplikacja sama pobiera wszystkie części, składa je i rozpakowuje do folderu gry, z jednym wspólnym paskiem postępu.",
+          "title_en": "Large modules in parts",
+          "text_en": "Modules larger than 25 MB can be split into several files. The app downloads all the parts itself, assembles them and extracts them to the game folder, with one shared progress bar."
         },
         {
           "icon": "refresh",
           "title": "Okno chowa się po starcie gry",
-          "text": "Gdy uruchamiasz grę z G4F, okno aplikacji minimalizuje się do paska zadań, tak jak robi to Steam."
+          "text": "Gdy uruchamiasz grę z G4F, okno aplikacji minimalizuje się do paska zadań, tak jak robi to Steam.",
+          "title_en": "The window hides after a game starts",
+          "text_en": "When you launch a game from G4F, the app window minimizes to the taskbar, like Steam does."
         },
         {
           "icon": "info",
           "title": "Drobne poprawki",
-          "text": "Panel szczegółów w Online jedzie teraz razem z przewijaniem strony i nie powoduje już skoku na górę po kliknięciu gry."
+          "text": "Panel szczegółów w Online jedzie teraz razem z przewijaniem strony i nie powoduje już skoku na górę po kliknięciu gry.",
+          "title_en": "Small fixes",
+          "text_en": "The details panel in Online now scrolls along with the page and no longer jumps to the top after you click a game."
         }
       ],
       "missing": {
@@ -525,8 +793,19 @@
         "items": [
           "Cloud Redirect jest wyłączony: czekamy na wersję zgodną z aktualnym Steamem.",
           "Brakuje m.in. zakładki Bypass."
+        ],
+        "title_en": "What's still missing",
+        "text_en": "Because the app was rebuilt from scratch, some features from the old version haven't come back yet. They will return gradually, and some may look or work differently than before.",
+        "items_en": [
+          "Cloud Redirect is disabled: we're waiting for a version compatible with the current Steam.",
+          "The Bypass tab is still missing, among other things."
         ]
-      }
+      },
+      "title_en": "Launching with online modules (beta)",
+      "intro_en": [
+        "The second beta of 0.4.0. The biggest change is the Online tab, which now not only installs modules but also launches the game together with them.",
+        "Everything from the first beta stays unchanged."
+      ]
     },
     {
       "version": "0.4.0-beta.1",
@@ -540,32 +819,44 @@
         {
           "icon": "tool",
           "title": "BetterSteamTools zamiast SteamTools",
-          "text": "Przy pierwszym uruchomieniu ekran startowy zaproponuje instalację BetterSteamTools: aplikacja pobiera go z wydania autora, sprawdza sumę kontrolną i wgrywa do Steama. Jeśli masz SteamTools, jego plik zostanie zapisany jako kopia .g4f.bak. Po przejściu na BetterSteamTools odinstaluj stary SteamTools, bo jego aplikacja może nadpisywać pliki."
+          "text": "Przy pierwszym uruchomieniu ekran startowy zaproponuje instalację BetterSteamTools: aplikacja pobiera go z wydania autora, sprawdza sumę kontrolną i wgrywa do Steama. Jeśli masz SteamTools, jego plik zostanie zapisany jako kopia .g4f.bak. Po przejściu na BetterSteamTools odinstaluj stary SteamTools, bo jego aplikacja może nadpisywać pliki.",
+          "title_en": "BetterSteamTools instead of SteamTools",
+          "text_en": "On first launch the startup screen offers to install BetterSteamTools: the app downloads it from the author's release, checks the checksum and installs it into Steam. If you have SteamTools, its file is saved as a .g4f.bak copy. After switching to BetterSteamTools, uninstall the old SteamTools, because its app may overwrite files."
         },
         {
           "icon": "refresh",
           "title": "Aktualizacje BetterSteamTools w tle",
-          "text": "Przy starcie, a potem co kilka godzin (także po powrocie okna z traya lub z hibernacji) aplikacja sprawdza, czy autor wydał nowszą wersję, i sama ją podmienia bez zamykania Steama. Nowa wersja zaczyna działać po następnym starcie Steama. Przy trybie oszczędzania baterii sprawdzanie jest pomijane."
+          "text": "Przy starcie, a potem co kilka godzin (także po powrocie okna z traya lub z hibernacji) aplikacja sprawdza, czy autor wydał nowszą wersję, i sama ją podmienia bez zamykania Steama. Nowa wersja zaczyna działać po następnym starcie Steama. Przy trybie oszczędzania baterii sprawdzanie jest pomijane.",
+          "title_en": "BetterSteamTools updates in the background",
+          "text_en": "On startup, and then every few hours (also after the window returns from the tray or from hibernation), the app checks whether the author released a newer version and swaps it in without closing Steam. The new version starts working after the next Steam start. In battery saver mode the check is skipped."
         },
         {
           "icon": "list",
           "title": "Lista gier na żywo",
-          "text": "Pod nazwą każdej gry w bibliotece widać jej dokładny stan: Zainstalowana, Dostępna aktualizacja, Pobieranie z paskiem postępu, W kolejce Steama, Wstrzymana, Weryfikacja plików, Brak plików gry, Gotowa do pobrania albo Niepobrana. Stan zmienia się od razu po zmianie w Steamie, razem z głównym przyciskiem gry."
+          "text": "Pod nazwą każdej gry w bibliotece widać jej dokładny stan: Zainstalowana, Dostępna aktualizacja, Pobieranie z paskiem postępu, W kolejce Steama, Wstrzymana, Weryfikacja plików, Brak plików gry, Gotowa do pobrania albo Niepobrana. Stan zmienia się od razu po zmianie w Steamie, razem z głównym przyciskiem gry.",
+          "title_en": "Live game list",
+          "text_en": "Under each game's name in the library you see its exact state: Installed, Update available, Downloading with a progress bar, In Steam queue, Paused, Verifying files, Game files missing, Ready to download or Not downloaded. The state changes right after a change in Steam, together with the game's main button."
         },
         {
           "icon": "layout",
           "title": "Nowe Online",
-          "text": "Zakładka Online ma teraz baner, szukajkę, przełącznik Wszystkie / Zainstalowane / Niezainstalowane i panel szczegółów w stylu reszty aplikacji. Karty zawsze równo wypełniają szerokość okna."
+          "text": "Zakładka Online ma teraz baner, szukajkę, przełącznik Wszystkie / Zainstalowane / Niezainstalowane i panel szczegółów w stylu reszty aplikacji. Karty zawsze równo wypełniają szerokość okna.",
+          "title_en": "New Online",
+          "text_en": "The Online tab now has a banner, search, an All / Installed / Not installed switch and a details panel in the style of the rest of the app. Cards always fill the window width evenly."
         },
         {
           "icon": "news",
           "title": "Sygnał o nowościach",
-          "text": "Gdy w „Co nowego” pojawi się nowy wpis (np. nowa beta), przycisk z gazetą raz delikatnie zapulsuje, a potem zostanie przy nim mała kropka, dopóki nie otworzysz okna. Nic nie wyskakuje samo."
+          "text": "Gdy w „Co nowego” pojawi się nowy wpis (np. nowa beta), przycisk z gazetą raz delikatnie zapulsuje, a potem zostanie przy nim mała kropka, dopóki nie otworzysz okna. Nic nie wyskakuje samo.",
+          "title_en": "A signal about news",
+          "text_en": "When a new entry appears in “What's new” (e.g. a new beta), the newspaper button gently pulses once and then a small dot stays on it until you open the window. Nothing pops up by itself."
         },
         {
           "icon": "info",
           "title": "Mniejsze zmiany",
-          "text": "Gdy instalacja BetterSteamTools się nie uda, ekran startowy pokazuje konkretny powód. Pozycja „Cofnij manifesty” jest aktywna tylko wtedy, gdy jest co cofać. Z nawigacji zniknęła zakładka Naprawa Steam, która nie była już potrzebna."
+          "text": "Gdy instalacja BetterSteamTools się nie uda, ekran startowy pokazuje konkretny powód. Pozycja „Cofnij manifesty” jest aktywna tylko wtedy, gdy jest co cofać. Z nawigacji zniknęła zakładka Naprawa Steam, która nie była już potrzebna.",
+          "title_en": "Smaller changes",
+          "text_en": "When BetterSteamTools installation fails, the startup screen shows a specific reason. “Undo manifests” is active only when there is something to undo. The Steam Repair tab, which was no longer needed, disappeared from the navigation."
         }
       ],
       "missing": {
@@ -574,8 +865,19 @@
         "items": [
           "Cloud Redirect jest wyłączony: czekamy na wersję zgodną z aktualnym Steamem.",
           "Brakuje m.in. zakładki Bypass."
+        ],
+        "title_en": "What's still missing",
+        "text_en": "Because the app was rebuilt from scratch, some features from the old version haven't come back yet. They will return gradually, and some may look or work differently than before.",
+        "items_en": [
+          "Cloud Redirect is disabled: we're waiting for a version compatible with the current Steam.",
+          "The Bypass tab is still missing, among other things."
         ]
-      }
+      },
+      "title_en": "BetterSteamTools, live game list and new Online (beta)",
+      "intro_en": [
+        "The first beta of the new 0.4. The biggest change: the launcher now uses BetterSteamTools, an open tool developed by its authors, and looks after its updates itself.",
+        "It also adds a game list that shows each game's exact state and refreshes live, and a rebuilt Online tab."
+      ]
     },
     {
       "version": "0.3.0",
@@ -588,22 +890,30 @@
         {
           "icon": "star",
           "title": "Zakładka Online",
-          "text": "Nowa zakładka między Biblioteką a Naprawą Steam pokazuje gry z modułami online. Po kliknięciu w grę wysuwa się panel z rozmiarem archiwum, folderem gry i stanem modułów, a przełącznik „Tylko zainstalowane” zostawia na liście gry, które masz na dysku."
+          "text": "Nowa zakładka między Biblioteką a Naprawą Steam pokazuje gry z modułami online. Po kliknięciu w grę wysuwa się panel z rozmiarem archiwum, folderem gry i stanem modułów, a przełącznik „Tylko zainstalowane” zostawia na liście gry, które masz na dysku.",
+          "title_en": "Online tab",
+          "text_en": "A new tab between Library and Steam Repair shows games with online modules. After you click a game, a panel slides out with the archive size, the game folder and the state of the modules, and the “Installed only” switch leaves only the games you have on disk."
         },
         {
           "icon": "tool",
           "title": "Instalacja i bezpieczne odinstalowanie",
-          "text": "Moduły online instalują się jednym kliknięciem prosto do folderu gry, z paskiem postępu. Launcher pamięta, co dodał i co podmienił (podmieniane pliki dostają kopię .back), więc odinstalowanie przywraca grę do stanu sprzed instalacji."
+          "text": "Moduły online instalują się jednym kliknięciem prosto do folderu gry, z paskiem postępu. Launcher pamięta, co dodał i co podmienił (podmieniane pliki dostają kopię .back), więc odinstalowanie przywraca grę do stanu sprzed instalacji.",
+          "title_en": "Installation and safe uninstall",
+          "text_en": "Online modules install with one click straight into the game folder, with a progress bar. The launcher remembers what it added and what it replaced (replaced files get a .back copy), so uninstalling restores the game to its state before installation."
         },
         {
           "icon": "search",
           "title": "Wyszukiwarka wybacza błędy",
-          "text": "Sklep znajduje gry, nawet gdy wpiszesz je niedokładnie. „spiderman” znajdzie Spider-Man, „dragon ball z kakaro” znajdzie Dragon Ball Z: Kakarot, a pojedyncza literówka nie przekreśla wyniku. Wyniki są ustawione według podobieństwa."
+          "text": "Sklep znajduje gry, nawet gdy wpiszesz je niedokładnie. „spiderman” znajdzie Spider-Man, „dragon ball z kakaro” znajdzie Dragon Ball Z: Kakarot, a pojedyncza literówka nie przekreśla wyniku. Wyniki są ustawione według podobieństwa.",
+          "title_en": "Search forgives mistakes",
+          "text_en": "The store finds games even when you type them inexactly. “spiderman” finds Spider-Man, “dragon ball z kakaro” finds Dragon Ball Z: Kakarot, and a single typo doesn't rule out a result. Results are ordered by similarity."
         },
         {
           "icon": "refresh",
           "title": "Zmiana wersji aplikacji",
-          "text": "W Ustawieniach jest kafelek „Zmień wersję”, który otwiera listę wszystkich wersji. Przydaje się, gdy nowa wersja coś psuje. Aktualizacja nie zostawia już na ekranie błędu o brakującym pliku skryptu."
+          "text": "W Ustawieniach jest kafelek „Zmień wersję”, który otwiera listę wszystkich wersji. Przydaje się, gdy nowa wersja coś psuje. Aktualizacja nie zostawia już na ekranie błędu o brakującym pliku skryptu.",
+          "title_en": "Changing the app version",
+          "text_en": "Settings has a “Change version” tile that opens a list of all versions. It's handy when a new version breaks something. Updating no longer leaves an error about a missing script file on screen."
         }
       ],
       "missing": {
@@ -612,8 +922,18 @@
         "items": [
           "Cloud Redirect jest w trakcie prac i na razie wyłączony.",
           "Brakuje m.in. zakładki Bypass."
+        ],
+        "title_en": "What's still missing",
+        "text_en": "Because the app was rebuilt from scratch, some features from the old version haven't come back yet. They will return gradually, and some may look or work differently than before.",
+        "items_en": [
+          "Cloud Redirect is a work in progress and is disabled for now.",
+          "The Bypass tab is still missing, among other things."
         ]
-      }
+      },
+      "title_en": "Online tab and smarter search",
+      "intro_en": [
+        "The first stable release of the new 0.3 line. It gathers what we tested in the beta versions over the last few days: the Online tab, a new search and choosing the app version."
+      ]
     },
     {
       "version": "0.3.0-beta.2",
@@ -627,12 +947,16 @@
         {
           "icon": "search",
           "title": "Wyszukiwarka wybacza błędy",
-          "text": "Sklep znajduje gry, nawet gdy wpiszesz je niedokładnie. „spiderman” znajdzie Spider-Man, „dragon ball z kakaro” znajdzie Dragon Ball Z: Kakarot, a „counterstrike” znajdzie Counter-Strike. Nie trzeba pamiętać myślników, dwukropków ani spacji, a pojedyncza literówka nie przekreśla wyniku."
+          "text": "Sklep znajduje gry, nawet gdy wpiszesz je niedokładnie. „spiderman” znajdzie Spider-Man, „dragon ball z kakaro” znajdzie Dragon Ball Z: Kakarot, a „counterstrike” znajdzie Counter-Strike. Nie trzeba pamiętać myślników, dwukropków ani spacji, a pojedyncza literówka nie przekreśla wyniku.",
+          "title_en": "Search forgives mistakes",
+          "text_en": "The store finds games even when you type them inexactly. “spiderman” finds Spider-Man, “dragon ball z kakaro” finds Dragon Ball Z: Kakarot, and “counterstrike” finds Counter-Strike. You don't have to remember hyphens, colons or spaces, and a single typo doesn't rule out a result."
         },
         {
           "icon": "list",
           "title": "Lepsze sortowanie wyników",
-          "text": "Wyniki są ustawiane według podobieństwa do tego, co wpisałeś. Gry, których nazwa zaczyna się od frazy, są na górze, a te mniej pewne niżej. Polskie i obce znaki, takie jak ó, é czy ü, nie utrudniają już szukania."
+          "text": "Wyniki są ustawiane według podobieństwa do tego, co wpisałeś. Gry, których nazwa zaczyna się od frazy, są na górze, a te mniej pewne niżej. Polskie i obce znaki, takie jak ó, é czy ü, nie utrudniają już szukania.",
+          "title_en": "Better result sorting",
+          "text_en": "Results are ordered by similarity to what you typed. Games whose name starts with the phrase are at the top, and less certain ones lower. Polish and foreign characters like ó, é or ü no longer get in the way of searching."
         }
       ],
       "missing": {
@@ -641,8 +965,19 @@
         "items": [
           "Cloud Redirect jest w trakcie prac i na razie wyłączony.",
           "Brakuje m.in. zakładki Bypass."
+        ],
+        "title_en": "What's still missing",
+        "text_en": "Because the app was rebuilt from scratch, some features from the old version haven't come back yet. They will return gradually, and some may look or work differently than before.",
+        "items_en": [
+          "Cloud Redirect is a work in progress and is disabled for now.",
+          "The Bypass tab is still missing, among other things."
         ]
-      }
+      },
+      "title_en": "Smarter search (beta)",
+      "intro_en": [
+        "The second beta of 0.3.0. It changes one thing, but an important one: the store search, which now copes with typos and missing special characters.",
+        "Everything from the first beta stays unchanged."
+      ]
     },
     {
       "version": "0.3.0-beta.1",
@@ -656,27 +991,37 @@
         {
           "icon": "layout",
           "title": "Zakładka Online",
-          "text": "Nowa zakładka z listą gier, do których są dostępne moduły online. Po kliknięciu w grę z prawej strony wysuwa się panel z rozmiarem archiwum, folderem gry i stanem modułów. Przełącznik „Tylko zainstalowane” zostawia na liście wyłącznie gry, które masz na dysku."
+          "text": "Nowa zakładka z listą gier, do których są dostępne moduły online. Po kliknięciu w grę z prawej strony wysuwa się panel z rozmiarem archiwum, folderem gry i stanem modułów. Przełącznik „Tylko zainstalowane” zostawia na liście wyłącznie gry, które masz na dysku.",
+          "title_en": "Online tab",
+          "text_en": "A new tab with a list of games that have online modules available. After you click a game, a panel slides out on the right with the archive size, the game folder and the state of the modules. The “Installed only” switch leaves only the games you have on disk."
         },
         {
           "icon": "download",
           "title": "Instalacja jednym kliknięciem",
-          "text": "Przycisk „Zainstaluj online” pobiera archiwum, rozpakowuje je prosto do folderu gry i pokazuje postęp. Struktura folderów z archiwum zostaje zachowana."
+          "text": "Przycisk „Zainstaluj online” pobiera archiwum, rozpakowuje je prosto do folderu gry i pokazuje postęp. Struktura folderów z archiwum zostaje zachowana.",
+          "title_en": "One-click installation",
+          "text_en": "The “Install online” button downloads the archive, extracts it straight into the game folder and shows progress. The folder structure from the archive is preserved."
         },
         {
           "icon": "refresh",
           "title": "Bezpieczne odinstalowanie",
-          "text": "Aplikacja zapamiętuje, które pliki dodała, a które podmieniła. Podmieniane pliki dostają kopię z rozszerzeniem .back. „Odinstaluj moduły” usuwa dodane pliki i przywraca oryginały."
+          "text": "Aplikacja zapamiętuje, które pliki dodała, a które podmieniła. Podmieniane pliki dostają kopię z rozszerzeniem .back. „Odinstaluj moduły” usuwa dodane pliki i przywraca oryginały.",
+          "title_en": "Safe uninstall",
+          "text_en": "The app remembers which files it added and which it replaced. Replaced files get a copy with a .back extension. “Uninstall modules” removes the added files and restores the originals."
         },
         {
           "icon": "tag",
           "title": "Zmiana wersji",
-          "text": "W Ustawieniach jest nowy kafelek „Zmień wersję”. Otwiera okno z listą wersji, z której wybierasz tę, którą chcesz zainstalować. Wersje beta są na liście tylko przy włączonym przełączniku „Wersje beta”."
+          "text": "W Ustawieniach jest nowy kafelek „Zmień wersję”. Otwiera okno z listą wersji, z której wybierasz tę, którą chcesz zainstalować. Wersje beta są na liście tylko przy włączonym przełączniku „Wersje beta”.",
+          "title_en": "Changing the version",
+          "text_en": "Settings has a new “Change version” tile. It opens a window with a list of versions where you pick the one you want to install. Beta versions are on the list only when the “Beta versions” switch is on."
         },
         {
           "icon": "star",
           "title": "Drobne poprawki wyglądu",
-          "text": "Kafelki w Ustawieniach pojawiają się po kolei, a nagłówek zakładki Online nie przecina już poświaty tła."
+          "text": "Kafelki w Ustawieniach pojawiają się po kolei, a nagłówek zakładki Online nie przecina już poświaty tła.",
+          "title_en": "Small visual fixes",
+          "text_en": "Tiles in Settings appear one after another, and the Online tab header no longer cuts through the background glow."
         }
       ],
       "missing": {
@@ -685,8 +1030,19 @@
         "items": [
           "Cloud Redirect jest w trakcie prac i na razie wyłączony.",
           "Brakuje m.in. zakładki Bypass."
+        ],
+        "title_en": "What's still missing",
+        "text_en": "Because the app was rebuilt from scratch, some features from the old version haven't come back yet. They will return gradually, and some may look or work differently than before.",
+        "items_en": [
+          "Cloud Redirect is a work in progress and is disabled for now.",
+          "The Bypass tab is still missing, among other things."
         ]
-      }
+      },
+      "title_en": "Online tab (beta)",
+      "intro_en": [
+        "This is a beta version. It adds the Online tab, where you install online modules for games with one click, and the ability to choose the app version from a list.",
+        "The version is for testing, so bugs may happen. If something doesn't work, let us know."
+      ]
     },
     {
       "version": "0.2.0",
@@ -700,47 +1056,65 @@
         {
           "icon": "star",
           "title": "Nowy wygląd",
-          "text": "Przebudowany interfejs w fioletowo-czarnej kolorystyce, nowe czcionki, szklane panele i płynne animacje. Zakładki przełączają się płynnie, a widoki wjeżdżają z kierunku, w którym przechodzisz."
+          "text": "Przebudowany interfejs w fioletowo-czarnej kolorystyce, nowe czcionki, szklane panele i płynne animacje. Zakładki przełączają się płynnie, a widoki wjeżdżają z kierunku, w którym przechodzisz.",
+          "title_en": "New look",
+          "text_en": "A rebuilt interface in violet and black, new fonts, glass panels and smooth animations. Tabs switch smoothly, and views slide in from the direction you're moving."
         },
         {
           "icon": "layout",
           "title": "Nowy sklep",
-          "text": "Zakładka Odkrywaj pokazuje półki: Bestsellery, Nowości, Promocje i Nadchodzące, a u góry baner z wyróżnionymi grami. Gry możesz filtrować według gatunku. Na kartach widać numer miejsca w bestsellerach i plakietkę „W bibliotece”."
+          "text": "Zakładka Odkrywaj pokazuje półki: Bestsellery, Nowości, Promocje i Nadchodzące, a u góry baner z wyróżnionymi grami. Gry możesz filtrować według gatunku. Na kartach widać numer miejsca w bestsellerach i plakietkę „W bibliotece”.",
+          "title_en": "New store",
+          "text_en": "The Discover tab shows shelves: Bestsellers, New releases, Deals and Upcoming, with a banner of featured games on top. You can filter games by genre. Cards show the bestseller rank and an “In library” badge."
         },
         {
           "icon": "info",
           "title": "Strona gry",
-          "text": "Pod paskiem gry znajdziesz opis, gatunki, galerię zrzutów ekranu, opinie graczy oraz informacje o premierze, twórcach i platformach."
+          "text": "Pod paskiem gry znajdziesz opis, gatunki, galerię zrzutów ekranu, opinie graczy oraz informacje o premierze, twórcach i platformach.",
+          "title_en": "Game page",
+          "text_en": "Under the game bar you'll find the description, genres, a screenshot gallery, player reviews and information about the release, developers and platforms."
         },
         {
           "icon": "image",
           "title": "Szczegóły w bibliotece",
-          "text": "Te same informacje o grze są teraz dostępne w bibliotece, pod paskiem z przyciskiem Graj."
+          "text": "Te same informacje o grze są teraz dostępne w bibliotece, pod paskiem z przyciskiem Graj.",
+          "title_en": "Details in the library",
+          "text_en": "The same game information is now available in the library, under the bar with the Play button."
         },
         {
           "icon": "news",
           "title": "Co nowego w każdej chwili",
-          "text": "Okno ze zmianami nadal pojawia się po aktualizacji. Jeśli je zamkniesz albo zechcesz przeczytać później, w górnym pasku jest przycisk z gazetą, który otwiera je ponownie."
+          "text": "Okno ze zmianami nadal pojawia się po aktualizacji. Jeśli je zamkniesz albo zechcesz przeczytać później, w górnym pasku jest przycisk z gazetą, który otwiera je ponownie.",
+          "title_en": "What's new at any time",
+          "text_en": "The changes window still appears after an update. If you close it or want to read it later, the top bar has a newspaper button that opens it again."
         },
         {
           "icon": "flask",
           "title": "Wersje beta",
-          "text": "W Ustawieniach możesz włączyć aktualizacje do wersji beta. Domyślnie dostajesz tylko wersje stabilne."
+          "text": "W Ustawieniach możesz włączyć aktualizacje do wersji beta. Domyślnie dostajesz tylko wersje stabilne.",
+          "title_en": "Beta versions",
+          "text_en": "In Settings you can turn on updates to beta versions. By default you only get stable versions."
         },
         {
           "icon": "list",
           "title": "Podpowiedzi przycisków",
-          "text": "Przyciski w górnym pasku pokazują po najechaniu opis tego, co robią."
+          "text": "Przyciski w górnym pasku pokazują po najechaniu opis tego, co robią.",
+          "title_en": "Button hints",
+          "text_en": "Buttons in the top bar show a description of what they do when you hover over them."
         },
         {
           "icon": "tool",
           "title": "Samouczek",
-          "text": "Samouczek ma nowy krok, który pokazuje, jak działa sklep. Teraz składa się z sześciu kroków."
+          "text": "Samouczek ma nowy krok, który pokazuje, jak działa sklep. Teraz składa się z sześciu kroków.",
+          "title_en": "Tutorial",
+          "text_en": "The tutorial has a new step that shows how the store works. It now has six steps."
         },
         {
           "icon": "refresh",
           "title": "Wyższe okno",
-          "text": "Aplikacja uruchamia się w wyższym oknie, bliższym rozmiarowi okna Steama."
+          "text": "Aplikacja uruchamia się w wyższym oknie, bliższym rozmiarowi okna Steama.",
+          "title_en": "Taller window",
+          "text_en": "The app starts in a taller window, closer to the size of the Steam window."
         }
       ],
       "missing": {
@@ -749,8 +1123,19 @@
         "items": [
           "Cloud Redirect jest w trakcie prac i na razie wyłączony.",
           "Brakuje m.in. zakładek Online i Bypass."
+        ],
+        "title_en": "What's still missing",
+        "text_en": "Because the app was rebuilt from scratch, some features from the old version haven't come back yet. They will return gradually, and some may look or work differently than before.",
+        "items_en": [
+          "Cloud Redirect is a work in progress and is disabled for now.",
+          "The Online and Bypass tabs are still missing, among other things."
         ]
-      }
+      },
+      "title_en": "New look for G4F",
+      "intro_en": [
+        "This version rebuilds the whole look of the app. The layout, fonts and animations changed, and the store and game page now show much more information about games.",
+        "We also added the option to test beta versions and a button that opens the changelog at any time."
+      ]
     },
     {
       "version": "0.1.0",
@@ -764,52 +1149,72 @@
         {
           "icon": "code",
           "title": "Nowy fundament",
-          "text": "Rust i Tauri zamiast Pythona. Aplikacja to jeden niewielki plik .exe, który nie wymaga instalowania Pythona ani dodatkowych bibliotek, a okno korzysta z systemowego WebView2."
+          "text": "Rust i Tauri zamiast Pythona. Aplikacja to jeden niewielki plik .exe, który nie wymaga instalowania Pythona ani dodatkowych bibliotek, a okno korzysta z systemowego WebView2.",
+          "title_en": "A new foundation",
+          "text_en": "Rust and Tauri instead of Python. The app is a single small .exe file that doesn't require installing Python or additional libraries, and the window uses the system WebView2."
         },
         {
           "icon": "download",
           "title": "Wymagania w jednym miejscu",
-          "text": "Przy pierwszym uruchomieniu G4F sprawdza, czy masz Steama, Steam Tools i WinRAR, i pobiera te elementy, których brakuje. Nie musisz niczego szukać ręcznie."
+          "text": "Przy pierwszym uruchomieniu G4F sprawdza, czy masz Steama, Steam Tools i WinRAR, i pobiera te elementy, których brakuje. Nie musisz niczego szukać ręcznie.",
+          "title_en": "Requirements in one place",
+          "text_en": "On first launch G4F checks whether you have Steam, Steam Tools and WinRAR, and downloads the ones that are missing. You don't have to look for anything by hand."
         },
         {
           "icon": "download",
           "title": "Instalacja przez Steama",
-          "text": "Gry instalujesz oficjalnym mechanizmem Steama. Dysk wybierasz i instalację zatwierdzasz w jego oknie, a postęp pobierania oraz pauzę zostawiamy Steamowi."
+          "text": "Gry instalujesz oficjalnym mechanizmem Steama. Dysk wybierasz i instalację zatwierdzasz w jego oknie, a postęp pobierania oraz pauzę zostawiamy Steamowi.",
+          "title_en": "Installing through Steam",
+          "text_en": "You install games with Steam's official mechanism. You pick the drive and confirm the installation in its window, and we leave download progress and pausing to Steam."
         },
         {
           "icon": "tag",
           "title": "Wersje gier",
-          "text": "Przy każdej grze widzisz swój build i najnowszy build ze Steama, razem z informacją, czy masz starą wersję."
+          "text": "Przy każdej grze widzisz swój build i najnowszy build ze Steama, razem z informacją, czy masz starą wersję.",
+          "title_en": "Game versions",
+          "text_en": "For each game you see your build and the latest build from Steam, along with whether you have an old version."
         },
         {
           "icon": "tool",
           "title": "Poprawianie paczek manifestów",
-          "text": "Pobrane paczki są automatycznie sprawdzane i poprawiane, między innymi tak, żeby gra nie pokazywała w Steamie rozmiaru 0 B i dało się ją zainstalować."
+          "text": "Pobrane paczki są automatycznie sprawdzane i poprawiane, między innymi tak, żeby gra nie pokazywała w Steamie rozmiaru 0 B i dało się ją zainstalować.",
+          "title_en": "Fixing manifest packages",
+          "text_en": "Downloaded packages are checked and fixed automatically, among other things so that the game doesn't show a size of 0 B in Steam and can be installed."
         },
         {
           "icon": "refresh",
           "title": "Aktualizacje aplikacji",
-          "text": "G4F sam sprawdza, czy jest nowsza wersja, i aktualizuje się jednym kliknięciem. Po aktualizacji zobaczysz takie podsumowanie zmian."
+          "text": "G4F sam sprawdza, czy jest nowsza wersja, i aktualizuje się jednym kliknięciem. Po aktualizacji zobaczysz takie podsumowanie zmian.",
+          "title_en": "App updates",
+          "text_en": "G4F checks by itself whether there is a newer version and updates with one click. After an update you'll see a summary of changes like this one."
         },
         {
           "icon": "list",
           "title": "Logi",
-          "text": "W Ustawieniach znajdziesz ukrytą zakładkę z logami aplikacji. Ułatwia to zgłaszanie błędów, bo od razu widać, co się wydarzyło."
+          "text": "W Ustawieniach znajdziesz ukrytą zakładkę z logami aplikacji. Ułatwia to zgłaszanie błędów, bo od razu widać, co się wydarzyło.",
+          "title_en": "Logs",
+          "text_en": "In Settings you'll find a hidden tab with the app's logs. It makes reporting bugs easier, because you can immediately see what happened."
         },
         {
           "icon": "info",
           "title": "Samouczek",
-          "text": "Przy pierwszym uruchomieniu krótki przewodnik poprowadzi Cię przez wybór gry, dodanie jej do biblioteki i pobranie manifestów. W każdej chwili możesz go pominąć."
+          "text": "Przy pierwszym uruchomieniu krótki przewodnik poprowadzi Cię przez wybór gry, dodanie jej do biblioteki i pobranie manifestów. W każdej chwili możesz go pominąć.",
+          "title_en": "Tutorial",
+          "text_en": "On first launch a short guide walks you through picking a game, adding it to the library and downloading manifests. You can skip it at any time."
         },
         {
           "icon": "tool",
           "title": "Odinstalowanie przez Steama",
-          "text": "Odinstalowanie gry wysyła prośbę do Steama, który sam pokazuje potwierdzenie i usuwa pliki. Cofnięcie manifestów jest zawsze dostępne w menu gry."
+          "text": "Odinstalowanie gry wysyła prośbę do Steama, który sam pokazuje potwierdzenie i usuwa pliki. Cofnięcie manifestów jest zawsze dostępne w menu gry.",
+          "title_en": "Uninstalling through Steam",
+          "text_en": "Uninstalling a game sends a request to Steam, which shows the confirmation itself and removes the files. Undoing manifests is always available in the game menu."
         },
         {
           "icon": "info",
           "title": "Ustawienia",
-          "text": "Włączysz uruchamianie z Windowsem i zdecydujesz, czy przycisk X zamyka aplikację, czy chowa ją do zasobnika systemowego."
+          "text": "Włączysz uruchamianie z Windowsem i zdecydujesz, czy przycisk X zamyka aplikację, czy chowa ją do zasobnika systemowego.",
+          "title_en": "Settings",
+          "text_en": "You can turn on launching with Windows and decide whether the X button closes the app or hides it to the system tray."
         }
       ],
       "missing": {
@@ -818,8 +1223,19 @@
         "items": [
           "Cloud Redirect jest w trakcie prac i na razie wyłączony.",
           "Brakuje m.in. zakładek Online i Bypass."
+        ],
+        "title_en": "What's still missing",
+        "text_en": "Because the app was rebuilt from scratch, some features from the old version haven't come back yet. They will return gradually, and some may look or work differently than before.",
+        "items_en": [
+          "Cloud Redirect is a work in progress and is disabled for now.",
+          "The Online and Bypass tabs are still missing, among other things."
         ]
-      }
+      },
+      "title_en": "G4F rewritten from scratch",
+      "intro_en": [
+        "The previous G4F was written in Python and developed for a long time through successive patches. This version isn't another patch. The whole app was written from scratch in Rust, on top of Tauri.",
+        "Such a change has its price: the new version doesn't have everything the previous one had yet. In return you get a solid foundation on which further development goes faster and more reliably."
+      ]
     }
   ]
 }
