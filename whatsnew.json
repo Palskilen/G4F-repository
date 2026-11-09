@@ -1,6 +1,41 @@
 {
   "releases": [
     {
+      "version": "0.5.6",
+      "date": "2026-11-09",
+      "title": "Zapamiętywanie języka i motywu, płynne zwijanie biblioteki i angielski w trayu",
+      "title_en": "Language and theme are remembered, smooth library collapsing and English in the tray",
+      "intro": [
+        "Poprawki po 0.5.5: język i motyw nie wracają już do domyślnych po restarcie, zwijanie biblioteki działa płynnie nawet przy setkach gier, a angielski obejmuje też menu w trayu i komunikaty błędów."
+      ],
+      "intro_en": [
+        "Fixes after 0.5.5: language and theme no longer reset to defaults after a restart, collapsing the library is smooth even with hundreds of games, and English now also covers the tray menu and error messages."
+      ],
+      "sections": [
+        {
+          "icon": "refresh",
+          "title": "Język i motyw zapamiętują się",
+          "text": "Wcześniej po zamknięciu i ponownym uruchomieniu G4F wracał do polskiego i domyślnych kolorów, bo wbudowana przeglądarka nie zawsze zdążyła zapisać wybór. Teraz język i motyw trafiają do osobnych plików w folderze ustawień apki (lang.txt i theme.txt), więc zostają po każdym restarcie. Zapamiętany język jest też używany od razu przy starcie, więc opisy gier ze Steama pobierają się we właściwym języku od pierwszego zapytania.",
+          "title_en": "Language and theme are remembered",
+          "text_en": "Before, after closing and reopening G4F it went back to Polish and the default colors, because the built-in browser didn’t always manage to save your choice. Now the language and theme are saved to separate files in the app’s settings folder (lang.txt and theme.txt), so they survive every restart. The remembered language is also used right at startup, so game descriptions from Steam are fetched in the right language from the very first request."
+        },
+        {
+          "icon": "layout",
+          "title": "Płynne zwijanie biblioteki",
+          "text": "Przycisk zwijający listę gier do ikon szarpał przy kilkuset grach, bo animowały się wszystkie wiersze naraz. Teraz animują się tylko te, które widzisz, a reszta zmienia się od razu i nie jest w ogóle liczona, więc zwijanie i rozwijanie jest płynne także przy dużej bibliotece.",
+          "title_en": "Smooth library collapsing",
+          "text_en": "The button that collapses the game list to icons stuttered with several hundred games, because all rows animated at once. Now only the rows you can see animate, and the rest change instantly and aren’t calculated at all, so collapsing and expanding is smooth even with a large library."
+        },
+        {
+          "icon": "news",
+          "title": "Angielski także w trayu i w komunikatach",
+          "text": "Menu przy ikonie w zasobniku (Pokaż okno, Ukryj do traya, Wyjdź) oraz komunikaty błędów z Cloud Redirect, BetterSteamTools, modułów Online i Bypass, kolejki i aktualizacji są teraz tłumaczone na angielski. Ekran startowy od razu pokazuje wybrany język, bez mignięcia po polsku.",
+          "title_en": "English in the tray and in messages too",
+          "text_en": "The tray icon menu (Show window, Hide to tray, Quit) and error messages from Cloud Redirect, BetterSteamTools, Online and Bypass modules, the queue and updates are now translated to English. The startup screen shows the chosen language right away, without a flash of Polish."
+        }
+      ]
+    },
+    {
       "version": "0.5.5",
       "date": "2026-11-09",
       "title": "Język angielski, 10 motywów kolorystycznych i naprawa plakietki Manifesty",

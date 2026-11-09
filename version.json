@@ -1,9 +1,16 @@
 {
-  "version": "0.5.5",
-  "notes": "Język angielski, 10 motywów kolorystycznych i naprawa plakietki Manifesty",
-  "notes_en": "English language, 10 color themes and a fix for the Manifests badge",
-  "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.5.5/G4F-0.5.5.zip",
+  "version": "0.5.6",
+  "notes": "Zapamiętywanie języka i motywu, płynne zwijanie biblioteki i angielski w trayu",
+  "notes_en": "Language and theme are remembered, smooth library collapsing and English in the tray",
+  "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.5.6/G4F-0.5.6.zip",
   "versions": [
+    {
+      "version": "0.5.6",
+      "date": "2026-11-09",
+      "notes": "Zapamiętywanie języka i motywu, płynne zwijanie biblioteki i angielski w trayu",
+      "notes_en": "Language and theme are remembered, smooth library collapsing and English in the tray",
+      "url": "https://github.com/Palskilen/G4F-repository/raw/main/wersje/0.5.6/G4F-0.5.6.zip"
+    },
     {
       "version": "0.5.5",
       "date": "2026-11-09",
