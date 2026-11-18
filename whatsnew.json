@@ -1,6 +1,55 @@
 {
   "releases": [
     {
+      "version": "0.5.7",
+      "date": "2026-11-18",
+      "title": "Darmowe gry bez manifestów, DLC do darmowych gier, naprawione loga, lepsze motywy i wybór czcionki",
+      "title_en": "Free games without manifests, DLC for free games, fixed logos, better themes and a font picker",
+      "intro": [
+        "Darmowe gry ze Steama instalujesz teraz bez manifestów, a przy instalacji wybierzesz ich DLC. Do tego loga gier wczytują się w banerze także przy nowych i odświeżonych grach, motywy kolorystyczne wyglądają porządnie także w jasnych kolorach, a w ustawieniach wybierzesz czcionkę."
+      ],
+      "intro_en": [
+        "Free Steam games now install without manifests, and you can pick their DLC during installation. On top of that, game logos load in the banner for new and refreshed games too, color themes look right in bright colors as well, and you can pick a font in the settings."
+      ],
+      "sections": [
+        {
+          "icon": "download",
+          "title": "Darmowe gry prosto ze Steama",
+          "text": "G4F sprawdza, czy gra kosztuje na Steamie dokładnie 0. Taka gra nie dostaje manifestów, bo ich nie potrzebuje: w sklepie dodajesz ją do biblioteki, a w bibliotece od razu klikasz POBIERZ. Steam sam dopisuje wtedy darmową grę do Twojego konta na stałe, tak jak przy przycisku „Graj” na stronie sklepu.",
+          "title_en": "Free games straight from Steam",
+          "text_en": "G4F checks whether a game costs exactly 0 on Steam. Such a game doesn’t get manifests because it doesn’t need them: in the store you add it to your library, and in the library you click DOWNLOAD right away. Steam then adds the free game to your account for good, just like the “Play” button on the store page."
+        },
+        {
+          "icon": "list",
+          "title": "DLC do darmowych gier",
+          "text": "Po kliknięciu POBIERZ przy darmowej grze pierwszy krok instalacji pokazuje jej DLC. Darmowe są od razu zaznaczone, a płatne odsłonisz przyciskiem „Dodaj płatne DLC”. Wybrane DLC trafiają do pliku .lua, w którym nie ma samej gry, bo grę masz z prawdziwej darmowej licencji Steama.",
+          "title_en": "DLC for free games",
+          "text_en": "When you click DOWNLOAD on a free game, the first installation step shows its DLC. Free ones are checked right away, and you reveal paid ones with the “Add paid DLC” button. The selected DLC go into a .lua file without the game itself, because you own the game through a real free Steam license."
+        },
+        {
+          "icon": "image",
+          "title": "Loga gier w banerze",
+          "text": "Część nowych i odświeżonych gier pokazywała w bibliotece nazwę napisem zamiast logo. Steam trzyma ich loga pod innym adresem niż starsze gry, a G4F szukał ich w starym miejscu, także w plikach Steama na dysku. Teraz pobiera prawdziwy adres logo, więc loga wczytują się także przy tych grach. Gry, które w ogóle nie mają logo, dalej pokazują nazwę, tak samo jak w Steamie.",
+          "title_en": "Game logos in the banner",
+          "text_en": "Some new and refreshed games showed their name as text instead of a logo in the library. Steam keeps their logos at a different address than older games, and G4F looked in the old place, including Steam’s files on disk. Now it fetches the real logo address, so logos load for those games too. Games that have no logo at all still show their name, just like in Steam."
+        },
+        {
+          "icon": "star",
+          "title": "Lepsze motywy kolorystyczne",
+          "text": "Motywy w jasnych kolorach (Złoto-czerń, Zielona Matryca, Zachód Słońca, Lodowy, Oceaniczny) miały biały, słabo czytelny napis na przyciskach i zbyt mocne poświaty, które brudziły tło. Teraz napis na kolorowych przyciskach jest ciemny tam, gdzie tak lepiej widać, a poświaty mają siłę dobraną do jasności koloru. Złoto-czerń dostało prawdziwe złoto na neutralnej czerni. Fioletowy Neon wygląda tak jak wcześniej.",
+          "title_en": "Better color themes",
+          "text_en": "Themes with bright colors (Black & Gold, Matrix Green, Sunset, Frost, Ocean) had white, hard-to-read text on buttons and glows that were too strong and muddied the background. Now the text on colored buttons is dark where that reads better, and glows are scaled to how bright the color is. Black & Gold got real gold on a neutral black. Violet Neon looks the same as before."
+        },
+        {
+          "icon": "tag",
+          "title": "Wybór czcionki",
+          "text": "W Ustawieniach → Wygląd i język jest nowa sekcja Czcionka: Nowoczesna (wąskie, mocne tytuły gier i nagłówki, domyślna), Klasyczna (czcionka G4F sprzed tej wersji) i Szeroka (szerokie, zaokrąglone litery). Zmiana działa od razu i zostaje po restarcie.",
+          "title_en": "Font picker",
+          "text_en": "Settings → Appearance & language has a new Font section: Modern (narrow, bold game titles and headings, the default), Classic (the G4F font from before this version) and Wide (wide, rounded letters). The change applies instantly and stays after a restart."
+        }
+      ]
+    },
+    {
       "version": "0.5.6",
       "date": "2026-11-09",
       "title": "Zapamiętywanie języka i motywu, płynne zwijanie biblioteki i angielski w trayu",
